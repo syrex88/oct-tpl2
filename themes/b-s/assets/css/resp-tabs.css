@@ -1,0 +1,11 @@
+.resp-tabs-list {
+  counter-reset: li;
+}
+.resp-tabs-list li:before {
+  content: counter(li, lower-latin) '.';
+}
+.resp-tabs-list li + li {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=resp-tabs.css.map */
