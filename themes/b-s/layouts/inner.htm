@@ -1,4 +1,12 @@
 [contenteditor]
+
+[menu]
+start = "id-1"
+activeNode = 0
+listItemClasses = "item"
+primaryClasses = "nav nav-pills rd-navbar-nav"
+secondaryClasses = "item"
+numberOfLevels = 2
 ==
 <!DOCTYPE html>
 <html lang="en">
@@ -56,7 +64,7 @@
 
                 <!-- RD Navbar Brand -->
                 <div class="rd-navbar-brand">
-                  <a href="index.html">
+                  <a href="/">
                     <span class="rd-navbar-brand-logo"><img src="images/logo.png" alt=""></span>
 
                     <div class="rd-navbar-brand-body">
@@ -70,32 +78,9 @@
               <!-- END RD Navbar Panel -->
 
               <div class="rd-navbar-nav-wrap">
-
                 <!-- RD Navbar Nav -->
-                <ul class="rd-navbar-nav">
-                  <li>
-                    <a href="index-1.html">About Me</a>
-                  </li>
-                  <li class="active">
-                    <a href="index-2.html">Financial Planning</a>
-                  </li>
-                  <li>
-                    <a href="index-3.html">Investment Help</a>
-                  </li>
-                  <li>
-                    <a href="index-4.html">Advice</a>
-                  </li>
-                  <li>
-                    <a href="index-6.html">Contact</a>
-                  </li>
-                </ul>
+                {% component "menu" %}
                 <!-- END RD Navbar Nav -->
-              </div>
-              <div class="rd-navbar-aside">
-                <button class="rd-navbar-aside-toggle" data-rd-navbar-toggle=".rd-navbar-aside"><span></span></button>
-                <div class="rd-navbar-aside-body">
-                  <a href="index-7.html" class="btn btn-sm btn-primary">Free Consultation</a>
-                </div>
               </div>
             </div>
           </nav>

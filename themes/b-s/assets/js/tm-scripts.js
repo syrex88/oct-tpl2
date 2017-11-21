@@ -15,6 +15,16 @@ include('js/jquery.cookie.js');
  ========================================================*/
 include('js/jquery.easing.1.3.js');
 
+/* icheck.JS
+ ========================================================*/
+include('js/icheck.js');
+
+/* jquery-ui.JS
+ ========================================================*/
+include('js/jquery-ui.js');
+
+include('js/jquery-ui-slider-pips.js');
+
 
 /* Stick up menus  ========================================================*/
 ; (function ($) {     var o = $('html');     if (o.hasClass('desktop')) {
@@ -408,19 +418,19 @@ o.RDInputLabel();
                     validator: {
                         'constraints': {
                             '@LettersOnly': {
-                                message: 'Please use letters only!'
+                                message: 'Используйте только буквы!'
                             },
                             '@NumbersOnly': {
-                                message: 'Please use numbers only!'
+                                message: 'Используйте только числа!'
                             },
                             '@NotEmpty': {
-                                message: 'Field should not be empty!'
+                                message: 'Поле обязательно для заполнения!'
                             },
                             '@Email': {
-                                message: 'Enter valid e-mail address!'
+                                message: 'E-mail введён некорректно!'
                             },
                             '@Phone': {
-                                message: 'Enter valid phone number!'
+                                message: 'Номер телефона введён некорректно!'
                             },
                             '@Date': {
                                 message: 'Use MM/DD/YYYY format!'
@@ -778,4 +788,19 @@ $(document).ready(function () {
         }
     });
 
+});
+
+$(document).ready(function(){
+    $('input').iCheck({
+        checkboxClass: 'icheckbox_flat-grey',
+        radioClass: 'iradio_flat-grey'
+    });
+    $(".slider").slider({min: 0, max: 500, step: 10})
+        .slider("pips", {rest: "label", step: 10})
+        .slider( "value", 100 )
+        .slider("float").slider({
+        change: function( event, ui ) {
+            $("#slider-value").val(ui.value);
+        }
+    });
 });

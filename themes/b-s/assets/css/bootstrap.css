@@ -8196,7 +8196,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .rd-navbar-static .rd-navbar-panel {
   text-align: left;
-  min-width: 21.42857143rem;
+  min-width: 18.42857143rem;
 }
 .rd-navbar-static .rd-navbar-nav-wrap {
   width: 100%;
@@ -15389,4 +15389,38 @@ html:not(.lt-ie10) .box-lg .box__bottom {
 }
 .vide-played .play-btn {
   background-position: 0 100%;
+}
+
+ul.rd-navbar-nav ul {
+  display: none;
+}
+
+ul.rd-navbar-nav li:hover ul {
+  display: block;
+}
+ul.rd-navbar-nav li > ul {
+  position: absolute;
+  z-index: 3;
+}
+
+.ct-widget.ct-ignition {
+  left: 56px !important;
+  top: 4px  !important;
+}
+
+span[data-fixture] {
+  display: block;
+  overflow: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.btn-cons {
+  width: 100%;
+  text-align: center;
+}
+
+.flex-columns {
+  display: flex;
+  flex-flow: wrap;
 }
