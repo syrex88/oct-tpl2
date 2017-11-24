@@ -20,6 +20,34 @@ anonymize_ip = "disabled"
 recaptcha_theme = "light"
 recaptcha_type = "image"
 recaptcha_size = "normal"
+
+[emptyForm callbackFooter]
+messages_success = "Your form was successfully submitted"
+messages_errors = "There were errors with your submission"
+inline_errors = "disabled"
+sanitize_data = "disabled"
+anonymize_ip = "disabled"
+recaptcha_theme = "light"
+recaptcha_type = "image"
+recaptcha_size = "normal"
+
+[menu menuFooter]
+start = "id-1"
+activeNode = 0
+listItemClasses = "item"
+primaryClasses = "nav nav-footer"
+secondaryClasses = "item"
+numberOfLevels = 2
+
+[emptyForm callbackPopup]
+messages_success = "Your form was successfully submitted"
+messages_errors = "There were errors with your submission"
+inline_errors = "disabled"
+sanitize_data = "disabled"
+anonymize_ip = "disabled"
+recaptcha_theme = "light"
+recaptcha_type = "image"
+recaptcha_size = "normal"
 ==
 <!DOCTYPE html>
 <html lang="en">
@@ -37,6 +65,7 @@ recaptcha_size = "normal"
     <link href="{{ 'assets/css/icheck/flat/grey.css' |theme }}" rel="stylesheet">
     <link href="{{ 'assets/css/jquery-ui-slider-pips.css' |theme }}" rel="stylesheet">
     <link href="{{ 'assets/css/jquery-ui.css' |theme }}" rel="stylesheet">
+    <link href="{{ 'assets/css/magnific-popup.css' |theme }}" rel="stylesheet">
     <!-- Links -->
 
 
@@ -84,9 +113,8 @@ recaptcha_size = "normal"
                                             <span class="rd-navbar-brand-logo"><img
                                                     src="{{ 'assets/images/logo.png' | theme }}" alt=""></span>
                                             <div class="rd-navbar-brand-body">
-                                                <span class="brand-name">FinAdvision, <span
-                                                        class="text-light">Inc</span></span>
-                                                <span class="brand-slogan">Your trusted financial advisor</span>
+                                                <span class="brand-name">Business</span>
+                                                <span class="brand-name-2 text-light">Strategies</span>
                                             </div>
                                         </a>
                                     </div>
@@ -106,34 +134,37 @@ recaptcha_size = "normal"
 
                     <div class="header-body">
                         <div class="container container-wide">
-                            <div class="row col-lg-8">
+                            <div class="row col-md-8">
                                 {% component 'contenteditor' file="front-text.htm" fixture="span" %}
-                                <div class="col-xs-12 col-offset-2">
-                                    <div class="block-adaptive">
-                                        <ul class="list-inline">
-                                            <li><a href="#" class="icon icon-xs icon-default fa-google-plus"></a></li>
-                                            <li><a href="#" class="icon icon-xs icon-default fa-twitter"></a></li>
-                                            <li><a href="#" class="icon icon-xs icon-default fa-facebook"></a></li>
-                                            <li><a href="#" class="icon icon-xs icon-default fa-pinterest"></a></li>
-                                            <li><a href="#" class="icon icon-xs icon-default fa-linkedin"></a></li>
-                                        </ul>
+                            </div>
+                            <div class="row col-md-4 form-callback-wrapper">
+                                <div class="block-adaptive">
+                                    <div class="form-callback">
+                                        <div class="h1-form-callback">Нет времени смотреть сайт?</div>
+                                        <div class="h2-form-callback">Давайте мы вам перезвоним и всё расскажем</div>
+                                        <div class="sale-label">Акция</div>
+                                        <div class="sale-text">Позвоните в течении часа и получите скидку 10%</div>
+                                        <div class="form-wrap offset-6">
+                                            {% component "callback" %}
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row col-lg-4">
-                                <div>Нет времени смотреть сайт?</div>
-                                <div>Давайте мы вам перезвоним и всё расскажем</div>
-                                <div>Акция</div>
-                                <div>Позвоните в течении часа и получите скидку 10%</div>
-                                <div class="form-wrap offset-6">
-                                    {% component "callback" %}
+                            <div class="hidden col-xs-12 col-offset-2">
+                                <div class="block-adaptive">
+                                    <ul class="list-inline">
+                                        <li><a href="#" class="icon icon-xs icon-default fa-google-plus"></a></li>
+                                        <li><a href="#" class="icon icon-xs icon-default fa-twitter"></a></li>
+                                        <li><a href="#" class="icon icon-xs icon-default fa-facebook"></a></li>
+                                        <li><a href="#" class="icon icon-xs icon-default fa-pinterest"></a></li>
+                                        <li><a href="#" class="icon icon-xs icon-default fa-linkedin"></a></li>
+                                    </ul>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="well-1 border-radius-bottom-8 bg-white">
+                <div class="well-1 what-we-doing border-radius-bottom-8 bg-white">
                     <div class="container container-wide">
                         <div class="block-adaptive">
                             <h2>Что мы делаем?</h2>
@@ -142,37 +173,45 @@ recaptcha_size = "normal"
                     </div>
                 </div>
             </div>
-            <div class="well-1 border-radius-bottom-8">
+            <div class="green-background-fix calculate-cost well-1 border-radius-bottom-8">
                 <div class="container container-wide">
                     <div class="block-adaptive">
                         <h2 style="color: white">Рассчитайте стоимость</h2>
-                        <div class="row border-radius-8" style="background: #2e3135; color: white">
-                            <div class="col-xs-12">
-                                <div class="calculate-group row">
-                                    <div class="title col-xs-4">Ваша система налогооблажения:</div>
-                                    <div class="inputs col-xs-8">
-                                        <label for="no-nds"><input value="1000" type="radio" name="nds" checked id="no-nds"><span>Упрощённая система налогооблажения (Без НДС)</span></label>
-                                        <label for="with-nds"><input value="2000" type="radio" name="nds" id="with-nds"><span>Общая (с НДС)</span></label>
+                        <div class="row">
+                            <div class="calculate-block">
+                                <div class="col-xs-12 border-radius-8" style="background: #2e3135; color: white">
+                                    <div class="calculate-group row">
+                                        <div class="title col-xs-12 col-sm-4">Ваша система налогооблажения:</div>
+                                        <div class="inputs radio-nds col-xs-12 col-sm-8">
+                                            <label for="no-nds"><input value="УСН" type="radio" name="nds" checked
+                                                                       id="no-nds"><span>Упрощённая (Без НДС)</span></label>
+                                            <label for="with-nds"><input value="Общая" type="radio" name="nds"
+                                                                         id="with-nds"><span>Общая (с НДС)</span></label>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="calculate-group row">
-                                    <div class="title col-xs-4">Примерный объём первичных документов в месяц:</div>
-                                    <div class="inputs col-xs-8">
-                                        <div class="slider"></div>
-                                        <input style="color: black" type="text" value="100" name="slider-value"
-                                               id="slider-value">
+                                    <div class="calculate-group row">
+                                        <div class="title col-xs-12 col-sm-4">Примерный объём <i>первичных документов</i> в
+                                            месяц:
+                                        </div>
+                                        <div class="inputs slider-pips-wrapper col-xs-12 col-sm-8">
+                                            <div class="slider"></div>
+                                            <input style="color: black" type="text" value="50" name="slider-value"
+                                                   id="slider-value">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="line" style="background: #272b2e; height: 1px; width: 100%"></div>
-                                <div class="calculate-group row">
-                                    <div class="title col-xs-4">Примерная стоимость:</div>
-                                    <div class="inputs col-xs-8">
-                                        <span class="cost-value">3950</span> ₽
+                                    <div class="line"></div>
+                                    <div class="calculate-group row">
+                                        <div class="title title-cost col-xs-12 col-sm-4">Примерная стоимость:</div>
+                                        <div class="container-cost-value inputs col-xs-12 col-sm-8">
+                                            <span class="cost-value">3950</span> <span class="rubl">₽</span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="calculate-group row">
-                                    <div class="col-xs-12">
-                                        <button class="btn btn-primary">Получить точную стоимость</button>
+                                    <div class="calculate-group row">
+                                        <div class="col-xs-12">
+                                            <a class="popup-button btn btn-primary cost-button"
+                                               href="#form-callback-popup">Получить
+                                                точную стоимость</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -214,27 +253,12 @@ recaptcha_size = "normal"
                             <div class="col-xs-12 col-md-6 col-lg-5 pull-sm-right">
                                 <div class="well-3">
                                     <article class="post top-level">
-                                        <time datetime="2014-04-20">April 20, 2014</time>
-                                        <h4 class="post-heading">More Than 100 <strong>Financial Planners</strong>,
-                                            <em>One</em> Philosophy</h4>
-
-                                        <div class="post-body">
-                                            <p>Every single one of our financial advisors receives rigorous training in
-                                                Ric Edelman's philosophy, which is based on academic research (including
-                                                that of a Nobel laureate in Economics) and Behavioral Finance. </p>
-
-                                            <p>All of our planners believe that everyone, rich or not so rich, deserves
-                                                great financial advice and planning services. No matter which advisor
-                                                you work with, you can be confident that they'll put YOUR BEST INTERESTS
-                                                FIRST and that you are getting the best experience we have to offer.</p>
-                                            <a href="#" class="btn btn-xs btn-default">Read more</a>
-
-                                            <div class="btn-wrap">
-                                                <a href="#" class="btn btn-primary btn-mod-1"><span
-                                                        class="fw-n">Get Your</span>
-                                                    Free Financial
-                                                    Analysis</a>
-                                            </div>
+                                        {% component 'contenteditor' file="why-we.htm" fixture="span" %}
+                                        <div class="btn-wrap">
+                                            <a class="popup-button btn btn-primary btn-mod-1"
+                                               href="#form-callback-popup">
+                                                Бесплатная консультация
+                                            </a>
                                         </div>
                                     </article>
                                 </div>
@@ -248,39 +272,18 @@ recaptcha_size = "normal"
             <section class="well-3 well-3-mod-1">
                 <div class="container container-wide">
                     <div class="row child-offset-1">
-                        <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lg-4">
+                        <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lg-5">
                             <div class="block-adaptive">
-                                <h2>Sign Up</h2>
+                                <h2>Перезвонить?</h2>
 
-                                <p class="text-style-2"><strong>Get subscriber only</strong> insights <span
-                                        class="font-family-secondary-1 fw-b"><em>&amp;</em></span> news delivered <span
-                                        class="font-family-secondary-1 fw-b"><em>by</em></span> <strong>John
-                                    Doe</strong></p>
-
-                                <form class="rd-mailform rd-mailform-inline rd-mailform-dark" method="post">
-                                    <!-- RD Mailform Type -->
-                                    <input type="hidden" name="form-type" value="subscribe"/>
-                                    <!-- END RD Mailform Type -->
-                                    <div class="form-group">
-                                        <label class="form-label" data-add-placeholder for="mailform-subscribe-email">Enter
-                                            your
-                                            e-mail </label>
-                                        <input id="mailform-subscribe-email"
-                                               type="text"
-                                               name="email"
-                                               data-constraints="@NotEmpty @Email"/>
-
-                                    </div>
-                                    <div class="control-absolute">
-                                        <button class="btn btn-default-variant-1" type="submit">Submit</button>
-                                        <div class="mfInfo"></div>
-                                    </div>
-                                </form>
+                                <p class="text-style-2">Введите свой <i>номер телефона</i> и мы <b>перезвоним Вам</b> в течении <i><b>15
+                                    минут</b></i></p>
+                                {% component "callbackFooter" %}
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lg-5 pull-md-right">
                             <div class="block-adaptive">
-                                <h2>Contacts</h2>
+                                <h2>Контакты</h2>
 
                             </div>
                             <div class="card">
@@ -292,34 +295,7 @@ recaptcha_size = "normal"
                                         </div>
                                     </div>
                                     <div class="box__body">
-                                        <div class="card-header">
-                                            <p class="h4 font-family-sec-1 text-primary">John Doe Jr.</p>
-
-                                            <p class="card-header-caption">Financial Advisor</p>
-                                        </div>
-                                        <div class="card-body">
-                                            <dl>
-                                                <dt>Website</dt>
-                                                <dd><a href="#" class="text-primary">johndoe.com</a></dd>
-                                            </dl>
-                                            <dl>
-                                                <dt>Email</dt>
-                                                <dd><a href="mailto:#" class="text-primary">johndoe@demolink.org</a>
-                                                </dd>
-                                            </dl>
-                                            <dl>
-                                                <dt>Phone</dt>
-                                                <dd><a href="callto:#">+1 959 603 6035</a></dd>
-                                            </dl>
-                                            <dl>
-                                                <dt>Address</dt>
-                                                <dd>
-                                                    <address>222 Fashion Lane, Ste.<br>
-                                                        207 Tustin, CA 92780
-                                                    </address>
-                                                </dd>
-                                            </dl>
-                                        </div>
+                                        {% component 'contenteditor' file="contact-card-text.htm" fixture="span" %}
                                     </div>
                                 </div>
                             </div>
@@ -333,70 +309,15 @@ recaptcha_size = "normal"
             <div class="boxed-wrap boxed-wrap-variant-1 relative-shift-1">
                 <div class="well-4 bg-primary">
                     <div class="container container-wide">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <p class="rights">
-                                    &copy; <span id="copyright-year"></span> All rights reserved.
-                                    <br class="hidden-sm hidden-md hidden-lg">
-                                    <a href="index-8.html">Privacy Policy</a>
-                                    More Financial Advisor Templates at <a rel="nofollow"
-                                                                           href="http://www.templatemonster.com/category.php?category=130&type=1"
-                                                                           target="_blank">TemplateMonster.com</a>
-                                </p>
-                            </div>
-                        </div>
                         <div class="row offset-3 child-offset-1">
-                            <div class="col-xs-12 col-md-7">
-                                <div class="inset-2">
-                                    <p class="small">
-                                        Investments products and services available only to residents of : Arizona - AZ,
-                                        California - CA,
-                                        Hawaii
-                                        - HI, Idaho - ID, New Jersey - NJ, New Mexico - NM, Oregon - OR, Washington - WA
-                                        Securities and
-                                        Investment Advice through John Doe & Company, A registered broker/dealer and
-                                        Investment Advisor,
-                                        Member
-                                        FINRA and SIPC. 101 Serious Road, Fincity, FL 32707 Tel: <a href="callto:#">(959)
-                                        603- 6035</a>.|
-                                        John
-                                        Doe Financial Advisors
-                                        is not an affiliate of Wall Street Company.
-                                    </p>
-
-                                    <p class="small">
-                                        All other trademarks and copyrights are the properties of their respective
-                                        holders.This website
-                                        provides
-                                        information related to the subjects covered. Before making any financial or
-                                        legal decisions, a
-                                        professional should be consulted.
-                                    </p>
+                            <div class="col-xs-12 col-md-4 col-lg-3">
+                                <div class="inset-2 footer-text">
+                                    {% component 'contenteditor' file="footer-text.htm" fixture="span" %}
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-md-5">
+                            <div class="col-xs-12 col-md-8 col-lg-9">
                                 <div class="list-container">
-                                    <div class="list-wrap">
-                                        <h6>Investment Help</h6>
-                                        <ul class="marked-list marked-list-xs marked-list-dash">
-                                            <li><a href="#">Stocks, Bonds &amp; Mutual Funds</a></li>
-                                            <li><a href="#">Retirement &amp; College Savings</a></li>
-                                            <li><a href="#">Insurance &amp; Annuities</a></li>
-                                            <li><a href="#">Wealth Management</a></li>
-                                            <li><a href="#">Business Owners</a></li>
-                                            <li><a href="#">Cash &amp; Credit</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="list-wrap">
-                                        <h6>Financial Planning</h6>
-                                        <ul class="marked-list marked-list-xs marked-list-dash">
-                                            <li><a href="#">Investment Management</a></li>
-                                            <li><a href="#">Retirement Planning</a></li>
-                                            <li><a href="#">Long Term Care</a></li>
-                                            <li><a href="#">Estate Planning</a></li>
-                                            <li><a href="#">Social Security</a></li>
-                                        </ul>
-                                    </div>
+                                    {% component "menuFooter" %}
                                 </div>
                             </div>
                         </div>
@@ -412,6 +333,9 @@ recaptcha_size = "normal"
 <script src="{{ 'assets/js/bootstrap.min.js' |theme }}"></script>
 <script src="{{ 'assets/js/vide.js' |theme }}"></script>
 <script src="{{ 'assets/js/tm-scripts.js' |theme }}"></script>
+<div id="form-callback-popup" class="popup-dialog zoom-anim-dialog mfp-hide">Введите свой номер телефона и мы перезвоним
+    Вам в течении 15 мин{% component "callbackPopup" %}
+</div>
 <!-- </script> -->
 {% framework extras %}
 {% scripts %}

@@ -25,10 +25,14 @@ include('js/jquery-ui.js');
 
 include('js/jquery-ui-slider-pips.js');
 
+include('js/jquery.magnific-popup.min.js');
+
 
 /* Stick up menus  ========================================================*/
-; (function ($) {     var o = $('html');     if (o.hasClass('desktop')) {
-include('js/tmstickup.js');
+;(function ($) {
+    var o = $('html');
+    if (o.hasClass('desktop')) {
+        include('js/tmstickup.js');
 
         $(document).ready(function () {
             $('#stuck_container').TMStickUp({})
@@ -98,7 +102,6 @@ include('js/tmstickup.js');
 })(jQuery);
 
 
-
 /**
  * @module       RD Navbar
  * @description  Enables RD Navbar Plugin
@@ -137,10 +140,10 @@ include('js/tmstickup.js');
  ========================================================*/
 ;
 (function ($) {
-    if(isIE() && isIE() < 11){
+    if (isIE() && isIE() < 11) {
         include('js/pointer-events.js');
         $('html').addClass('lt-ie11');
-        $(document).ready(function(){
+        $(document).ready(function () {
             PointerEventsPolyfill.initialize({});
         });
     }
@@ -172,7 +175,7 @@ include('js/tmstickup.js');
             var o = $('#google-map');
             if (o.length > 0) {
                 o.googleMap({
-                    styles: [   ]
+                    styles: []
                 });
             }
         });
@@ -266,9 +269,9 @@ include('js/tmstickup.js');
 
                                     $gallery
                                         .find('[data-lightbox]').each(function () {
-                                            var $item = $(this);
-                                            $item.addClass("mfp-" + $item.attr("data-lightbox"));
-                                        })
+                                        var $item = $(this);
+                                        $item.addClass("mfp-" + $item.attr("data-lightbox"));
+                                    })
                                         .end()
                                         .magnificPopup({
                                             delegate: '.owl-item [data-lightbox]',
@@ -373,7 +376,6 @@ if (!result) {
 document.write('<meta name="viewport" content="width=device-width,initial-scale=1.0' + userScale + '">');
 
 
-
 /* Search.js
  ========================================================*/
 ;
@@ -386,19 +388,19 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 
 
 /**
-* @module     RD Input Label
-* @description Enables RD Input Label Plugin
-*/
+ * @module     RD Input Label
+ * @description Enables RD Input Label Plugin
+ */
 ;
 (function ($) {
-var o = $('.form-label');
-if (o.length) {
-include('js/mailform/jquery.rd-input-label.js');
+    var o = $('.form-label');
+    if (o.length) {
+        include('js/mailform/jquery.rd-input-label.js');
 
-$(document).ready(function () {
-o.RDInputLabel();
-});
-}
+        $(document).ready(function () {
+            o.RDInputLabel();
+        });
+    }
 })(jQuery);
 
 /* Mailform
@@ -552,7 +554,6 @@ $(document).ready(function () {
         });
     }
 })(jQuery);
-
 
 
 /**
@@ -731,7 +732,7 @@ $(document).ready(function () {
 ;
 (function ($) {
     include('js/jquery.rd-parallax.js');
-})(jQuery); 
+})(jQuery);
 
 
 /* JQuery UI Accordion
@@ -780,8 +781,6 @@ $(document).ready(function () {
         if ($this.hasClass('vide-paused')) {
             $this.find("video")[0].play();
             $this.removeClass('vide-paused').addClass('vide-played');
-
-
         } else {
             $this.find("video")[0].pause();
             $this.removeClass('vide-played').addClass('vide-paused');
@@ -790,17 +789,89 @@ $(document).ready(function () {
 
 });
 
-$(document).ready(function(){
+$(document).ready(function () {
+    var saveCalculate = false
+    var calculateSumm = function (ndsType, colDocs) {
+        var value
+        var ndsValue
+        colDocs = parseInt(colDocs)
+        if (ndsType === 'Общая') {
+            if (colDocs <= 300) {
+                ndsValue = 65
+            }
+            if (colDocs <= 200) {
+                ndsValue = 70
+            }
+            if (colDocs <= 100) {
+                ndsValue = 90
+            }
+        }
+        if (ndsType === 'УСН') {
+            if (colDocs <= 300) {
+                ndsValue = 45
+            }
+            if (colDocs <= 200) {
+                ndsValue = 55
+            }
+            if (colDocs <= 100) {
+                ndsValue = 70
+            }
+        }
+        value = ndsValue * parseInt(colDocs)
+        $('.cost-value').html(value)
+        if (saveCalculate) {
+            var text = 'Тип:' + ndsType;
+            text += '; Стоимость НДС:' + ndsValue;
+            text += '; Кол-во документов:' + colDocs;
+            text += '; Итого:' + value;
+            $('#calculateData').val(text)
+            console.log(text)
+        }
+    }
+
+    var ndsType = $("[name=nds]").val();
+    var sliderValue = 50
+    calculateSumm(ndsType, sliderValue)
     $('input').iCheck({
         checkboxClass: 'icheckbox_flat-grey',
         radioClass: 'iradio_flat-grey'
     });
-    $(".slider").slider({min: 0, max: 500, step: 10})
+    $('input').on('ifChanged', function (event) {
+        $(event.target).trigger('change');
+    });
+    $('input').on('ifClicked', function (ev) {
+        $(ev.target).click()
+    })
+
+    $("[name=nds]").change(function () {
+        ndsType = this.value
+        calculateSumm(ndsType, sliderValue)
+    })
+    $(".slider").slider({min: 0, max: 300, step: 10})
         .slider("pips", {rest: "label", step: 10})
-        .slider( "value", 100 )
+        .slider("value", 50)
         .slider("float").slider({
-        change: function( event, ui ) {
+        change: function (event, ui) {
             $("#slider-value").val(ui.value);
+            sliderValue = ui.value
+            calculateSumm(ndsType, sliderValue)
         }
+    });
+
+    $(".cost-button").click(function () {
+        saveCalculate = true
+        calculateSumm(ndsType, sliderValue)
+    })
+
+    $('.popup-button').magnificPopup({
+        type: 'inline',
+        fixedContentPos: true,
+        fixedBgPos: true,
+        overflowY: false,
+        closeBtnInside: true,
+        preloader: false,
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-zoom-in'
     });
 });

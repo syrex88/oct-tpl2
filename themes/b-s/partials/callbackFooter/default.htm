@@ -1,0 +1,15 @@
+<form class="rd-mailform rd-mailform-inline rd-mailform-dark" data-request="{{ __SELF__ }}::onFormSubmit">
+    {{ form_token() }}
+    <!-- END RD Mailform Type -->
+    <div class="form-group">
+        <label data-add-placeholder class="form-label rd-input-label" for="phone">Ваш телефон</label>
+        <input type="text"  id="phone" type="text" name="phone" class="form-control" data-constraints="@NotEmpty">
+    </div>
+    <div id="{{ __SELF__ }}_forms_flash"></div>
+    <div>
+        {% partial '@recaptcha' %}
+    </div>
+    <div class="control-absolute">
+        <button id="simpleContactSubmitButton" type="submit"  class="btn btn-default-variant-1">Перезвоните</button>
+    </div>
+</form>

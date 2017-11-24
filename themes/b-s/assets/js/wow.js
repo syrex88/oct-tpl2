@@ -178,7 +178,7 @@
 
     WOW.prototype.doSync = function(element) {
       var box, _i, _len, _ref, _results;
-      if (!this.stopped) {
+      if (!this.stopped && element.getElementsByClassName) {
         element || (element = this.element);
         element = element.parentNode || element;
         _ref = element.getElementsByClassName(this.config.boxClass);
