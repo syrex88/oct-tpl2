@@ -1,0 +1,25 @@
+1511541676a:1:{s:20:"callback/default.htm";a:5:{s:8:"fileName";s:20:"callback/default.htm";s:7:"content";s:651:"<form class="rd-mailform callbackform" data-request="{{ __SELF__ }}::onFormSubmit">
+
+    {{ form_token() }}
+    <div class="form-group mfInput">
+        <label data-add-placeholder="" class="form-label rd-input-label" for="phone">Ваш телефон</label>
+        <input type="text"  id="phone" type="text" name="phone" class="form-control" data-constraints="@NotEmpty">
+    </div>
+    <div>
+        {% partial '@recaptcha' %}
+    </div>
+    <div id="{{ __SELF__ }}_forms_flash"></div>
+    <button id="simpleContactSubmitButton" type="submit"  class="btn btn-primary btn-cons">Получить консультацию</button>
+</form>";s:5:"mtime";i:1511277457;s:6:"markup";s:651:"<form class="rd-mailform callbackform" data-request="{{ __SELF__ }}::onFormSubmit">
+
+    {{ form_token() }}
+    <div class="form-group mfInput">
+        <label data-add-placeholder="" class="form-label rd-input-label" for="phone">Ваш телефон</label>
+        <input type="text"  id="phone" type="text" name="phone" class="form-control" data-constraints="@NotEmpty">
+    </div>
+    <div>
+        {% partial '@recaptcha' %}
+    </div>
+    <div id="{{ __SELF__ }}_forms_flash"></div>
+    <button id="simpleContactSubmitButton" type="submit"  class="btn btn-primary btn-cons">Получить консультацию</button>
+</form>";s:4:"code";N;}}

@@ -1,72 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c935d533-3dd4-4891-a728-5e4bc47374a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/assets/css/inner-page.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/assets/css/magnific-popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/assets/js/jquery.magnific-popup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/content/ceny.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/partials/callbackFooter/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/partials/callbackPopup/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/partials/menu/default.htm" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/ac/1c/ac1cae4304edd0382b89139a4f3306f2" afterPath="" />
+    <list default="true" id="c935d533-3dd4-4891-a728-5e4bc47374a2" name="Default" comment="last files">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/imgs/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/40/a1/40a15c64ad673f8b2f8a242676074c27" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/LICENCE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/Plugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/css/records.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/css/uploader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/imgs/icon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/js/inline-errors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/js/recaptcha.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/js/uploader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/less/uploader.base.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/less/uploader.filemulti.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/less/uploader.filesingle.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/less/uploader.imagemulti.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/less/uploader.imagesingle.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/less/uploader.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/vendor/dropzone/dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/classes/BackendHelpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/classes/MagicForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/classes/ReCaptcha.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/classes/ReCaptchaValidator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/classes/SendMail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/classes/SharedProperties.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/classes/UnreadRecords.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/EmptyForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/GenericForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/UploadForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/emptyform/default.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/genericform/default.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/partials/flash.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/partials/js/recaptcha.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/partials/js/reset-form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/partials/js/reset-uploader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/partials/recaptcha.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/uploadform/default.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/uploadform/file-multi.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/uploadform/file-single.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/uploadform/file-upload.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/Exports.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/Records.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/exports/config_form.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/exports/index.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/records/config_filter.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/records/config_list.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/records/index.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/records/partials/_action_button.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/records/partials/_list_toolbar.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/records/partials/_view_toolbar.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/records/view.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/COMPONENTS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/CUSTOM-VALIDATION-MESSAGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/EVENTS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/INLINE_ERRORS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/INSTALLATION.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/MISC_TOPICS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/SECURITY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/UPLOADS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/USAGE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/VALIDATION.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/lang/en/lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/lang/fr/lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/lang/pt-br/lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/lang/tr/lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/Record.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/Settings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/export/_header.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/export/fields.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/record/columns.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/record/fields/_files_fields.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/record/fields/_stored_fields.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/settings/_recaptcha_help.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/settings/fields.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/traits/ComponentUtils.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/traits/FileUploader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/updates/add_group_field.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/updates/add_unread_field.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/updates/create_records_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/updates/version.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/views/mail/autoresponse.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/views/mail/notification.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/2a/e2/ceny.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/36/74/default.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/52/8e/default.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/5c/1b/default.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/71/7d/default.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/bb/9f/inner.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/e6/cf/registraciya-ooo.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/17/17be5195345ac4af3e05f3312c006363c4d3bb06c4f13d82f7a1d4e41790ea16.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/1c/1c938b918c72c4e213c77253d8b57d6a652c6b7f1aa00484cf6b4bc17c9b63ce.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/23/23d3f5dab28b85f02e59221f34952b2c71b614332eecbad1f82c8c2d0d20da2d.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/25/259c5cb2eaaf830cd7207074785754fc78d0c39f5ef1be85ac6cb6c39d930b95.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/40/40554b9b421edc9a8affa1bd98edb9dceedafada241d4a585da847094e01c71a.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/5b/5b964fd7d0dc1d66e7760cf5fdd9b7f9190d02a36032e4cbb9a1b7f2bd09f527.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/a2/a2c5a114b0075298707303d60ad8374d61a79cc643bb7ea8cebe7c58a38b016c.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/c4/c4e6aec77df68860ca17eace2b888923dd3a5af093687426e9214f0b94fe884a.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/f2/f2f6aebf896ce8ebe66c6b1842fe55f96bafebf6932268c7ca2b915e6e40f2a7.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/f7/f787d27d12cdc534b902aa3992b7f387d75f7953bfd9f3ace0851ecdf20c7122.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/fe/fefbf9686655e47dfa71db4ceb0d7e14e20621ca2787cd046f15bf96b4387bd8.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/02/70/0270cd0bf14e20e9095012f7f8c32588" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/22/ba/22baef76c45401592f28c9c6d9a8ac3e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/37/f6/37f67ae4378967878de3615d96ff08ad" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/3b/af/3bafcc843cf10d64a5babca8b3ec362a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/3e/e9/3ee9018fdc0c5ec39d638b380620cffd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/3f/42/3f424d9788847a08e04e8fad276b62db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/53/72/53729394caffa9c6e7576dd744b80713" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/5d/ee/5deee0c73dd2d7ccb344aef37861edf0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/5f/b5/5fb5d39c44648c4be72a0a0a44a79414" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/61/89/61890d6dc1fc4f422b6036d7665b48b3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/64/41/644130fa47377b1350aab4f5aff9505a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/6a/d1/6ad146fa9fb9f35eedec7427e5336806" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/6f/90/6f90f5fe3fcbc48ab011aadbb3fefbbd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/75/06/750621f541f13e163e7277181fdb4bd0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/79/77/79770e0cf249f5d09f6a97af85adc48a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/a0/4d/a04d478556f1bda3511cce48c0584203" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/b2/39/b239daf2ca9b54cf12054d6c0f0727a2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/cf/32/cf32fe1554804d51d870ff334bdb4d7c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/20/d020ab2bc22fbce293b48c24c3f57b1c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/dc/0e/dc0e744d7cfbdb9478dbc580341ff7cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/df/59/df599dc9221ea665c782206927a85f2a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/e0/1e/e01ed47bccc31179cac36af69e6c87c6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/f4/48/f448cb9b85f9e9fa4f068c61efe89e3e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/ff/ee/ffee17034c40238b02467837635df9ce" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/sessions/567f8b70195f6c78113623a8db9485b80c539f16" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/content/contact-card-text.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/content/footer-text.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/content/registraciya-ooo.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/content/why-we.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/benfreke/menumanager/assets/js/benfreke.menumanager.js" afterPath="$PROJECT_DIR$/plugins/benfreke/menumanager/assets/js/benfreke.menumanager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/3b/df/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/3b/df/default.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/89/a4/index.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/89/a4/index.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/disabled.json" afterPath="$PROJECT_DIR$/storage/cms/disabled.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/9d/9de81ddddba5854692067428724e5cbcc955d8eb0a89e5823911dfa904e96660.php" afterPath="$PROJECT_DIR$/storage/cms/twig/9d/9de81ddddba5854692067428724e5cbcc955d8eb0a89e5823911dfa904e96660.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/0a/f9/0af900597ec3a0b485aac7208fad8e05" afterPath="$PROJECT_DIR$/storage/framework/cache/0a/f9/0af900597ec3a0b485aac7208fad8e05" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/0f/c9/0fc9704219633aeedb19202bdfa0342f" afterPath="$PROJECT_DIR$/storage/framework/cache/0f/c9/0fc9704219633aeedb19202bdfa0342f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" afterPath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1b/12/1b12b2b5d071d5054dfca339187ff303" afterPath="$PROJECT_DIR$/storage/framework/cache/1b/12/1b12b2b5d071d5054dfca339187ff303" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/32/b4/32b47619d5da3d8db8ecfc9cfab4eeae" afterPath="$PROJECT_DIR$/storage/framework/cache/32/b4/32b47619d5da3d8db8ecfc9cfab4eeae" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/33/25/3325aaa7b701dc3a28621263d9ac0d72" afterPath="$PROJECT_DIR$/storage/framework/cache/33/25/3325aaa7b701dc3a28621263d9ac0d72" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/33/2e/332ec77c0dbb4eac776b83ac2fe81e4a" afterPath="$PROJECT_DIR$/storage/framework/cache/33/2e/332ec77c0dbb4eac776b83ac2fe81e4a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" afterPath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/4e/f4/4ef41ac2bd2d216bb1c4b046055dadcc" afterPath="$PROJECT_DIR$/storage/framework/cache/4e/f4/4ef41ac2bd2d216bb1c4b046055dadcc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" afterPath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/53/e6/53e67d605100e016a552d16d194b139d" afterPath="$PROJECT_DIR$/storage/framework/cache/53/e6/53e67d605100e016a552d16d194b139d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5c/71/5c7172a25eac0e671fdf44d769b25a78" afterPath="$PROJECT_DIR$/storage/framework/cache/5c/71/5c7172a25eac0e671fdf44d769b25a78" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" afterPath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" afterPath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/60/c9/60c9652d54898a9ab268a22a645c5202" afterPath="$PROJECT_DIR$/storage/framework/cache/60/c9/60c9652d54898a9ab268a22a645c5202" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/63/41/6341beac9b29bcb6a1b530f3cd691c4d" afterPath="$PROJECT_DIR$/storage/framework/cache/63/41/6341beac9b29bcb6a1b530f3cd691c4d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/63/d3/63d3607f8a8b5864e18dacf62c827896" afterPath="$PROJECT_DIR$/storage/framework/cache/63/d3/63d3607f8a8b5864e18dacf62c827896" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/65/97/6597b90fc3fa778a10b6c356031fd249" afterPath="$PROJECT_DIR$/storage/framework/cache/65/97/6597b90fc3fa778a10b6c356031fd249" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/66/48/6648bfd1635c6c7443874bd5de1ea92b" afterPath="$PROJECT_DIR$/storage/framework/cache/66/48/6648bfd1635c6c7443874bd5de1ea92b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/6f/c7/6fc7ac10a2629c1034cdafc8a4818222" afterPath="$PROJECT_DIR$/storage/framework/cache/6f/c7/6fc7ac10a2629c1034cdafc8a4818222" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/73/a5/73a535406d68af53b86b0f6d6a1d9f0d" afterPath="$PROJECT_DIR$/storage/framework/cache/73/a5/73a535406d68af53b86b0f6d6a1d9f0d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/76/98/76989d8e9e75ed1b896e3e9a07a6d3d3" afterPath="$PROJECT_DIR$/storage/framework/cache/76/98/76989d8e9e75ed1b896e3e9a07a6d3d3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/78/80/7880a8b7ed26fdc567195c9263464ee8" afterPath="$PROJECT_DIR$/storage/framework/cache/78/80/7880a8b7ed26fdc567195c9263464ee8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/78/b2/78b2aa7a34b1e57b357f517c204f7e5b" afterPath="$PROJECT_DIR$/storage/framework/cache/78/b2/78b2aa7a34b1e57b357f517c204f7e5b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/86/70/86707c8bb0e74371e894d8bc50a09e98" afterPath="$PROJECT_DIR$/storage/framework/cache/86/70/86707c8bb0e74371e894d8bc50a09e98" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/91/aa/91aaeb3d3720451f3d8056ef80f92eff" afterPath="$PROJECT_DIR$/storage/framework/cache/91/aa/91aaeb3d3720451f3d8056ef80f92eff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/9c/0f/9c0f4cfb8303e4bcdb8e266a400b3ecf" afterPath="$PROJECT_DIR$/storage/framework/cache/9c/0f/9c0f4cfb8303e4bcdb8e266a400b3ecf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/a1/f7/a1f74de7779d5838a058998a9dfe30db" afterPath="$PROJECT_DIR$/storage/framework/cache/a1/f7/a1f74de7779d5838a058998a9dfe30db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/b2/dc/b2dc18ec85270260ad060c522fd0522d" afterPath="$PROJECT_DIR$/storage/framework/cache/b2/dc/b2dc18ec85270260ad060c522fd0522d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/b3/20/b320693be51064c53e1261837ecb38ab" afterPath="$PROJECT_DIR$/storage/framework/cache/b3/20/b320693be51064c53e1261837ecb38ab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/b3/40/b3400be9590a4786d79a0a75a1cee05c" afterPath="$PROJECT_DIR$/storage/framework/cache/b3/40/b3400be9590a4786d79a0a75a1cee05c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/c2/7e/c27e9a41b2758ea4c4c382352d28a86a" afterPath="$PROJECT_DIR$/storage/framework/cache/c2/7e/c27e9a41b2758ea4c4c382352d28a86a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/c4/cf/c4cf1bdc4f99386712b7c6480ac03080" afterPath="$PROJECT_DIR$/storage/framework/cache/c4/cf/c4cf1bdc4f99386712b7c6480ac03080" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/cd/32/cd329aa218476536a448f60839ad7166" afterPath="$PROJECT_DIR$/storage/framework/cache/cd/32/cd329aa218476536a448f60839ad7166" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/ce/74/ce74e1b13c2b7be29e3bffaea2a67ceb" afterPath="$PROJECT_DIR$/storage/framework/cache/ce/74/ce74e1b13c2b7be29e3bffaea2a67ceb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/d0/c8/d0c8a25d8ad49d90438eb205a3ca49b2" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/c8/d0c8a25d8ad49d90438eb205a3ca49b2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/d3/02/d30233e93e8f9f4d71a90749403d9db7" afterPath="$PROJECT_DIR$/storage/framework/cache/d3/02/d30233e93e8f9f4d71a90749403d9db7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/da/ef/daef0ac6fe01f0ff81b3fc64993c282f" afterPath="$PROJECT_DIR$/storage/framework/cache/da/ef/daef0ac6fe01f0ff81b3fc64993c282f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/dd/ce/ddce08a4c1f0ae272fe815644bfad848" afterPath="$PROJECT_DIR$/storage/framework/cache/dd/ce/ddce08a4c1f0ae272fe815644bfad848" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/e3/0f/e30fd8e612c36f9713c5c4286a21e7a5" afterPath="$PROJECT_DIR$/storage/framework/cache/e3/0f/e30fd8e612c36f9713c5c4286a21e7a5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/f0/76/f076cf5826e4a34ef767b447156b494c" afterPath="$PROJECT_DIR$/storage/framework/cache/f0/76/f076cf5826e4a34ef767b447156b494c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/fa/60/fa60c94166d8c884ca5343b012d415a9" afterPath="$PROJECT_DIR$/storage/framework/cache/fa/60/fa60c94166d8c884ca5343b012d415a9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/fa/cd/facd75ced21f288595098f190e02f88c" afterPath="$PROJECT_DIR$/storage/framework/cache/fa/cd/facd75ced21f288595098f190e02f88c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/ff/7f/ff7fda15c6ad30c0df7f696ae3e06c1d" afterPath="$PROJECT_DIR$/storage/framework/cache/ff/7f/ff7fda15c6ad30c0df7f696ae3e06c1d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js" afterPath="$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/js/wow.js" afterPath="$PROJECT_DIR$/themes/b-s/assets/js/wow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/layouts/default.htm" afterPath="$PROJECT_DIR$/themes/b-s/layouts/default.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/layouts/inner.htm" afterPath="$PROJECT_DIR$/themes/b-s/layouts/inner.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/pages/ceny.htm" afterPath="$PROJECT_DIR$/themes/b-s/pages/ceny.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/pages/otkrytie-raschyotnogo-schyota-v-banke.htm" afterPath="$PROJECT_DIR$/themes/b-s/pages/otkrytie-raschyotnogo-schyota-v-banke.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/pages/registraciya-ooo.htm" afterPath="$PROJECT_DIR$/themes/b-s/pages/registraciya-ooo.htm" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,8 +145,8 @@
       <file leaf-file-name="default.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="39" />
+            <state relative-caret-position="220">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -398,7 +463,7 @@
       <workItem from="1510412317852" duration="5925000" />
       <workItem from="1510997730603" duration="18175000" />
       <workItem from="1511268566521" duration="60274000" />
-      <workItem from="1511483479598" duration="16676000" />
+      <workItem from="1511483479598" duration="16796000" />
     </task>
     <task id="LOCAL-00001" summary="last files">
       <created>1511116215166</created>
@@ -421,11 +486,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511297067683</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="last files">
+      <created>1511541384620</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1511541384620</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102896000" />
+    <option name="totallyTimeSpent" value="103016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -823,8 +895,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/default.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="39" />
+        <state relative-caret-position="220">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

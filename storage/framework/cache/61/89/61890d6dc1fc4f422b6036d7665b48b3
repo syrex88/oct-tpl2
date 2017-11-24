@@ -1,0 +1,434 @@
+1511540373a:1:{s:9:"inner.htm";a:11:{s:8:"fileName";s:9:"inner.htm";s:7:"content";s:10307:"[editor]
+
+[menu]
+start = "id-1"
+activeNode = "id-1"
+listItemClasses = "item"
+primaryClasses = "rd-navbar-nav"
+secondaryClasses = "dropdown-menu"
+numberOfLevels = 2
+
+[emptyForm callback]
+rules[phone] = "required"
+messages_success = "Мы с Вами свяжемся в ближайшее время!"
+messages_errors = "There were errors with your submission"
+mail_enabled = 0
+inline_errors = "disabled"
+js_on_error = "console.log(1)"
+sanitize_data = "disabled"
+anonymize_ip = "disabled"
+recaptcha_theme = "light"
+recaptcha_type = "image"
+recaptcha_size = "normal"
+
+[emptyForm callbackFooter]
+messages_success = "Your form was successfully submitted"
+messages_errors = "There were errors with your submission"
+inline_errors = "disabled"
+sanitize_data = "disabled"
+anonymize_ip = "disabled"
+recaptcha_theme = "light"
+recaptcha_type = "image"
+recaptcha_size = "normal"
+
+[menu menuFooter]
+start = "id-1"
+activeNode = 0
+listItemClasses = "item"
+primaryClasses = "nav nav-footer"
+secondaryClasses = "item"
+numberOfLevels = 2
+
+[emptyForm callbackPopup]
+messages_success = "Your form was successfully submitted"
+messages_errors = "There were errors with your submission"
+inline_errors = "disabled"
+sanitize_data = "disabled"
+anonymize_ip = "disabled"
+recaptcha_theme = "light"
+recaptcha_type = "image"
+recaptcha_size = "normal"
+==
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ this.page.description }}">
+    <link rel="icon" href="{{ 'assets/images/favicon.ico' |theme }}" type="image/x-icon">
+    <title>{{ this.page.title }}</title>
+
+
+    <!-- Bootstrap -->
+    <link href="{{ 'assets/css/bootstrap.css' |theme }}" rel="stylesheet">
+    <link href="{{ 'assets/css/icheck/flat/grey.css' |theme }}" rel="stylesheet">
+    <link href="{{ 'assets/css/jquery-ui-slider-pips.css' |theme }}" rel="stylesheet">
+    <link href="{{ 'assets/css/jquery-ui.css' |theme }}" rel="stylesheet">
+    <link href="{{ 'assets/css/magnific-popup.css' |theme }}" rel="stylesheet">
+
+    <link href="{{ 'assets/css/inner-page.css' |theme }}" rel="stylesheet">
+
+    <!--JS-->
+    <script src="{{ 'assets/js/jquery.js' |theme }}"></script>
+    <script src="{{ 'assets/js/jquery-migrate-1.2.1.min.js' |theme }}"></script>
+
+
+    <!--[if lt IE 9]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="{{ 'assets/images/ie8-panel/warning_bar_0000_us.jpg '}}" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="{{ 'assets/js/html5shiv.js' |theme }}"></script>
+    <![endif]-->
+    <script src="{{ 'assets/js/device.min.js' |theme}}"></script>
+    {% styles %}
+</head>
+<body>
+
+<div class="page">
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header class="page-header">
+        <div class="boxed-wrap border-radius-8">
+            <div class="shadow-big border-radius-8">
+                <!-- RD Navbar -->
+                <div class="rd-navbar-wrap border-radius-8">
+                    <nav class="rd-navbar border-radius-8">
+                        <div class="rd-navbar-inner container container-wide">
+                            <!-- RD Navbar Panel -->
+                            <div class="rd-navbar-panel">
+
+                                <!-- RD Navbar Toggle -->
+                                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar"><span></span>
+                                </button>
+                                <!-- END RD Navbar Toggle -->
+
+                                <!-- RD Navbar Brand -->
+                                <div class="rd-navbar-brand">
+                                    <a href="/">
+                                        <span class="rd-navbar-brand-logo"><img src="images/logo.png" alt=""></span>
+
+                                        <div class="rd-navbar-brand-body">
+                                            <span class="brand-name">FinAdvision, <span
+                                                    class="text-light">Inc</span></span>
+                                            <span class="brand-slogan">Your trusted financial advisor</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- END RD Navbar Brand -->
+                            </div>
+                            <!-- END RD Navbar Panel -->
+
+                            <div class="rd-navbar-nav-wrap">
+                                <!-- RD Navbar Nav -->
+                                {% component "menu" %}
+                                <!-- END RD Navbar Nav -->
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <!-- END RD Navbar -->
+            </div>
+        </div>
+    </header>
+
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+    <main>
+        <section class="well-1">
+            <div class="container container-wide inner-page">
+                <h2>
+                    {{ this.page.title }}
+                </h2>
+                <div class="description row">
+                    <div class="col-xs-12 col-md-8">
+                        {{ this.page.description }}
+                    </div>
+                </div>
+                <div class="content row">
+                    <div class="col-xs-12">
+                        {% page %}
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--========================================================
+                            FOOTER
+    =========================================================-->
+    <footer class="page-footer">
+        <!-- Have a Question? -->
+        <section class="bg-default-dark bg-transparent skew skew-2">
+            <div class="skew-block bg-default-dark">
+            </div>
+
+            <!-- Get in touch -->
+            <section class="well-3 well-3-mod-1">
+                <div class="container container-wide">
+                    <div class="row child-offset-1">
+                        <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lg-5">
+                            <div class="block-adaptive">
+                                <h2>Перезвонить?</h2>
+
+                                <p class="text-style-2">Введите свой номер телефона и мы перезвоним Вам в течении 15
+                                    мин</p>
+                                {% component "callbackFooter" %}
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lg-5 pull-md-right">
+                            <div class="block-adaptive">
+                                <h2>Контакты</h2>
+
+                            </div>
+                            <div class="card">
+                                <div class="box-xs">
+                                    <div class="box__left">
+                                        <div class="card-image">
+                                            <img src="{{ 'assets/images/home-9.png' | theme  }}" alt="" width="130"
+                                                 height="164">
+                                        </div>
+                                    </div>
+                                    <div class="box__body">
+                                        {% component 'editor' file="contact-card-text.htm" fixture="span"
+                                        tools="link" %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="bg-black">
+            <div class="boxed-wrap boxed-wrap-variant-1 relative-shift-1">
+                <div class="well-4 bg-primary">
+                    <div class="container container-wide">
+                        <div class="row offset-3 child-offset-1">
+                            <div class="col-xs-12 col-md-4">
+                                <div class="inset-2">
+                                    {% component 'editor' file="footer-text.htm" fixture="span" %}
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-8">
+                                <div class="list-container">
+                                    {% component "menuFooter" %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+</div>
+<div id="form-callback-popup" class="popup-dialog zoom-anim-dialog mfp-hide">Введите свой номер телефона и мы перезвоним
+    Вам в течении 15 мин{% component "callbackPopup" %}
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="{{ 'assets/js/bootstrap.min.js' |theme }}"></script>
+<script src="{{ 'assets/js/vide.js' |theme }}"></script>
+<script src="{{ 'assets/js/tm-scripts.js' |theme }}"></script>
+<!-- </script> -->
+{% framework extras %}
+{% scripts %}
+</body>
+</html>";s:5:"mtime";i:1511539769;s:6:"markup";s:8932:"<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ this.page.description }}">
+    <link rel="icon" href="{{ 'assets/images/favicon.ico' |theme }}" type="image/x-icon">
+    <title>{{ this.page.title }}</title>
+
+
+    <!-- Bootstrap -->
+    <link href="{{ 'assets/css/bootstrap.css' |theme }}" rel="stylesheet">
+    <link href="{{ 'assets/css/icheck/flat/grey.css' |theme }}" rel="stylesheet">
+    <link href="{{ 'assets/css/jquery-ui-slider-pips.css' |theme }}" rel="stylesheet">
+    <link href="{{ 'assets/css/jquery-ui.css' |theme }}" rel="stylesheet">
+    <link href="{{ 'assets/css/magnific-popup.css' |theme }}" rel="stylesheet">
+
+    <link href="{{ 'assets/css/inner-page.css' |theme }}" rel="stylesheet">
+
+    <!--JS-->
+    <script src="{{ 'assets/js/jquery.js' |theme }}"></script>
+    <script src="{{ 'assets/js/jquery-migrate-1.2.1.min.js' |theme }}"></script>
+
+
+    <!--[if lt IE 9]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="{{ 'assets/images/ie8-panel/warning_bar_0000_us.jpg '}}" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="{{ 'assets/js/html5shiv.js' |theme }}"></script>
+    <![endif]-->
+    <script src="{{ 'assets/js/device.min.js' |theme}}"></script>
+    {% styles %}
+</head>
+<body>
+
+<div class="page">
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header class="page-header">
+        <div class="boxed-wrap border-radius-8">
+            <div class="shadow-big border-radius-8">
+                <!-- RD Navbar -->
+                <div class="rd-navbar-wrap border-radius-8">
+                    <nav class="rd-navbar border-radius-8">
+                        <div class="rd-navbar-inner container container-wide">
+                            <!-- RD Navbar Panel -->
+                            <div class="rd-navbar-panel">
+
+                                <!-- RD Navbar Toggle -->
+                                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar"><span></span>
+                                </button>
+                                <!-- END RD Navbar Toggle -->
+
+                                <!-- RD Navbar Brand -->
+                                <div class="rd-navbar-brand">
+                                    <a href="/">
+                                        <span class="rd-navbar-brand-logo"><img src="images/logo.png" alt=""></span>
+
+                                        <div class="rd-navbar-brand-body">
+                                            <span class="brand-name">FinAdvision, <span
+                                                    class="text-light">Inc</span></span>
+                                            <span class="brand-slogan">Your trusted financial advisor</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- END RD Navbar Brand -->
+                            </div>
+                            <!-- END RD Navbar Panel -->
+
+                            <div class="rd-navbar-nav-wrap">
+                                <!-- RD Navbar Nav -->
+                                {% component "menu" %}
+                                <!-- END RD Navbar Nav -->
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <!-- END RD Navbar -->
+            </div>
+        </div>
+    </header>
+
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+    <main>
+        <section class="well-1">
+            <div class="container container-wide inner-page">
+                <h2>
+                    {{ this.page.title }}
+                </h2>
+                <div class="description row">
+                    <div class="col-xs-12 col-md-8">
+                        {{ this.page.description }}
+                    </div>
+                </div>
+                <div class="content row">
+                    <div class="col-xs-12">
+                        {% page %}
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--========================================================
+                            FOOTER
+    =========================================================-->
+    <footer class="page-footer">
+        <!-- Have a Question? -->
+        <section class="bg-default-dark bg-transparent skew skew-2">
+            <div class="skew-block bg-default-dark">
+            </div>
+
+            <!-- Get in touch -->
+            <section class="well-3 well-3-mod-1">
+                <div class="container container-wide">
+                    <div class="row child-offset-1">
+                        <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lg-5">
+                            <div class="block-adaptive">
+                                <h2>Перезвонить?</h2>
+
+                                <p class="text-style-2">Введите свой номер телефона и мы перезвоним Вам в течении 15
+                                    мин</p>
+                                {% component "callbackFooter" %}
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lg-5 pull-md-right">
+                            <div class="block-adaptive">
+                                <h2>Контакты</h2>
+
+                            </div>
+                            <div class="card">
+                                <div class="box-xs">
+                                    <div class="box__left">
+                                        <div class="card-image">
+                                            <img src="{{ 'assets/images/home-9.png' | theme  }}" alt="" width="130"
+                                                 height="164">
+                                        </div>
+                                    </div>
+                                    <div class="box__body">
+                                        {% component 'editor' file="contact-card-text.htm" fixture="span"
+                                        tools="link" %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="bg-black">
+            <div class="boxed-wrap boxed-wrap-variant-1 relative-shift-1">
+                <div class="well-4 bg-primary">
+                    <div class="container container-wide">
+                        <div class="row offset-3 child-offset-1">
+                            <div class="col-xs-12 col-md-4">
+                                <div class="inset-2">
+                                    {% component 'editor' file="footer-text.htm" fixture="span" %}
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-8">
+                                <div class="list-container">
+                                    {% component "menuFooter" %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+</div>
+<div id="form-callback-popup" class="popup-dialog zoom-anim-dialog mfp-hide">Введите свой номер телефона и мы перезвоним
+    Вам в течении 15 мин{% component "callbackPopup" %}
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="{{ 'assets/js/bootstrap.min.js' |theme }}"></script>
+<script src="{{ 'assets/js/vide.js' |theme }}"></script>
+<script src="{{ 'assets/js/tm-scripts.js' |theme }}"></script>
+<!-- </script> -->
+{% framework extras %}
+{% scripts %}
+</body>
+</html>";s:4:"code";N;s:6:"editor";a:0:{}s:4:"menu";a:6:{s:5:"start";s:4:"id-1";s:10:"activeNode";s:4:"id-1";s:15:"listItemClasses";s:4:"item";s:14:"primaryClasses";s:13:"rd-navbar-nav";s:16:"secondaryClasses";s:13:"dropdown-menu";s:14:"numberOfLevels";s:1:"2";}s:18:"emptyForm callback";a:11:{s:5:"rules";a:1:{s:5:"phone";s:8:"required";}s:16:"messages_success";s:67:"Мы с Вами свяжемся в ближайшее время!";s:15:"messages_errors";s:38:"There were errors with your submission";s:12:"mail_enabled";s:1:"0";s:13:"inline_errors";s:8:"disabled";s:11:"js_on_error";s:14:"console.log(1)";s:13:"sanitize_data";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";}s:24:"emptyForm callbackFooter";a:8:{s:16:"messages_success";s:36:"Your form was successfully submitted";s:15:"messages_errors";s:38:"There were errors with your submission";s:13:"inline_errors";s:8:"disabled";s:13:"sanitize_data";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";}s:15:"menu menuFooter";a:6:{s:5:"start";s:4:"id-1";s:10:"activeNode";s:1:"0";s:15:"listItemClasses";s:4:"item";s:14:"primaryClasses";s:14:"nav nav-footer";s:16:"secondaryClasses";s:4:"item";s:14:"numberOfLevels";s:1:"2";}s:23:"emptyForm callbackPopup";a:8:{s:16:"messages_success";s:36:"Your form was successfully submitted";s:15:"messages_errors";s:38:"There were errors with your submission";s:13:"inline_errors";s:8:"disabled";s:13:"sanitize_data";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";}}}
