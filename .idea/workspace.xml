@@ -2,167 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c935d533-3dd4-4891-a728-5e4bc47374a2" name="Default" comment="last files djai">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/imgs/upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/LICENCE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/Plugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/css/records.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/css/uploader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/imgs/icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/js/inline-errors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/js/recaptcha.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/js/uploader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/less/uploader.base.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/less/uploader.filemulti.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/less/uploader.filesingle.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/less/uploader.imagemulti.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/less/uploader.imagesingle.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/less/uploader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/assets/vendor/dropzone/dropzone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/classes/BackendHelpers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/classes/MagicForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/classes/ReCaptcha.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/classes/ReCaptchaValidator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/classes/SendMail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/classes/SharedProperties.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/classes/UnreadRecords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/EmptyForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/GenericForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/UploadForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/emptyform/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/genericform/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/partials/flash.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/partials/js/recaptcha.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/partials/js/reset-form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/partials/js/reset-uploader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/partials/recaptcha.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/uploadform/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/uploadform/file-multi.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/uploadform/file-single.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/uploadform/file-upload.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/Exports.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/Records.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/exports/config_form.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/exports/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/records/config_filter.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/records/config_list.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/records/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/records/partials/_action_button.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/records/partials/_list_toolbar.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/records/partials/_view_toolbar.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/controllers/records/view.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/COMPONENTS.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/CUSTOM-VALIDATION-MESSAGES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/EVENTS.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/INLINE_ERRORS.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/INSTALLATION.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/MISC_TOPICS.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/SECURITY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/UPLOADS.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/USAGE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/docs/VALIDATION.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/lang/en/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/lang/fr/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/lang/pt-br/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/lang/tr/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/Record.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/Settings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/export/_header.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/export/fields.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/record/columns.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/record/fields/_files_fields.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/record/fields/_stored_fields.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/settings/_recaptcha_help.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/models/settings/fields.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/traits/ComponentUtils.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/traits/FileUploader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/updates/add_group_field.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/updates/add_unread_field.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/updates/create_records_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/updates/version.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/views/mail/autoresponse.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/martin/forms/views/mail/notification.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/assets/css/magnific-popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/assets/js/jquery.magnific-popup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/content/contact-card-text.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/content/footer-text.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/content/why-we.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/partials/callbackFooter/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/partials/callbackPopup/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/partials/menu/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/partials/menuFooter/default.htm" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/cache/3b/df/default.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/cache/89/a4/index.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/20/20ebca371202e7b1012c285c2f8851386d3a0cbe509cefe7559977b20adbf262.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/9d/9de81ddddba5854692067428724e5cbcc955d8eb0a89e5823911dfa904e96660.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/c6/c62bb619d0d1c9e2317670c1f2bf778e5957eab5cdfe53ab6d232eef5a644c0b.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/d5/d553b4fd8dd4200f42db7eb62ae8b6087568503583cbdb3e5594fa354b74a56e.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/0a/f9/0af900597ec3a0b485aac7208fad8e05" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/0f/c9/0fc9704219633aeedb19202bdfa0342f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/1b/12/1b12b2b5d071d5054dfca339187ff303" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/32/b4/32b47619d5da3d8db8ecfc9cfab4eeae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/33/25/3325aaa7b701dc3a28621263d9ac0d72" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/33/2e/332ec77c0dbb4eac776b83ac2fe81e4a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/4e/f4/4ef41ac2bd2d216bb1c4b046055dadcc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/53/e6/53e67d605100e016a552d16d194b139d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/5c/71/5c7172a25eac0e671fdf44d769b25a78" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/60/c9/60c9652d54898a9ab268a22a645c5202" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/63/41/6341beac9b29bcb6a1b530f3cd691c4d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/63/d3/63d3607f8a8b5864e18dacf62c827896" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/65/97/6597b90fc3fa778a10b6c356031fd249" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/66/48/6648bfd1635c6c7443874bd5de1ea92b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/6f/c7/6fc7ac10a2629c1034cdafc8a4818222" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/73/a5/73a535406d68af53b86b0f6d6a1d9f0d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/76/98/76989d8e9e75ed1b896e3e9a07a6d3d3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/78/80/7880a8b7ed26fdc567195c9263464ee8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/78/b2/78b2aa7a34b1e57b357f517c204f7e5b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/ac/1c/ac1cae4304edd0382b89139a4f3306f2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/b2/dc/b2dc18ec85270260ad060c522fd0522d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/b3/20/b320693be51064c53e1261837ecb38ab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/c2/7e/c27e9a41b2758ea4c4c382352d28a86a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/c4/cf/c4cf1bdc4f99386712b7c6480ac03080" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/cd/32/cd329aa218476536a448f60839ad7166" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/ce/74/ce74e1b13c2b7be29e3bffaea2a67ceb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/d0/c8/d0c8a25d8ad49d90438eb205a3ca49b2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/d3/02/d30233e93e8f9f4d71a90749403d9db7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/da/ef/daef0ac6fe01f0ff81b3fc64993c282f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/dd/ce/ddce08a4c1f0ae272fe815644bfad848" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/e3/0f/e30fd8e612c36f9713c5c4286a21e7a5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/fa/60/fa60c94166d8c884ca5343b012d415a9" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/fa/cd/facd75ced21f288595098f190e02f88c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/ff/7f/ff7fda15c6ad30c0df7f696ae3e06c1d" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/css/icheck/flat/grey.png" afterPath="$PROJECT_DIR$/themes/b-s/assets/css/icheck/flat/grey.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/css/icheck/flat/grey@2x.png" afterPath="$PROJECT_DIR$/themes/b-s/assets/css/icheck/flat/grey@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/images/bg-image-1.jpg" afterPath="$PROJECT_DIR$/themes/b-s/assets/images/bg-image-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/images/home-9.png" afterPath="$PROJECT_DIR$/themes/b-s/assets/images/home-9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/images/logo.png" afterPath="$PROJECT_DIR$/themes/b-s/assets/images/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/disabled.json" afterPath="$PROJECT_DIR$/storage/cms/disabled.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" afterPath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" afterPath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" afterPath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" afterPath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" afterPath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/86/70/86707c8bb0e74371e894d8bc50a09e98" afterPath="$PROJECT_DIR$/storage/framework/cache/86/70/86707c8bb0e74371e894d8bc50a09e98" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/91/aa/91aaeb3d3720451f3d8056ef80f92eff" afterPath="$PROJECT_DIR$/storage/framework/cache/91/aa/91aaeb3d3720451f3d8056ef80f92eff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/9c/0f/9c0f4cfb8303e4bcdb8e266a400b3ecf" afterPath="$PROJECT_DIR$/storage/framework/cache/9c/0f/9c0f4cfb8303e4bcdb8e266a400b3ecf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/a1/f7/a1f74de7779d5838a058998a9dfe30db" afterPath="$PROJECT_DIR$/storage/framework/cache/a1/f7/a1f74de7779d5838a058998a9dfe30db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/b3/40/b3400be9590a4786d79a0a75a1cee05c" afterPath="$PROJECT_DIR$/storage/framework/cache/b3/40/b3400be9590a4786d79a0a75a1cee05c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/f0/76/f076cf5826e4a34ef767b447156b494c" afterPath="$PROJECT_DIR$/storage/framework/cache/f0/76/f076cf5826e4a34ef767b447156b494c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/css/icheck/flat/grey.css" afterPath="$PROJECT_DIR$/themes/b-s/assets/css/icheck/flat/grey.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/css/jquery-ui-slider-pips.css" afterPath="$PROJECT_DIR$/themes/b-s/assets/css/jquery-ui-slider-pips.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/css/jquery-ui.css" afterPath="$PROJECT_DIR$/themes/b-s/assets/css/jquery-ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js" afterPath="$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/js/wow.js" afterPath="$PROJECT_DIR$/themes/b-s/assets/js/wow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/content/front-text.htm" afterPath="$PROJECT_DIR$/themes/b-s/content/front-text.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm" afterPath="$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/layouts/default.htm" afterPath="$PROJECT_DIR$/themes/b-s/layouts/default.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/layouts/inner.htm" afterPath="$PROJECT_DIR$/themes/b-s/layouts/inner.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/pages/otkrytie-raschyotnogo-schyota-v-banke.htm" afterPath="$PROJECT_DIR$/themes/b-s/pages/otkrytie-raschyotnogo-schyota-v-banke.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/pages/registraciya-ooo.htm" afterPath="$PROJECT_DIR$/themes/b-s/pages/registraciya-ooo.htm" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -176,36 +16,12 @@
       <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1856">
-              <caret line="116" column="87" lean-forward="false" selection-start-line="116" selection-start-column="87" selection-end-line="116" selection-end-column="87" />
+            <state relative-caret-position="220">
+              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1511545985796" expanded="false" signature="2409:2461" ph="..." />
-                <marker date="1511545985796" expanded="true" signature="2462:2800" ph="..." />
-                <marker date="1511545985796" expanded="true" signature="2537:2789" ph="..." />
-                <marker date="1511545985796" expanded="true" signature="2652:2776" ph="..." />
-                <marker date="1511545985796" expanded="true" signature="16908:16972" ph="..." />
+                <marker date="1511567809472" expanded="true" signature="16908:16972" ph="..." />
+                <marker date="1511567809472" expanded="true" signature="16908:16980" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/b-s/assets/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="18325" column="0" lean-forward="true" selection-start-line="18325" selection-start-column="0" selection-end-line="18325" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -213,9 +29,56 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="66">
+              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact-card-text.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/b-s/content/contact-card-text.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+              <folding>
+                <marker date="1511567751324" expanded="true" signature="992:1005" ph="..." />
+                <marker date="1511567751324" expanded="true" signature="992:1015" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer-text.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/b-s/content/footer-text.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="567" lean-forward="false" selection-start-line="0" selection-start-column="567" selection-end-line="0" selection-end-column="567" />
+              <folding>
+                <element signature="e#321#326#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tm-scripts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18260">
+              <caret line="830" column="0" lean-forward="false" selection-start-line="830" selection-start-column="0" selection-end-line="830" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registraciya-ooo.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/b-s/content/registraciya-ooo.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3498">
+              <caret line="159" column="81" lean-forward="false" selection-start-line="159" selection-start-column="38" selection-end-line="159" selection-end-column="81" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#9;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -375,8 +238,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -418,6 +281,184 @@
       <recent name="C:\Cloud\openServer\domains\bux-sait.loc\themes\b-s\partials\callbackPopup" />
       <recent name="C:\Cloud\openServer\domains\bux-sait.loc\themes\b-s\partials\menu" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/cms/disabled.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/86/70/86707c8bb0e74371e894d8bc50a09e98</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/91/aa/91aaeb3d3720451f3d8056ef80f92eff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/9c/0f/9c0f4cfb8303e4bcdb8e266a400b3ecf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/a1/f7/a1f74de7779d5838a058998a9dfe30db</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/b3/40/b3400be9590a4786d79a0a75a1cee05c</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/f0/76/f076cf5826e4a34ef767b447156b494c</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/css/icheck/flat/grey.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/css/icheck/flat/grey.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/css/icheck/flat/grey@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/css/jquery-ui-slider-pips.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/css/jquery-ui.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/images/bg-image-1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/images/home-9.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/images/logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/content/contact-card-text.htm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/content/front-text.htm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/content/why-we.htm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/layouts/default.htm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/partials/callbackFooter/default.htm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/partials/menu/default.htm</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/partials/menuFooter/default.htm</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/cms/cache/3b/df/default.htm.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/cms/cache/89/a4/index.htm.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/cms/twig/20/20ebca371202e7b1012c285c2f8851386d3a0cbe509cefe7559977b20adbf262.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/cms/twig/9d/9de81ddddba5854692067428724e5cbcc955d8eb0a89e5823911dfa904e96660.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/cms/twig/c6/c62bb619d0d1c9e2317670c1f2bf778e5957eab5cdfe53ab6d232eef5a644c0b.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/cms/twig/d5/d553b4fd8dd4200f42db7eb62ae8b6087568503583cbdb3e5594fa354b74a56e.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/0a/f9/0af900597ec3a0b485aac7208fad8e05</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/0f/c9/0fc9704219633aeedb19202bdfa0342f</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/1b/12/1b12b2b5d071d5054dfca339187ff303</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/32/b4/32b47619d5da3d8db8ecfc9cfab4eeae</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/33/25/3325aaa7b701dc3a28621263d9ac0d72</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/33/2e/332ec77c0dbb4eac776b83ac2fe81e4a</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/4e/f4/4ef41ac2bd2d216bb1c4b046055dadcc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/53/e6/53e67d605100e016a552d16d194b139d</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/5c/71/5c7172a25eac0e671fdf44d769b25a78</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/60/c9/60c9652d54898a9ab268a22a645c5202</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/63/41/6341beac9b29bcb6a1b530f3cd691c4d</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/63/d3/63d3607f8a8b5864e18dacf62c827896</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/65/97/6597b90fc3fa778a10b6c356031fd249</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/66/48/6648bfd1635c6c7443874bd5de1ea92b</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/6f/c7/6fc7ac10a2629c1034cdafc8a4818222</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/73/a5/73a535406d68af53b86b0f6d6a1d9f0d</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/76/98/76989d8e9e75ed1b896e3e9a07a6d3d3</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/78/80/7880a8b7ed26fdc567195c9263464ee8</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/78/b2/78b2aa7a34b1e57b357f517c204f7e5b</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/b2/dc/b2dc18ec85270260ad060c522fd0522d</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/b3/20/b320693be51064c53e1261837ecb38ab</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/c2/7e/c27e9a41b2758ea4c4c382352d28a86a</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/c4/cf/c4cf1bdc4f99386712b7c6480ac03080</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/cd/32/cd329aa218476536a448f60839ad7166</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/ce/74/ce74e1b13c2b7be29e3bffaea2a67ceb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/d0/c8/d0c8a25d8ad49d90438eb205a3ca49b2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/d3/02/d30233e93e8f9f4d71a90749403d9db7</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/da/ef/daef0ac6fe01f0ff81b3fc64993c282f</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/dd/ce/ddce08a4c1f0ae272fe815644bfad848</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/e3/0f/e30fd8e612c36f9713c5c4286a21e7a5</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/fa/60/fa60c94166d8c884ca5343b012d415a9</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/fa/cd/facd75ced21f288595098f190e02f88c</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/ff/7f/ff7fda15c6ad30c0df7f696ae3e06c1d</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -473,30 +514,41 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113671000" />
+    <option name="totallyTimeSpent" value="113680000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17784877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21482277" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17784877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,8 +754,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="993">
-          <caret line="876" column="3" lean-forward="false" selection-start-line="876" selection-start-column="3" selection-end-line="876" selection-end-column="3" />
+        <state relative-caret-position="18260">
+          <caret line="830" column="0" lean-forward="false" selection-start-line="830" selection-start-column="0" selection-end-line="830" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -752,8 +804,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/b-s/content/contact-card-text.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="40" />
+        <state relative-caret-position="66">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <marker date="1511567751324" expanded="true" signature="992:1005" ph="..." />
+            <marker date="1511567751324" expanded="true" signature="992:1015" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -824,7 +880,10 @@
     <entry file="file://$PROJECT_DIR$/themes/b-s/content/footer-text.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="89" lean-forward="false" selection-start-line="0" selection-start-column="89" selection-end-line="0" selection-end-column="89" />
+          <caret line="0" column="567" lean-forward="false" selection-start-line="0" selection-start-column="567" selection-end-line="0" selection-end-column="567" />
+          <folding>
+            <element signature="e#321#326#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -837,15 +896,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/default.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1856">
-          <caret line="116" column="87" lean-forward="false" selection-start-line="116" selection-start-column="87" selection-end-line="116" selection-end-column="87" />
+        <state relative-caret-position="220">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1511545985796" expanded="false" signature="2409:2461" ph="..." />
-            <marker date="1511545985796" expanded="true" signature="2462:2800" ph="..." />
-            <marker date="1511545985796" expanded="true" signature="2537:2789" ph="..." />
-            <marker date="1511545985796" expanded="true" signature="2652:2776" ph="..." />
-            <marker date="1511545985796" expanded="true" signature="16908:16972" ph="..." />
+            <marker date="1511567809472" expanded="true" signature="16908:16972" ph="..." />
+            <marker date="1511567809472" expanded="true" signature="16908:16980" ph="..." />
           </folding>
         </state>
       </provider>
@@ -854,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,14 +916,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="18325" column="0" lean-forward="true" selection-start-line="18325" selection-start-column="0" selection-end-line="18325" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="66">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding />
         </state>
       </provider>
