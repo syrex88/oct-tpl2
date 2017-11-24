@@ -1,5 +1,6 @@
-1511297464a:1:{s:8:"ceny.htm";a:9:{s:8:"fileName";s:8:"ceny.htm";s:7:"content";s:70:"title = "Цены"
+1511541556a:1:{s:8:"ceny.htm";a:9:{s:8:"fileName";s:8:"ceny.htm";s:7:"content";s:134:"title = "Цены"
 url = "/ceny"
 layout = "inner"
 is_hidden = 0
-==";s:5:"mtime";i:1511107131;s:6:"markup";s:0:"";s:4:"code";N;s:5:"title";s:8:"Цены";s:3:"url";s:5:"/ceny";s:6:"layout";s:5:"inner";s:9:"is_hidden";s:1:"0";}}
+==
+{% component 'contenteditor' file="ceny.htm" fixture="span" %}";s:5:"mtime";i:1511540302;s:6:"markup";s:62:"{% component 'contenteditor' file="ceny.htm" fixture="span" %}";s:4:"code";N;s:5:"title";s:8:"Цены";s:3:"url";s:5:"/ceny";s:6:"layout";s:5:"inner";s:9:"is_hidden";s:1:"0";}}

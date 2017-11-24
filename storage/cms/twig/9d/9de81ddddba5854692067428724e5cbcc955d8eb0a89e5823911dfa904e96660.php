@@ -47,16 +47,20 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
         // line 16
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/css/jquery-ui.css");
         echo "\" rel=\"stylesheet\">
+    <link href=\"";
+        // line 17
+        echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/css/magnific-popup.css");
+        echo "\" rel=\"stylesheet\">
     <!-- Links -->
 
 
     <!--JS-->
     <script src=\"";
-        // line 21
+        // line 22
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/jquery.js");
         echo "\"></script>
     <script src=\"";
-        // line 22
+        // line 23
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/jquery-migrate-1.2.1.min.js");
         echo "\"></script>
 
@@ -65,26 +69,26 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
     <div style=' clear: both; text-align:center; position: relative;'>
         <a href=\"http://windows.microsoft.com/en-US/internet-explorer/..\">
             <img src=\"";
-        // line 28
+        // line 29
         echo "assets/images/ie8-panel/warning_bar_0000_us.jpg ";
         echo "\" border=\"0\" height=\"42\" width=\"820\"
                  alt=\"You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.\"/>
         </a>
     </div>
     <script src=\"";
-        // line 32
+        // line 33
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/html5shiv.js");
         echo "\"></script>
     <![endif]-->
     <script src=\"";
-        // line 34
+        // line 35
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/device.min.js");
         echo "\"></script>
     ";
-        // line 35
+        // line 36
         echo $this->env->getExtension('CMS')->assetsFunction('css');
         echo $this->env->getExtension('CMS')->displayBlock('styles');
-        // line 36
+        // line 37
         echo "</head>
 <body>
 <div class=\"page\">
@@ -112,7 +116,7 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
                                         <a href=\"/\">
                                             <span class=\"rd-navbar-brand-logo\"><img
                                                     src=\"";
-        // line 62
+        // line 63
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/images/logo.png");
         echo "\" alt=\"\"></span>
                                             <div class=\"rd-navbar-brand-body\">
@@ -129,11 +133,11 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
                                 <div class=\"rd-navbar-nav-wrap\">
                                     <!-- RD Navbar Nav -->
                                     ";
-        // line 76
+        // line 77
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('CMS')->componentFunction("menu"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 77
+        // line 78
         echo "                                    <!-- END RD Navbar Nav -->
                                 </div>
                             </div>
@@ -145,13 +149,13 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
                         <div class=\"container container-wide\">
                             <div class=\"row col-lg-8\">
                                 ";
-        // line 87
+        // line 88
         $context['__cms_component_params'] = [];
         $context['__cms_component_params']['file'] = "front-text.htm"        ;
         $context['__cms_component_params']['fixture'] = "span"        ;
         echo $this->env->getExtension('CMS')->componentFunction("contenteditor"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 88
+        // line 89
         echo "                                <div class=\"col-xs-12 col-offset-2\">
                                     <div class=\"block-adaptive\">
                                         <ul class=\"list-inline\">
@@ -171,13 +175,12 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
                                 <div>Позвоните в течении часа и получите скидку 10%</div>
                                 <div class=\"form-wrap offset-6\">
                                     ";
-        // line 106
+        // line 107
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('CMS')->componentFunction("callback"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 107
+        // line 108
         echo "                                </div>
-
                             </div>
                         </div>
                     </div>
@@ -207,15 +210,16 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
                                 <div class=\"calculate-group row\">
                                     <div class=\"title col-xs-4\">Ваша система налогооблажения:</div>
                                     <div class=\"inputs col-xs-8\">
-                                        <label for=\"no-nds\"><input value=\"1000\" type=\"radio\" name=\"nds\" checked id=\"no-nds\"><span>Упрощённая система налогооблажения (Без НДС)</span></label>
-                                        <label for=\"with-nds\"><input value=\"2000\" type=\"radio\" name=\"nds\" id=\"with-nds\"><span>Общая (с НДС)</span></label>
+                                        <label for=\"no-nds\"><input value=\"УСН\" type=\"radio\" name=\"nds\" checked
+                                                                   id=\"no-nds\"><span>Упрощённая система налогооблажения (Без НДС)</span></label>
+                                        <label for=\"with-nds\"><input value=\"Общая\" type=\"radio\" name=\"nds\" id=\"with-nds\"><span>Общая (с НДС)</span></label>
                                     </div>
                                 </div>
                                 <div class=\"calculate-group row\">
                                     <div class=\"title col-xs-4\">Примерный объём первичных документов в месяц:</div>
                                     <div class=\"inputs col-xs-8\">
                                         <div class=\"slider\"></div>
-                                        <input style=\"color: black\" type=\"text\" value=\"100\" name=\"slider-value\"
+                                        <input style=\"color: black\" type=\"text\" value=\"50\" name=\"slider-value\"
                                                id=\"slider-value\">
                                     </div>
                                 </div>
@@ -228,7 +232,8 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
                                 </div>
                                 <div class=\"calculate-group row\">
                                     <div class=\"col-xs-12\">
-                                        <button class=\"btn btn-primary\">Получить точную стоимость</button>
+                                        <a class=\"popup-button btn btn-primary cost-button\" href=\"#form-callback-popup\">Получить
+                                            точную стоимость</a>
                                     </div>
                                 </div>
                             </div>
@@ -244,9 +249,9 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
     =========================================================-->
     <main>
         ";
-        // line 167
+        // line 169
         echo $this->env->getExtension('CMS')->pageFunction();
-        // line 168
+        // line 170
         echo "    </main>
 
     <!--========================================================
@@ -259,7 +264,7 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
                 <div class=\"skew-block bg-transparent\">
                     <div class=\"image-wrap-body\">
                         <img src=\"";
-        // line 179
+        // line 181
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/images/home-8.jpg");
         echo "\" alt=\"\"
                              class=\"hidden visible-sm-block visible-md-block visible-lg-block\">
@@ -276,27 +281,19 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
                             <div class=\"col-xs-12 col-md-6 col-lg-5 pull-sm-right\">
                                 <div class=\"well-3\">
                                     <article class=\"post top-level\">
-                                        <time datetime=\"2014-04-20\">April 20, 2014</time>
-                                        <h4 class=\"post-heading\">More Than 100 <strong>Financial Planners</strong>,
-                                            <em>One</em> Philosophy</h4>
-
-                                        <div class=\"post-body\">
-                                            <p>Every single one of our financial advisors receives rigorous training in
-                                                Ric Edelman's philosophy, which is based on academic research (including
-                                                that of a Nobel laureate in Economics) and Behavioral Finance. </p>
-
-                                            <p>All of our planners believe that everyone, rich or not so rich, deserves
-                                                great financial advice and planning services. No matter which advisor
-                                                you work with, you can be confident that they'll put YOUR BEST INTERESTS
-                                                FIRST and that you are getting the best experience we have to offer.</p>
-                                            <a href=\"#\" class=\"btn btn-xs btn-default\">Read more</a>
-
-                                            <div class=\"btn-wrap\">
-                                                <a href=\"#\" class=\"btn btn-primary btn-mod-1\"><span
-                                                        class=\"fw-n\">Get Your</span>
-                                                    Free Financial
-                                                    Analysis</a>
-                                            </div>
+                                        ";
+        // line 196
+        $context['__cms_component_params'] = [];
+        $context['__cms_component_params']['file'] = "why-we.htm"        ;
+        $context['__cms_component_params']['fixture'] = "span"        ;
+        echo $this->env->getExtension('CMS')->componentFunction("contenteditor"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 197
+        echo "                                        <div class=\"btn-wrap\">
+                                            <a class=\"popup-button btn btn-primary btn-mod-1\"
+                                               href=\"#form-callback-popup\">
+                                                Бесплатная консультация
+                                            </a>
                                         </div>
                                     </article>
                                 </div>
@@ -310,39 +307,23 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
             <section class=\"well-3 well-3-mod-1\">
                 <div class=\"container container-wide\">
                     <div class=\"row child-offset-1\">
-                        <div class=\"col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lg-4\">
+                        <div class=\"col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lg-5\">
                             <div class=\"block-adaptive\">
-                                <h2>Sign Up</h2>
+                                <h2>Перезвонить?</h2>
 
-                                <p class=\"text-style-2\"><strong>Get subscriber only</strong> insights <span
-                                        class=\"font-family-secondary-1 fw-b\"><em>&amp;</em></span> news delivered <span
-                                        class=\"font-family-secondary-1 fw-b\"><em>by</em></span> <strong>John
-                                    Doe</strong></p>
-
-                                <form class=\"rd-mailform rd-mailform-inline rd-mailform-dark\" method=\"post\">
-                                    <!-- RD Mailform Type -->
-                                    <input type=\"hidden\" name=\"form-type\" value=\"subscribe\"/>
-                                    <!-- END RD Mailform Type -->
-                                    <div class=\"form-group\">
-                                        <label class=\"form-label\" data-add-placeholder for=\"mailform-subscribe-email\">Enter
-                                            your
-                                            e-mail </label>
-                                        <input id=\"mailform-subscribe-email\"
-                                               type=\"text\"
-                                               name=\"email\"
-                                               data-constraints=\"@NotEmpty @Email\"/>
-
-                                    </div>
-                                    <div class=\"control-absolute\">
-                                        <button class=\"btn btn-default-variant-1\" type=\"submit\">Submit</button>
-                                        <div class=\"mfInfo\"></div>
-                                    </div>
-                                </form>
-                            </div>
+                                <p class=\"text-style-2\">Введите свой номер телефона и мы перезвоним Вам в течении 15
+                                    мин</p>
+                                ";
+        // line 221
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('CMS')->componentFunction("callbackFooter"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 222
+        echo "                            </div>
                         </div>
                         <div class=\"col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lg-5 pull-md-right\">
                             <div class=\"block-adaptive\">
-                                <h2>Contacts</h2>
+                                <h2>Контакты</h2>
 
                             </div>
                             <div class=\"card\">
@@ -350,42 +331,21 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
                                     <div class=\"box__left\">
                                         <div class=\"card-image\">
                                             <img src=\"";
-        // line 267
+        // line 233
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/images/home-9.png");
         echo "\" alt=\"\" width=\"130\"
                                                  height=\"164\">
                                         </div>
                                     </div>
                                     <div class=\"box__body\">
-                                        <div class=\"card-header\">
-                                            <p class=\"h4 font-family-sec-1 text-primary\">John Doe Jr.</p>
-
-                                            <p class=\"card-header-caption\">Financial Advisor</p>
-                                        </div>
-                                        <div class=\"card-body\">
-                                            <dl>
-                                                <dt>Website</dt>
-                                                <dd><a href=\"#\" class=\"text-primary\">johndoe.com</a></dd>
-                                            </dl>
-                                            <dl>
-                                                <dt>Email</dt>
-                                                <dd><a href=\"mailto:#\" class=\"text-primary\">johndoe@demolink.org</a>
-                                                </dd>
-                                            </dl>
-                                            <dl>
-                                                <dt>Phone</dt>
-                                                <dd><a href=\"callto:#\">+1 959 603 6035</a></dd>
-                                            </dl>
-                                            <dl>
-                                                <dt>Address</dt>
-                                                <dd>
-                                                    <address>222 Fashion Lane, Ste.<br>
-                                                        207 Tustin, CA 92780
-                                                    </address>
-                                                </dd>
-                                            </dl>
-                                        </div>
-                                    </div>
+                                        ";
+        // line 238
+        $context['__cms_component_params'] = [];
+        $context['__cms_component_params']['file'] = "contact-card-text.htm"        ;
+        echo $this->env->getExtension('CMS')->componentFunction("contenteditor"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 239
+        echo "                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -398,71 +358,28 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
             <div class=\"boxed-wrap boxed-wrap-variant-1 relative-shift-1\">
                 <div class=\"well-4 bg-primary\">
                     <div class=\"container container-wide\">
-                        <div class=\"row\">
-                            <div class=\"col-xs-12\">
-                                <p class=\"rights\">
-                                    &copy; <span id=\"copyright-year\"></span> All rights reserved.
-                                    <br class=\"hidden-sm hidden-md hidden-lg\">
-                                    <a href=\"index-8.html\">Privacy Policy</a>
-                                    More Financial Advisor Templates at <a rel=\"nofollow\"
-                                                                           href=\"http://www.templatemonster.com/category.php?category=130&type=1\"
-                                                                           target=\"_blank\">TemplateMonster.com</a>
-                                </p>
-                            </div>
-                        </div>
                         <div class=\"row offset-3 child-offset-1\">
-                            <div class=\"col-xs-12 col-md-7\">
+                            <div class=\"col-xs-12 col-md-4\">
                                 <div class=\"inset-2\">
-                                    <p class=\"small\">
-                                        Investments products and services available only to residents of : Arizona - AZ,
-                                        California - CA,
-                                        Hawaii
-                                        - HI, Idaho - ID, New Jersey - NJ, New Mexico - NM, Oregon - OR, Washington - WA
-                                        Securities and
-                                        Investment Advice through John Doe & Company, A registered broker/dealer and
-                                        Investment Advisor,
-                                        Member
-                                        FINRA and SIPC. 101 Serious Road, Fincity, FL 32707 Tel: <a href=\"callto:#\">(959)
-                                        603- 6035</a>.|
-                                        John
-                                        Doe Financial Advisors
-                                        is not an affiliate of Wall Street Company.
-                                    </p>
-
-                                    <p class=\"small\">
-                                        All other trademarks and copyrights are the properties of their respective
-                                        holders.This website
-                                        provides
-                                        information related to the subjects covered. Before making any financial or
-                                        legal decisions, a
-                                        professional should be consulted.
-                                    </p>
-                                </div>
+                                    ";
+        // line 255
+        $context['__cms_component_params'] = [];
+        $context['__cms_component_params']['file'] = "footer-text.htm"        ;
+        $context['__cms_component_params']['fixture'] = "span"        ;
+        echo $this->env->getExtension('CMS')->componentFunction("contenteditor"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 256
+        echo "                                </div>
                             </div>
-                            <div class=\"col-xs-12 col-md-5\">
+                            <div class=\"col-xs-12 col-md-8\">
                                 <div class=\"list-container\">
-                                    <div class=\"list-wrap\">
-                                        <h6>Investment Help</h6>
-                                        <ul class=\"marked-list marked-list-xs marked-list-dash\">
-                                            <li><a href=\"#\">Stocks, Bonds &amp; Mutual Funds</a></li>
-                                            <li><a href=\"#\">Retirement &amp; College Savings</a></li>
-                                            <li><a href=\"#\">Insurance &amp; Annuities</a></li>
-                                            <li><a href=\"#\">Wealth Management</a></li>
-                                            <li><a href=\"#\">Business Owners</a></li>
-                                            <li><a href=\"#\">Cash &amp; Credit</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class=\"list-wrap\">
-                                        <h6>Financial Planning</h6>
-                                        <ul class=\"marked-list marked-list-xs marked-list-dash\">
-                                            <li><a href=\"#\">Investment Management</a></li>
-                                            <li><a href=\"#\">Retirement Planning</a></li>
-                                            <li><a href=\"#\">Long Term Care</a></li>
-                                            <li><a href=\"#\">Estate Planning</a></li>
-                                            <li><a href=\"#\">Social Security</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                    ";
+        // line 260
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('CMS')->componentFunction("menuFooter"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 261
+        echo "                                </div>
                             </div>
                         </div>
                     </div>
@@ -475,30 +392,38 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src=\"";
-        // line 389
+        // line 273
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/bootstrap.min.js");
         echo "\"></script>
 <script src=\"";
-        // line 390
+        // line 274
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/vide.js");
         echo "\"></script>
 <script src=\"";
-        // line 391
+        // line 275
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/tm-scripts.js");
         echo "\"></script>
+<div id=\"form-callback-popup\" class=\"popup-dialog zoom-anim-dialog mfp-hide\">Введите свой номер телефона и мы перезвоним
+    Вам в течении 15 мин";
+        // line 277
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('CMS')->componentFunction("callbackPopup"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 278
+        echo "</div>
 <!-- </script> -->
 ";
-        // line 393
+        // line 280
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css">'.PHP_EOL;
-        // line 394
+        // line 281
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 395
+        // line 282
         echo "</body>
 </html>";
     }
@@ -515,7 +440,7 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
 
     public function getDebugInfo()
     {
-        return array (  502 => 395,  499 => 394,  492 => 393,  487 => 391,  483 => 390,  479 => 389,  354 => 267,  263 => 179,  250 => 168,  248 => 167,  198 => 119,  192 => 118,  179 => 107,  175 => 106,  155 => 88,  149 => 87,  137 => 77,  133 => 76,  116 => 62,  88 => 36,  85 => 35,  81 => 34,  76 => 32,  69 => 28,  60 => 22,  56 => 21,  48 => 16,  44 => 15,  40 => 14,  35 => 12,  29 => 9,  19 => 1,);
+        return array (  427 => 282,  424 => 281,  417 => 280,  413 => 278,  409 => 277,  404 => 275,  400 => 274,  396 => 273,  382 => 261,  378 => 260,  372 => 256,  366 => 255,  348 => 239,  343 => 238,  335 => 233,  322 => 222,  318 => 221,  292 => 197,  286 => 196,  268 => 181,  255 => 170,  253 => 169,  201 => 119,  195 => 118,  183 => 108,  179 => 107,  159 => 89,  153 => 88,  141 => 78,  137 => 77,  120 => 63,  92 => 37,  89 => 36,  85 => 35,  80 => 33,  73 => 29,  64 => 23,  60 => 22,  52 => 17,  48 => 16,  44 => 15,  40 => 14,  35 => 12,  29 => 9,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -544,6 +469,7 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
     <link href=\"{{ 'assets/css/icheck/flat/grey.css' |theme }}\" rel=\"stylesheet\">
     <link href=\"{{ 'assets/css/jquery-ui-slider-pips.css' |theme }}\" rel=\"stylesheet\">
     <link href=\"{{ 'assets/css/jquery-ui.css' |theme }}\" rel=\"stylesheet\">
+    <link href=\"{{ 'assets/css/magnific-popup.css' |theme }}\" rel=\"stylesheet\">
     <!-- Links -->
 
 
@@ -635,7 +561,6 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
                                 <div class=\"form-wrap offset-6\">
                                     {% component \"callback\" %}
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -658,15 +583,16 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
                                 <div class=\"calculate-group row\">
                                     <div class=\"title col-xs-4\">Ваша система налогооблажения:</div>
                                     <div class=\"inputs col-xs-8\">
-                                        <label for=\"no-nds\"><input value=\"1000\" type=\"radio\" name=\"nds\" checked id=\"no-nds\"><span>Упрощённая система налогооблажения (Без НДС)</span></label>
-                                        <label for=\"with-nds\"><input value=\"2000\" type=\"radio\" name=\"nds\" id=\"with-nds\"><span>Общая (с НДС)</span></label>
+                                        <label for=\"no-nds\"><input value=\"УСН\" type=\"radio\" name=\"nds\" checked
+                                                                   id=\"no-nds\"><span>Упрощённая система налогооблажения (Без НДС)</span></label>
+                                        <label for=\"with-nds\"><input value=\"Общая\" type=\"radio\" name=\"nds\" id=\"with-nds\"><span>Общая (с НДС)</span></label>
                                     </div>
                                 </div>
                                 <div class=\"calculate-group row\">
                                     <div class=\"title col-xs-4\">Примерный объём первичных документов в месяц:</div>
                                     <div class=\"inputs col-xs-8\">
                                         <div class=\"slider\"></div>
-                                        <input style=\"color: black\" type=\"text\" value=\"100\" name=\"slider-value\"
+                                        <input style=\"color: black\" type=\"text\" value=\"50\" name=\"slider-value\"
                                                id=\"slider-value\">
                                     </div>
                                 </div>
@@ -679,7 +605,8 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
                                 </div>
                                 <div class=\"calculate-group row\">
                                     <div class=\"col-xs-12\">
-                                        <button class=\"btn btn-primary\">Получить точную стоимость</button>
+                                        <a class=\"popup-button btn btn-primary cost-button\" href=\"#form-callback-popup\">Получить
+                                            точную стоимость</a>
                                     </div>
                                 </div>
                             </div>
@@ -721,27 +648,12 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
                             <div class=\"col-xs-12 col-md-6 col-lg-5 pull-sm-right\">
                                 <div class=\"well-3\">
                                     <article class=\"post top-level\">
-                                        <time datetime=\"2014-04-20\">April 20, 2014</time>
-                                        <h4 class=\"post-heading\">More Than 100 <strong>Financial Planners</strong>,
-                                            <em>One</em> Philosophy</h4>
-
-                                        <div class=\"post-body\">
-                                            <p>Every single one of our financial advisors receives rigorous training in
-                                                Ric Edelman's philosophy, which is based on academic research (including
-                                                that of a Nobel laureate in Economics) and Behavioral Finance. </p>
-
-                                            <p>All of our planners believe that everyone, rich or not so rich, deserves
-                                                great financial advice and planning services. No matter which advisor
-                                                you work with, you can be confident that they'll put YOUR BEST INTERESTS
-                                                FIRST and that you are getting the best experience we have to offer.</p>
-                                            <a href=\"#\" class=\"btn btn-xs btn-default\">Read more</a>
-
-                                            <div class=\"btn-wrap\">
-                                                <a href=\"#\" class=\"btn btn-primary btn-mod-1\"><span
-                                                        class=\"fw-n\">Get Your</span>
-                                                    Free Financial
-                                                    Analysis</a>
-                                            </div>
+                                        {% component 'contenteditor' file=\"why-we.htm\" fixture=\"span\" %}
+                                        <div class=\"btn-wrap\">
+                                            <a class=\"popup-button btn btn-primary btn-mod-1\"
+                                               href=\"#form-callback-popup\">
+                                                Бесплатная консультация
+                                            </a>
                                         </div>
                                     </article>
                                 </div>
@@ -755,39 +667,18 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
             <section class=\"well-3 well-3-mod-1\">
                 <div class=\"container container-wide\">
                     <div class=\"row child-offset-1\">
-                        <div class=\"col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lg-4\">
+                        <div class=\"col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lg-5\">
                             <div class=\"block-adaptive\">
-                                <h2>Sign Up</h2>
+                                <h2>Перезвонить?</h2>
 
-                                <p class=\"text-style-2\"><strong>Get subscriber only</strong> insights <span
-                                        class=\"font-family-secondary-1 fw-b\"><em>&amp;</em></span> news delivered <span
-                                        class=\"font-family-secondary-1 fw-b\"><em>by</em></span> <strong>John
-                                    Doe</strong></p>
-
-                                <form class=\"rd-mailform rd-mailform-inline rd-mailform-dark\" method=\"post\">
-                                    <!-- RD Mailform Type -->
-                                    <input type=\"hidden\" name=\"form-type\" value=\"subscribe\"/>
-                                    <!-- END RD Mailform Type -->
-                                    <div class=\"form-group\">
-                                        <label class=\"form-label\" data-add-placeholder for=\"mailform-subscribe-email\">Enter
-                                            your
-                                            e-mail </label>
-                                        <input id=\"mailform-subscribe-email\"
-                                               type=\"text\"
-                                               name=\"email\"
-                                               data-constraints=\"@NotEmpty @Email\"/>
-
-                                    </div>
-                                    <div class=\"control-absolute\">
-                                        <button class=\"btn btn-default-variant-1\" type=\"submit\">Submit</button>
-                                        <div class=\"mfInfo\"></div>
-                                    </div>
-                                </form>
+                                <p class=\"text-style-2\">Введите свой номер телефона и мы перезвоним Вам в течении 15
+                                    мин</p>
+                                {% component \"callbackFooter\" %}
                             </div>
                         </div>
                         <div class=\"col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lg-5 pull-md-right\">
                             <div class=\"block-adaptive\">
-                                <h2>Contacts</h2>
+                                <h2>Контакты</h2>
 
                             </div>
                             <div class=\"card\">
@@ -799,34 +690,7 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
                                         </div>
                                     </div>
                                     <div class=\"box__body\">
-                                        <div class=\"card-header\">
-                                            <p class=\"h4 font-family-sec-1 text-primary\">John Doe Jr.</p>
-
-                                            <p class=\"card-header-caption\">Financial Advisor</p>
-                                        </div>
-                                        <div class=\"card-body\">
-                                            <dl>
-                                                <dt>Website</dt>
-                                                <dd><a href=\"#\" class=\"text-primary\">johndoe.com</a></dd>
-                                            </dl>
-                                            <dl>
-                                                <dt>Email</dt>
-                                                <dd><a href=\"mailto:#\" class=\"text-primary\">johndoe@demolink.org</a>
-                                                </dd>
-                                            </dl>
-                                            <dl>
-                                                <dt>Phone</dt>
-                                                <dd><a href=\"callto:#\">+1 959 603 6035</a></dd>
-                                            </dl>
-                                            <dl>
-                                                <dt>Address</dt>
-                                                <dd>
-                                                    <address>222 Fashion Lane, Ste.<br>
-                                                        207 Tustin, CA 92780
-                                                    </address>
-                                                </dd>
-                                            </dl>
-                                        </div>
+                                        {% component 'contenteditor' file=\"contact-card-text.htm\"  %}
                                     </div>
                                 </div>
                             </div>
@@ -840,70 +704,15 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
             <div class=\"boxed-wrap boxed-wrap-variant-1 relative-shift-1\">
                 <div class=\"well-4 bg-primary\">
                     <div class=\"container container-wide\">
-                        <div class=\"row\">
-                            <div class=\"col-xs-12\">
-                                <p class=\"rights\">
-                                    &copy; <span id=\"copyright-year\"></span> All rights reserved.
-                                    <br class=\"hidden-sm hidden-md hidden-lg\">
-                                    <a href=\"index-8.html\">Privacy Policy</a>
-                                    More Financial Advisor Templates at <a rel=\"nofollow\"
-                                                                           href=\"http://www.templatemonster.com/category.php?category=130&type=1\"
-                                                                           target=\"_blank\">TemplateMonster.com</a>
-                                </p>
-                            </div>
-                        </div>
                         <div class=\"row offset-3 child-offset-1\">
-                            <div class=\"col-xs-12 col-md-7\">
+                            <div class=\"col-xs-12 col-md-4\">
                                 <div class=\"inset-2\">
-                                    <p class=\"small\">
-                                        Investments products and services available only to residents of : Arizona - AZ,
-                                        California - CA,
-                                        Hawaii
-                                        - HI, Idaho - ID, New Jersey - NJ, New Mexico - NM, Oregon - OR, Washington - WA
-                                        Securities and
-                                        Investment Advice through John Doe & Company, A registered broker/dealer and
-                                        Investment Advisor,
-                                        Member
-                                        FINRA and SIPC. 101 Serious Road, Fincity, FL 32707 Tel: <a href=\"callto:#\">(959)
-                                        603- 6035</a>.|
-                                        John
-                                        Doe Financial Advisors
-                                        is not an affiliate of Wall Street Company.
-                                    </p>
-
-                                    <p class=\"small\">
-                                        All other trademarks and copyrights are the properties of their respective
-                                        holders.This website
-                                        provides
-                                        information related to the subjects covered. Before making any financial or
-                                        legal decisions, a
-                                        professional should be consulted.
-                                    </p>
+                                    {% component 'contenteditor' file=\"footer-text.htm\" fixture=\"span\" %}
                                 </div>
                             </div>
-                            <div class=\"col-xs-12 col-md-5\">
+                            <div class=\"col-xs-12 col-md-8\">
                                 <div class=\"list-container\">
-                                    <div class=\"list-wrap\">
-                                        <h6>Investment Help</h6>
-                                        <ul class=\"marked-list marked-list-xs marked-list-dash\">
-                                            <li><a href=\"#\">Stocks, Bonds &amp; Mutual Funds</a></li>
-                                            <li><a href=\"#\">Retirement &amp; College Savings</a></li>
-                                            <li><a href=\"#\">Insurance &amp; Annuities</a></li>
-                                            <li><a href=\"#\">Wealth Management</a></li>
-                                            <li><a href=\"#\">Business Owners</a></li>
-                                            <li><a href=\"#\">Cash &amp; Credit</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class=\"list-wrap\">
-                                        <h6>Financial Planning</h6>
-                                        <ul class=\"marked-list marked-list-xs marked-list-dash\">
-                                            <li><a href=\"#\">Investment Management</a></li>
-                                            <li><a href=\"#\">Retirement Planning</a></li>
-                                            <li><a href=\"#\">Long Term Care</a></li>
-                                            <li><a href=\"#\">Estate Planning</a></li>
-                                            <li><a href=\"#\">Social Security</a></li>
-                                        </ul>
-                                    </div>
+                                    {% component \"menuFooter\" %}
                                 </div>
                             </div>
                         </div>
@@ -919,6 +728,9 @@ class __TwigTemplate_02e687f2ab3573fee32fcb6d015737db66b2fdbea3937d7a9a975f38965
 <script src=\"{{ 'assets/js/bootstrap.min.js' |theme }}\"></script>
 <script src=\"{{ 'assets/js/vide.js' |theme }}\"></script>
 <script src=\"{{ 'assets/js/tm-scripts.js' |theme }}\"></script>
+<div id=\"form-callback-popup\" class=\"popup-dialog zoom-anim-dialog mfp-hide\">Введите свой номер телефона и мы перезвоним
+    Вам в течении 15 мин{% component \"callbackPopup\" %}
+</div>
 <!-- </script> -->
 {% framework extras %}
 {% scripts %}
