@@ -12,9 +12,7 @@ numberOfLevels = 2
 rules[phone] = "required"
 messages_success = "Мы с Вами свяжемся в ближайшее время!"
 messages_errors = "There were errors with your submission"
-mail_enabled = 1
-mail_subject = "Форма связаться с нами"
-mail_recipients[] = "syrex88@gmail.com"
+mail_enabled = 0
 inline_errors = "disabled"
 js_on_error = "console.log(1)"
 sanitize_data = "disabled"
@@ -115,9 +113,8 @@ recaptcha_size = "normal"
                                             <span class="rd-navbar-brand-logo"><img
                                                     src="{{ 'assets/images/logo.png' | theme }}" alt=""></span>
                                             <div class="rd-navbar-brand-body">
-                                                <span class="brand-name">FinAdvision, <span
-                                                        class="text-light">Inc</span></span>
-                                                <span class="brand-slogan">Your trusted financial advisor</span>
+                                                <span class="brand-name">Business</span>
+                                                <span class="brand-name-2 text-light">Strategies</span>
                                             </div>
                                         </a>
                                     </div>
@@ -137,33 +134,37 @@ recaptcha_size = "normal"
 
                     <div class="header-body">
                         <div class="container container-wide">
-                            <div class="row col-lg-8">
+                            <div class="row col-md-8">
                                 {% component 'contenteditor' file="front-text.htm" fixture="span" %}
-                                <div class="col-xs-12 col-offset-2">
-                                    <div class="block-adaptive">
-                                        <ul class="list-inline">
-                                            <li><a href="#" class="icon icon-xs icon-default fa-google-plus"></a></li>
-                                            <li><a href="#" class="icon icon-xs icon-default fa-twitter"></a></li>
-                                            <li><a href="#" class="icon icon-xs icon-default fa-facebook"></a></li>
-                                            <li><a href="#" class="icon icon-xs icon-default fa-pinterest"></a></li>
-                                            <li><a href="#" class="icon icon-xs icon-default fa-linkedin"></a></li>
-                                        </ul>
+                            </div>
+                            <div class="row col-md-4 form-callback-wrapper">
+                                <div class="block-adaptive">
+                                    <div class="form-callback">
+                                        <div class="h1-form-callback">Нет времени смотреть сайт?</div>
+                                        <div class="h2-form-callback">Давайте мы вам перезвоним и всё расскажем</div>
+                                        <div class="sale-label">Акция</div>
+                                        <div class="sale-text">Позвоните в течении часа и получите скидку 10%</div>
+                                        <div class="form-wrap offset-6">
+                                            {% component "callback" %}
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row col-lg-4">
-                                <div>Нет времени смотреть сайт?</div>
-                                <div>Давайте мы вам перезвоним и всё расскажем</div>
-                                <div>Акция</div>
-                                <div>Позвоните в течении часа и получите скидку 10%</div>
-                                <div class="form-wrap offset-6">
-                                    {% component "callback" %}
+                            <div class="hidden col-xs-12 col-offset-2">
+                                <div class="block-adaptive">
+                                    <ul class="list-inline">
+                                        <li><a href="#" class="icon icon-xs icon-default fa-google-plus"></a></li>
+                                        <li><a href="#" class="icon icon-xs icon-default fa-twitter"></a></li>
+                                        <li><a href="#" class="icon icon-xs icon-default fa-facebook"></a></li>
+                                        <li><a href="#" class="icon icon-xs icon-default fa-pinterest"></a></li>
+                                        <li><a href="#" class="icon icon-xs icon-default fa-linkedin"></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="well-1 border-radius-bottom-8 bg-white">
+                <div class="well-1 what-we-doing border-radius-bottom-8 bg-white">
                     <div class="container container-wide">
                         <div class="block-adaptive">
                             <h2>Что мы делаем?</h2>
@@ -172,39 +173,45 @@ recaptcha_size = "normal"
                     </div>
                 </div>
             </div>
-            <div class="well-1 border-radius-bottom-8">
+            <div class="green-background-fix calculate-cost well-1 border-radius-bottom-8">
                 <div class="container container-wide">
                     <div class="block-adaptive">
                         <h2 style="color: white">Рассчитайте стоимость</h2>
-                        <div class="row border-radius-8" style="background: #2e3135; color: white">
-                            <div class="col-xs-12">
-                                <div class="calculate-group row">
-                                    <div class="title col-xs-4">Ваша система налогооблажения:</div>
-                                    <div class="inputs col-xs-8">
-                                        <label for="no-nds"><input value="УСН" type="radio" name="nds" checked
-                                                                   id="no-nds"><span>Упрощённая система налогооблажения (Без НДС)</span></label>
-                                        <label for="with-nds"><input value="Общая" type="radio" name="nds" id="with-nds"><span>Общая (с НДС)</span></label>
+                        <div class="row">
+                            <div class="calculate-block">
+                                <div class="col-xs-12 border-radius-8" style="background: #2e3135; color: white">
+                                    <div class="calculate-group row">
+                                        <div class="title col-xs-12 col-sm-4">Ваша система налогооблажения:</div>
+                                        <div class="inputs radio-nds col-xs-12 col-sm-8">
+                                            <label for="no-nds"><input value="УСН" type="radio" name="nds" checked
+                                                                       id="no-nds"><span>Упрощённая (Без НДС)</span></label>
+                                            <label for="with-nds"><input value="Общая" type="radio" name="nds"
+                                                                         id="with-nds"><span>Общая (с НДС)</span></label>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="calculate-group row">
-                                    <div class="title col-xs-4">Примерный объём первичных документов в месяц:</div>
-                                    <div class="inputs col-xs-8">
-                                        <div class="slider"></div>
-                                        <input style="color: black" type="text" value="50" name="slider-value"
-                                               id="slider-value">
+                                    <div class="calculate-group row">
+                                        <div class="title col-xs-12 col-sm-4">Примерный объём <i>первичных документов</i> в
+                                            месяц:
+                                        </div>
+                                        <div class="inputs slider-pips-wrapper col-xs-12 col-sm-8">
+                                            <div class="slider"></div>
+                                            <input style="color: black" type="text" value="50" name="slider-value"
+                                                   id="slider-value">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="line" style="background: #272b2e; height: 1px; width: 100%"></div>
-                                <div class="calculate-group row">
-                                    <div class="title col-xs-4">Примерная стоимость:</div>
-                                    <div class="inputs col-xs-8">
-                                        <span class="cost-value">3950</span> ₽
+                                    <div class="line"></div>
+                                    <div class="calculate-group row">
+                                        <div class="title title-cost col-xs-12 col-sm-4">Примерная стоимость:</div>
+                                        <div class="container-cost-value inputs col-xs-12 col-sm-8">
+                                            <span class="cost-value">3950</span> <span class="rubl">₽</span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="calculate-group row">
-                                    <div class="col-xs-12">
-                                        <a class="popup-button btn btn-primary cost-button" href="#form-callback-popup">Получить
-                                            точную стоимость</a>
+                                    <div class="calculate-group row">
+                                        <div class="col-xs-12">
+                                            <a class="popup-button btn btn-primary cost-button"
+                                               href="#form-callback-popup">Получить
+                                                точную стоимость</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -269,8 +276,8 @@ recaptcha_size = "normal"
                             <div class="block-adaptive">
                                 <h2>Перезвонить?</h2>
 
-                                <p class="text-style-2">Введите свой номер телефона и мы перезвоним Вам в течении 15
-                                    мин</p>
+                                <p class="text-style-2">Введите свой <i>номер телефона</i> и мы <b>перезвоним Вам</b> в течении <i><b>15
+                                    минут</b></i></p>
                                 {% component "callbackFooter" %}
                             </div>
                         </div>
@@ -288,7 +295,7 @@ recaptcha_size = "normal"
                                         </div>
                                     </div>
                                     <div class="box__body">
-                                        {% component 'contenteditor' file="contact-card-text.htm"  %}
+                                        {% component 'contenteditor' file="contact-card-text.htm" fixture="span" %}
                                     </div>
                                 </div>
                             </div>
@@ -303,12 +310,12 @@ recaptcha_size = "normal"
                 <div class="well-4 bg-primary">
                     <div class="container container-wide">
                         <div class="row offset-3 child-offset-1">
-                            <div class="col-xs-12 col-md-4">
-                                <div class="inset-2">
+                            <div class="col-xs-12 col-md-4 col-lg-3">
+                                <div class="inset-2 footer-text">
                                     {% component 'contenteditor' file="footer-text.htm" fixture="span" %}
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-md-8">
+                            <div class="col-xs-12 col-md-8 col-lg-9">
                                 <div class="list-container">
                                     {% component "menuFooter" %}
                                 </div>
