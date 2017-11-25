@@ -3,3 +3,4 @@
 .idea/*
 storage/*
 install_files/*
+config/database.php

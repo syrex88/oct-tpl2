@@ -2,31 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c935d533-3dd4-4891-a728-5e4bc47374a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/40/a1/40a15c64ad673f8b2f8a242676074c27" afterPath="$PROJECT_DIR$/storage/framework/cache/40/a1/40a15c64ad673f8b2f8a242676074c27" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robots.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/36/74/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/36/74/default.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/5c/1b/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/5c/1b/default.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/bb/9f/inner.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/bb/9f/inner.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/e6/cf/registraciya-ooo.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/e6/cf/registraciya-ooo.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/5b/5b964fd7d0dc1d66e7760cf5fdd9b7f9190d02a36032e4cbb9a1b7f2bd09f527.php" afterPath="$PROJECT_DIR$/storage/cms/twig/5b/5b964fd7d0dc1d66e7760cf5fdd9b7f9190d02a36032e4cbb9a1b7f2bd09f527.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/a2/a2c5a114b0075298707303d60ad8374d61a79cc643bb7ea8cebe7c58a38b016c.php" afterPath="$PROJECT_DIR$/storage/cms/twig/a2/a2c5a114b0075298707303d60ad8374d61a79cc643bb7ea8cebe7c58a38b016c.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/f2/f2f6aebf896ce8ebe66c6b1842fe55f96bafebf6932268c7ca2b915e6e40f2a7.php" afterPath="$PROJECT_DIR$/storage/cms/twig/f2/f2f6aebf896ce8ebe66c6b1842fe55f96bafebf6932268c7ca2b915e6e40f2a7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/f7/f787d27d12cdc534b902aa3992b7f387d75f7953bfd9f3ace0851ecdf20c7122.php" afterPath="$PROJECT_DIR$/storage/cms/twig/f7/f787d27d12cdc534b902aa3992b7f387d75f7953bfd9f3ace0851ecdf20c7122.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/02/70/0270cd0bf14e20e9095012f7f8c32588" afterPath="$PROJECT_DIR$/storage/framework/cache/02/70/0270cd0bf14e20e9095012f7f8c32588" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/22/ba/22baef76c45401592f28c9c6d9a8ac3e" afterPath="$PROJECT_DIR$/storage/framework/cache/22/ba/22baef76c45401592f28c9c6d9a8ac3e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/3b/af/3bafcc843cf10d64a5babca8b3ec362a" afterPath="$PROJECT_DIR$/storage/framework/cache/3b/af/3bafcc843cf10d64a5babca8b3ec362a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" afterPath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5d/ee/5deee0c73dd2d7ccb344aef37861edf0" afterPath="$PROJECT_DIR$/storage/framework/cache/5d/ee/5deee0c73dd2d7ccb344aef37861edf0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" afterPath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5f/b5/5fb5d39c44648c4be72a0a0a44a79414" afterPath="$PROJECT_DIR$/storage/framework/cache/5f/b5/5fb5d39c44648c4be72a0a0a44a79414" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" afterPath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/61/89/61890d6dc1fc4f422b6036d7665b48b3" afterPath="$PROJECT_DIR$/storage/framework/cache/61/89/61890d6dc1fc4f422b6036d7665b48b3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/64/41/644130fa47377b1350aab4f5aff9505a" afterPath="$PROJECT_DIR$/storage/framework/cache/64/41/644130fa47377b1350aab4f5aff9505a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/6f/90/6f90f5fe3fcbc48ab011aadbb3fefbbd" afterPath="$PROJECT_DIR$/storage/framework/cache/6f/90/6f90f5fe3fcbc48ab011aadbb3fefbbd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/75/06/750621f541f13e163e7277181fdb4bd0" afterPath="$PROJECT_DIR$/storage/framework/cache/75/06/750621f541f13e163e7277181fdb4bd0" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/79/77/79770e0cf249f5d09f6a97af85adc48a" afterPath="$PROJECT_DIR$/storage/framework/cache/79/77/79770e0cf249f5d09f6a97af85adc48a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/86/70/86707c8bb0e74371e894d8bc50a09e98" afterPath="$PROJECT_DIR$/storage/framework/cache/86/70/86707c8bb0e74371e894d8bc50a09e98" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/91/aa/91aaeb3d3720451f3d8056ef80f92eff" afterPath="$PROJECT_DIR$/storage/framework/cache/91/aa/91aaeb3d3720451f3d8056ef80f92eff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/a1/f7/a1f74de7779d5838a058998a9dfe30db" afterPath="$PROJECT_DIR$/storage/framework/cache/a1/f7/a1f74de7779d5838a058998a9dfe30db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/b2/39/b239daf2ca9b54cf12054d6c0f0727a2" afterPath="$PROJECT_DIR$/storage/framework/cache/b2/39/b239daf2ca9b54cf12054d6c0f0727a2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/d0/20/d020ab2bc22fbce293b48c24c3f57b1c" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/20/d020ab2bc22fbce293b48c24c3f57b1c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/dc/0e/dc0e744d7cfbdb9478dbc580341ff7cc" afterPath="$PROJECT_DIR$/storage/framework/cache/dc/0e/dc0e744d7cfbdb9478dbc580341ff7cc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/df/59/df599dc9221ea665c782206927a85f2a" afterPath="$PROJECT_DIR$/storage/framework/cache/df/59/df599dc9221ea665c782206927a85f2a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm" afterPath="$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/layouts/default.htm" afterPath="$PROJECT_DIR$/themes/b-s/layouts/default.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/layouts/inner.htm" afterPath="$PROJECT_DIR$/themes/b-s/layouts/inner.htm" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,47 +40,72 @@
       <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="309">
+              <caret line="218" column="68" lean-forward="true" selection-start-line="216" selection-start-column="43" selection-end-line="218" selection-end-column="68" />
               <folding>
-                <marker date="1511567809472" expanded="true" signature="16908:16972" ph="..." />
-                <marker date="1511567809472" expanded="true" signature="16908:16980" ph="..." />
+                <marker date="1511569450332" expanded="false" signature="2584:2636" ph="..." />
+                <marker date="1511569450332" expanded="true" signature="2637:2975" ph="..." />
+                <marker date="1511569450332" expanded="true" signature="2712:2964" ph="..." />
+                <marker date="1511569450332" expanded="true" signature="2827:2951" ph="..." />
+                <marker date="1511569450332" expanded="false" signature="8413:8425" ph="..." />
+                <marker date="1511569450332" expanded="false" signature="8632:8665" ph="..." />
+                <marker date="1511569450332" expanded="false" signature="10026:10038" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="what-we-doing.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="554">
+              <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact-card-text.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/b-s/content/contact-card-text.htm">
+      <file leaf-file-name="inner.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/inner.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            <state relative-caret-position="660">
+              <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
               <folding>
-                <marker date="1511567751324" expanded="true" signature="992:1005" ph="..." />
-                <marker date="1511567751324" expanded="true" signature="992:1015" ph="..." />
+                <marker date="1511569520603" expanded="false" signature="2555:2607" ph="..." />
+                <marker date="1511569520603" expanded="true" signature="2608:2946" ph="..." />
+                <marker date="1511569520603" expanded="true" signature="2683:2935" ph="..." />
+                <marker date="1511569520603" expanded="true" signature="2798:2922" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer-text.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/b-s/content/footer-text.htm">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="567" lean-forward="false" selection-start-line="0" selection-start-column="567" selection-end-line="0" selection-end-column="567" />
-              <folding>
-                <element signature="e#321#326#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-660">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="robots.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robots.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,7 +113,7 @@
       <file leaf-file-name="tm-scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18260">
+            <state relative-caret-position="481">
               <caret line="830" column="0" lean-forward="false" selection-start-line="830" selection-start-column="0" selection-end-line="830" selection-end-column="0" />
               <folding />
             </state>
@@ -120,7 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>service-list</find>
       <find>.ui-slider-horizontal</find>
       <find>nowrap</find>
       <find>.ui-slider-pips .ui-slider-label</find>
@@ -150,6 +174,7 @@
       <find>calculate-costcalculate-cost</find>
       <find>toTop</find>
       <find>.rd-navbar-static .rd-navbar-nav &gt; li &gt; a</find>
+      <find>btn</find>
     </findStrings>
     <replaceStrings>
       <replace>include('/themes/b-s/assets/</replace>
@@ -199,7 +224,6 @@
         <option value="$PROJECT_DIR$/themes/b-s/assets/css/magnific-popup.css" />
         <option value="$PROJECT_DIR$/themes/b-s/assets/js/jquery.magnific-popup.min.js" />
         <option value="$PROJECT_DIR$/themes/b-s/content/footer-text.htm" />
-        <option value="$PROJECT_DIR$/themes/b-s/layouts/inner.htm" />
         <option value="$PROJECT_DIR$/themes/b-s/assets/js/wow.js" />
         <option value="$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js" />
         <option value="$PROJECT_DIR$/themes/b-s/assets/css/jquery-ui.css" />
@@ -210,12 +234,14 @@
         <option value="$PROJECT_DIR$/themes/b-s/content/contact-card-text.htm" />
         <option value="$PROJECT_DIR$/themes/b-s/assets/css/icheck/flat/grey.css" />
         <option value="$PROJECT_DIR$/themes/b-s/content/why-we.htm" />
-        <option value="$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm" />
         <option value="$PROJECT_DIR$/themes/b-s/content/front-text.htm" />
         <option value="$PROJECT_DIR$/themes/b-s/partials/menuFooter/default.htm" />
-        <option value="$PROJECT_DIR$/themes/b-s/layouts/default.htm" />
         <option value="$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/robots.txt" />
+        <option value="$PROJECT_DIR$/themes/b-s/layouts/default.htm" />
+        <option value="$PROJECT_DIR$/themes/b-s/layouts/inner.htm" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm" />
       </list>
     </option>
   </component>
@@ -271,6 +297,24 @@
             <path>
               <item name="bux-sait.loc" type="b2602c69:ProjectViewProjectNode" />
               <item name="bux-sait.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bux-sait.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bux-sait.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bux-sait.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bux-sait.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="b-s" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bux-sait.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bux-sait.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="b-s" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="content" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -549,21 +593,29 @@
       <option name="project" value="LOCAL" />
       <updated>1511567966727</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="last files spell">
+      <created>1511568854845</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1511568854845</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114578000" />
+    <option name="totallyTimeSpent" value="116171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20837809" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21482277" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -627,31 +679,19 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="last files djai" />
     <MESSAGE value="last files" />
-    <option name="LAST_COMMIT_MESSAGE" value="last files" />
+    <MESSAGE value="last files spell" />
+    <option name="LAST_COMMIT_MESSAGE" value="last files spell" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/b-s/assets/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="37" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/b-s/theme.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -791,14 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18260">
-          <caret line="830" column="0" lean-forward="false" selection-start-line="830" selection-start-column="0" selection-end-line="830" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/b-s/pages/index.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -831,24 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="300" column="2" lean-forward="false" selection-start-line="300" selection-start-column="0" selection-end-line="303" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/inner.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-511">
-          <caret line="143" column="14" lean-forward="false" selection-start-line="143" selection-start-column="14" selection-end-line="143" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/content/contact-card-text.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-          <folding>
-            <marker date="1511567751324" expanded="true" signature="992:1005" ph="..." />
-            <marker date="1511567751324" expanded="true" signature="992:1015" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -916,34 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/content/footer-text.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="567" lean-forward="false" selection-start-line="0" selection-start-column="567" selection-end-line="0" selection-end-column="567" />
-          <folding>
-            <element signature="e#321#326#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="85" lean-forward="false" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <marker date="1511567809472" expanded="true" signature="16908:16972" ph="..." />
-            <marker date="1511567809472" expanded="true" signature="16908:16980" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/b-s/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -958,10 +944,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/content/contact-card-text.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <marker date="1511567751324" expanded="true" signature="992:1005" ph="..." />
+            <marker date="1511567751324" expanded="true" signature="992:1015" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/content/footer-text.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="567" lean-forward="false" selection-start-line="0" selection-start-column="567" selection-end-line="0" selection-end-column="567" />
+          <folding>
+            <element signature="e#321#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="830" column="0" lean-forward="false" selection-start-line="830" selection-start-column="0" selection-end-line="830" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="110">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/inner.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <marker date="1511569520603" expanded="false" signature="2555:2607" ph="..." />
+            <marker date="1511569520603" expanded="true" signature="2608:2946" ph="..." />
+            <marker date="1511569520603" expanded="true" signature="2683:2935" ph="..." />
+            <marker date="1511569520603" expanded="true" signature="2798:2922" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="218" column="68" lean-forward="true" selection-start-line="216" selection-start-column="43" selection-end-line="218" selection-end-column="68" />
+          <folding>
+            <marker date="1511569450332" expanded="false" signature="2584:2636" ph="..." />
+            <marker date="1511569450332" expanded="true" signature="2637:2975" ph="..." />
+            <marker date="1511569450332" expanded="true" signature="2712:2964" ph="..." />
+            <marker date="1511569450332" expanded="true" signature="2827:2951" ph="..." />
+            <marker date="1511569450332" expanded="false" signature="8413:8425" ph="..." />
+            <marker date="1511569450332" expanded="false" signature="8632:8665" ph="..." />
+            <marker date="1511569450332" expanded="false" signature="10026:10038" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
           <folding />
         </state>
       </provider>

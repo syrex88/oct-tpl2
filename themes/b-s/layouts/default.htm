@@ -1,4 +1,5 @@
 [contenteditor]
+file = "ceny.htm"
 
 [menu]
 start = "id-1"
@@ -12,7 +13,8 @@ numberOfLevels = 2
 rules[phone] = "required"
 messages_success = "Мы с Вами свяжемся в ближайшее время!"
 messages_errors = "There were errors with your submission"
-mail_enabled = 0
+mail_enabled = 1
+mail_recipients[] = "info@b-strategy.ru"
 inline_errors = "disabled"
 js_on_error = "console.log(1)"
 sanitize_data = "disabled"
@@ -24,6 +26,8 @@ recaptcha_size = "normal"
 [emptyForm callbackFooter]
 messages_success = "Your form was successfully submitted"
 messages_errors = "There were errors with your submission"
+mail_enabled = 1
+mail_recipients[] = "info@b-strategy.ru"
 inline_errors = "disabled"
 sanitize_data = "disabled"
 anonymize_ip = "disabled"
@@ -42,6 +46,8 @@ numberOfLevels = 2
 [emptyForm callbackPopup]
 messages_success = "Your form was successfully submitted"
 messages_errors = "There were errors with your submission"
+mail_enabled = 1
+mail_recipients[] = "info@b-strategy.ru"
 inline_errors = "disabled"
 sanitize_data = "disabled"
 anonymize_ip = "disabled"
