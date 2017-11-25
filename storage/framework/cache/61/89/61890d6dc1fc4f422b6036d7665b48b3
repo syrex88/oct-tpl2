@@ -1,4 +1,4 @@
-1511540373a:1:{s:9:"inner.htm";a:11:{s:8:"fileName";s:9:"inner.htm";s:7:"content";s:10307:"[editor]
+1511568627a:1:{s:9:"inner.htm";a:11:{s:8:"fileName";s:9:"inner.htm";s:7:"content";s:10328:"[contenteditor]
 
 [menu]
 start = "id-1"
@@ -194,7 +194,7 @@ recaptcha_size = "normal"
                                         </div>
                                     </div>
                                     <div class="box__body">
-                                        {% component 'editor' file="contact-card-text.htm" fixture="span"
+                                        {% component 'contenteditor' file="contact-card-text.htm" fixture="span"
                                         tools="link" %}
                                     </div>
                                 </div>
@@ -212,7 +212,7 @@ recaptcha_size = "normal"
                         <div class="row offset-3 child-offset-1">
                             <div class="col-xs-12 col-md-4">
                                 <div class="inset-2">
-                                    {% component 'editor' file="footer-text.htm" fixture="span" %}
+                                    {% component 'contenteditor' file="footer-text.htm" fixture="span" %}
                                 </div>
                             </div>
                             <div class="col-xs-12 col-md-8">
@@ -240,7 +240,7 @@ recaptcha_size = "normal"
 {% framework extras %}
 {% scripts %}
 </body>
-</html>";s:5:"mtime";i:1511539769;s:6:"markup";s:8932:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1511567877;s:6:"markup";s:8946:"<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -385,7 +385,7 @@ recaptcha_size = "normal"
                                         </div>
                                     </div>
                                     <div class="box__body">
-                                        {% component 'editor' file="contact-card-text.htm" fixture="span"
+                                        {% component 'contenteditor' file="contact-card-text.htm" fixture="span"
                                         tools="link" %}
                                     </div>
                                 </div>
@@ -403,7 +403,7 @@ recaptcha_size = "normal"
                         <div class="row offset-3 child-offset-1">
                             <div class="col-xs-12 col-md-4">
                                 <div class="inset-2">
-                                    {% component 'editor' file="footer-text.htm" fixture="span" %}
+                                    {% component 'contenteditor' file="footer-text.htm" fixture="span" %}
                                 </div>
                             </div>
                             <div class="col-xs-12 col-md-8">
@@ -431,4 +431,4 @@ recaptcha_size = "normal"
 {% framework extras %}
 {% scripts %}
 </body>
-</html>";s:4:"code";N;s:6:"editor";a:0:{}s:4:"menu";a:6:{s:5:"start";s:4:"id-1";s:10:"activeNode";s:4:"id-1";s:15:"listItemClasses";s:4:"item";s:14:"primaryClasses";s:13:"rd-navbar-nav";s:16:"secondaryClasses";s:13:"dropdown-menu";s:14:"numberOfLevels";s:1:"2";}s:18:"emptyForm callback";a:11:{s:5:"rules";a:1:{s:5:"phone";s:8:"required";}s:16:"messages_success";s:67:"Мы с Вами свяжемся в ближайшее время!";s:15:"messages_errors";s:38:"There were errors with your submission";s:12:"mail_enabled";s:1:"0";s:13:"inline_errors";s:8:"disabled";s:11:"js_on_error";s:14:"console.log(1)";s:13:"sanitize_data";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";}s:24:"emptyForm callbackFooter";a:8:{s:16:"messages_success";s:36:"Your form was successfully submitted";s:15:"messages_errors";s:38:"There were errors with your submission";s:13:"inline_errors";s:8:"disabled";s:13:"sanitize_data";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";}s:15:"menu menuFooter";a:6:{s:5:"start";s:4:"id-1";s:10:"activeNode";s:1:"0";s:15:"listItemClasses";s:4:"item";s:14:"primaryClasses";s:14:"nav nav-footer";s:16:"secondaryClasses";s:4:"item";s:14:"numberOfLevels";s:1:"2";}s:23:"emptyForm callbackPopup";a:8:{s:16:"messages_success";s:36:"Your form was successfully submitted";s:15:"messages_errors";s:38:"There were errors with your submission";s:13:"inline_errors";s:8:"disabled";s:13:"sanitize_data";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";}}}
+</html>";s:4:"code";N;s:13:"contenteditor";a:0:{}s:4:"menu";a:6:{s:5:"start";s:4:"id-1";s:10:"activeNode";s:4:"id-1";s:15:"listItemClasses";s:4:"item";s:14:"primaryClasses";s:13:"rd-navbar-nav";s:16:"secondaryClasses";s:13:"dropdown-menu";s:14:"numberOfLevels";s:1:"2";}s:18:"emptyForm callback";a:11:{s:5:"rules";a:1:{s:5:"phone";s:8:"required";}s:16:"messages_success";s:67:"Мы с Вами свяжемся в ближайшее время!";s:15:"messages_errors";s:38:"There were errors with your submission";s:12:"mail_enabled";s:1:"0";s:13:"inline_errors";s:8:"disabled";s:11:"js_on_error";s:14:"console.log(1)";s:13:"sanitize_data";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";}s:24:"emptyForm callbackFooter";a:8:{s:16:"messages_success";s:36:"Your form was successfully submitted";s:15:"messages_errors";s:38:"There were errors with your submission";s:13:"inline_errors";s:8:"disabled";s:13:"sanitize_data";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";}s:15:"menu menuFooter";a:6:{s:5:"start";s:4:"id-1";s:10:"activeNode";s:1:"0";s:15:"listItemClasses";s:4:"item";s:14:"primaryClasses";s:14:"nav nav-footer";s:16:"secondaryClasses";s:4:"item";s:14:"numberOfLevels";s:1:"2";}s:23:"emptyForm callbackPopup";a:8:{s:16:"messages_success";s:36:"Your form was successfully submitted";s:15:"messages_errors";s:38:"There were errors with your submission";s:13:"inline_errors";s:8:"disabled";s:13:"sanitize_data";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";}}}

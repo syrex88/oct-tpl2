@@ -41,7 +41,7 @@ class __TwigTemplate_2f09082e41234ec96fec0dc24e9da87fa9a66cba151dcadf5065692d692
         // line 11
         echo "    </div>
     <div class=\"control-absolute\">
-        <button id=\"simpleContactSubmitButton\" type=\"submit\"  class=\"btn btn-default-variant-1\">Получить консультацию</button>
+        <button id=\"simpleContactSubmitButton\" type=\"submit\"  class=\"btn btn-default-variant-1\">Перезвоните</button>
     </div>
 </form>";
     }
@@ -83,7 +83,7 @@ class __TwigTemplate_2f09082e41234ec96fec0dc24e9da87fa9a66cba151dcadf5065692d692
         {% partial '@recaptcha' %}
     </div>
     <div class=\"control-absolute\">
-        <button id=\"simpleContactSubmitButton\" type=\"submit\"  class=\"btn btn-default-variant-1\">Получить консультацию</button>
+        <button id=\"simpleContactSubmitButton\" type=\"submit\"  class=\"btn btn-default-variant-1\">Перезвоните</button>
     </div>
 </form>", "C:\\Cloud\\openServer\\domains\\bux-sait.loc/themes/b-s/partials/callbackFooter/default.htm", "");
     }

@@ -235,7 +235,7 @@ class __TwigTemplate_bbb6591f31617bbbbd82d8961cafcddaa5c97b51bacf307b057cc88cc88
         $context['__cms_component_params']['file'] = "contact-card-text.htm"        ;
         $context['__cms_component_params']['fixture'] = "span"        ;
         $context['__cms_component_params']['tools'] = "link"        ;
-        echo $this->env->getExtension('CMS')->componentFunction("editor"        , $context['__cms_component_params']        );
+        echo $this->env->getExtension('CMS')->componentFunction("contenteditor"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
         // line 148
         echo "                                    </div>
@@ -259,7 +259,7 @@ class __TwigTemplate_bbb6591f31617bbbbd82d8961cafcddaa5c97b51bacf307b057cc88cc88
         $context['__cms_component_params'] = [];
         $context['__cms_component_params']['file'] = "footer-text.htm"        ;
         $context['__cms_component_params']['fixture'] = "span"        ;
-        echo $this->env->getExtension('CMS')->componentFunction("editor"        , $context['__cms_component_params']        );
+        echo $this->env->getExtension('CMS')->componentFunction("contenteditor"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
         // line 165
         echo "                                </div>
@@ -491,7 +491,7 @@ class __TwigTemplate_bbb6591f31617bbbbd82d8961cafcddaa5c97b51bacf307b057cc88cc88
                                         </div>
                                     </div>
                                     <div class=\"box__body\">
-                                        {% component 'editor' file=\"contact-card-text.htm\" fixture=\"span\"
+                                        {% component 'contenteditor' file=\"contact-card-text.htm\" fixture=\"span\"
                                         tools=\"link\" %}
                                     </div>
                                 </div>
@@ -509,7 +509,7 @@ class __TwigTemplate_bbb6591f31617bbbbd82d8961cafcddaa5c97b51bacf307b057cc88cc88
                         <div class=\"row offset-3 child-offset-1\">
                             <div class=\"col-xs-12 col-md-4\">
                                 <div class=\"inset-2\">
-                                    {% component 'editor' file=\"footer-text.htm\" fixture=\"span\" %}
+                                    {% component 'contenteditor' file=\"footer-text.htm\" fixture=\"span\" %}
                                 </div>
                             </div>
                             <div class=\"col-xs-12 col-md-8\">

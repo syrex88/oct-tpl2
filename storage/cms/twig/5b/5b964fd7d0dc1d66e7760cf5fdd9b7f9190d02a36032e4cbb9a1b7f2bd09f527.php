@@ -19,7 +19,7 @@ class __TwigTemplate_08579b179f191f38e3e4ecb95d9760893a770841a169e9098b54c7fc8ff
         $context['__cms_component_params'] = [];
         $context['__cms_component_params']['file'] = "registraciya-ooo.htm"        ;
         $context['__cms_component_params']['fixture'] = "span"        ;
-        echo $this->env->getExtension('CMS')->componentFunction("editor"        , $context['__cms_component_params']        );
+        echo $this->env->getExtension('CMS')->componentFunction("contenteditor"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
     }
 
@@ -48,6 +48,6 @@ class __TwigTemplate_08579b179f191f38e3e4ecb95d9760893a770841a169e9098b54c7fc8ff
 
     public function getSourceContext()
     {
-        return new Twig_Source("{% component 'editor' file=\"registraciya-ooo.htm\" fixture=\"span\" %}", "C:\\Cloud\\openServer\\domains\\bux-sait.loc/themes/b-s/pages/registraciya-ooo.htm", "");
+        return new Twig_Source("{% component 'contenteditor' file=\"registraciya-ooo.htm\" fixture=\"span\" %}", "C:\\Cloud\\openServer\\domains\\bux-sait.loc/themes/b-s/pages/registraciya-ooo.htm", "");
     }
 }

@@ -1,4 +1,4 @@
-1511541493a:1:{s:26:"callbackFooter/default.htm";a:5:{s:8:"fileName";s:26:"callbackFooter/default.htm";s:7:"content";s:749:"<form class="rd-mailform rd-mailform-inline rd-mailform-dark" data-request="{{ __SELF__ }}::onFormSubmit">
+1511568573a:1:{s:26:"callbackFooter/default.htm";a:5:{s:8:"fileName";s:26:"callbackFooter/default.htm";s:7:"content";s:730:"<form class="rd-mailform rd-mailform-inline rd-mailform-dark" data-request="{{ __SELF__ }}::onFormSubmit">
     {{ form_token() }}
     <!-- END RD Mailform Type -->
     <div class="form-group">
@@ -10,9 +10,9 @@
         {% partial '@recaptcha' %}
     </div>
     <div class="control-absolute">
-        <button id="simpleContactSubmitButton" type="submit"  class="btn btn-default-variant-1">Получить консультацию</button>
+        <button id="simpleContactSubmitButton" type="submit"  class="btn btn-default-variant-1">Перезвоните</button>
     </div>
-</form>";s:5:"mtime";i:1511365426;s:6:"markup";s:749:"<form class="rd-mailform rd-mailform-inline rd-mailform-dark" data-request="{{ __SELF__ }}::onFormSubmit">
+</form>";s:5:"mtime";i:1511567819;s:6:"markup";s:730:"<form class="rd-mailform rd-mailform-inline rd-mailform-dark" data-request="{{ __SELF__ }}::onFormSubmit">
     {{ form_token() }}
     <!-- END RD Mailform Type -->
     <div class="form-group">
@@ -24,6 +24,6 @@
         {% partial '@recaptcha' %}
     </div>
     <div class="control-absolute">
-        <button id="simpleContactSubmitButton" type="submit"  class="btn btn-default-variant-1">Получить консультацию</button>
+        <button id="simpleContactSubmitButton" type="submit"  class="btn btn-default-variant-1">Перезвоните</button>
     </div>
 </form>";s:4:"code";N;}}
