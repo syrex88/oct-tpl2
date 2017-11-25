@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c935d533-3dd4-4891-a728-5e4bc47374a2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" afterPath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" afterPath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/9c/0f/9c0f4cfb8303e4bcdb8e266a400b3ecf" afterPath="$PROJECT_DIR$/storage/framework/cache/9c/0f/9c0f4cfb8303e4bcdb8e266a400b3ecf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/f0/76/f076cf5826e4a34ef767b447156b494c" afterPath="$PROJECT_DIR$/storage/framework/cache/f0/76/f076cf5826e4a34ef767b447156b494c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,8 +43,8 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="18363" column="2" lean-forward="false" selection-start-line="18363" selection-start-column="0" selection-end-line="18366" selection-end-column="3" />
+            <state relative-caret-position="385">
+              <caret line="18354" column="37" lean-forward="true" selection-start-line="18354" selection-start-column="37" selection-end-line="18354" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -404,7 +399,7 @@
       <workItem from="1511448413851" duration="46983000" />
       <workItem from="1511548673459" duration="12004000" />
       <workItem from="1511572284033" duration="3109000" />
-      <workItem from="1511630586914" duration="12000" />
+      <workItem from="1511630586914" duration="115000" />
     </task>
     <task id="LOCAL-00001" summary="last files">
       <created>1511116215166</created>
@@ -462,11 +457,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511572365958</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="last files djai">
+      <created>1511630615086</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1511630615086</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128568000" />
+    <option name="totallyTimeSpent" value="128671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
@@ -863,8 +865,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="18363" column="2" lean-forward="false" selection-start-line="18363" selection-start-column="0" selection-end-line="18366" selection-end-column="3" />
+        <state relative-caret-position="385">
+          <caret line="18354" column="37" lean-forward="true" selection-start-line="18354" selection-start-column="37" selection-end-line="18354" selection-end-column="37" />
           <folding />
         </state>
       </provider>
