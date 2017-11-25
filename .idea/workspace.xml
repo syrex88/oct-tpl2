@@ -2,31 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c935d533-3dd4-4891-a728-5e4bc47374a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robots.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/b2/39/b239daf2ca9b54cf12054d6c0f0727a2" afterPath="$PROJECT_DIR$/storage/framework/cache/b2/39/b239daf2ca9b54cf12054d6c0f0727a2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/02/70/0270cd0bf14e20e9095012f7f8c32588" afterPath="$PROJECT_DIR$/storage/framework/cache/02/70/0270cd0bf14e20e9095012f7f8c32588" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/22/ba/22baef76c45401592f28c9c6d9a8ac3e" afterPath="$PROJECT_DIR$/storage/framework/cache/22/ba/22baef76c45401592f28c9c6d9a8ac3e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/3b/af/3bafcc843cf10d64a5babca8b3ec362a" afterPath="$PROJECT_DIR$/storage/framework/cache/3b/af/3bafcc843cf10d64a5babca8b3ec362a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" afterPath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5d/ee/5deee0c73dd2d7ccb344aef37861edf0" afterPath="$PROJECT_DIR$/storage/framework/cache/5d/ee/5deee0c73dd2d7ccb344aef37861edf0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" afterPath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5f/b5/5fb5d39c44648c4be72a0a0a44a79414" afterPath="$PROJECT_DIR$/storage/framework/cache/5f/b5/5fb5d39c44648c4be72a0a0a44a79414" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" afterPath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/64/41/644130fa47377b1350aab4f5aff9505a" afterPath="$PROJECT_DIR$/storage/framework/cache/64/41/644130fa47377b1350aab4f5aff9505a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/6f/90/6f90f5fe3fcbc48ab011aadbb3fefbbd" afterPath="$PROJECT_DIR$/storage/framework/cache/6f/90/6f90f5fe3fcbc48ab011aadbb3fefbbd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/75/06/750621f541f13e163e7277181fdb4bd0" afterPath="$PROJECT_DIR$/storage/framework/cache/75/06/750621f541f13e163e7277181fdb4bd0" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/79/77/79770e0cf249f5d09f6a97af85adc48a" afterPath="$PROJECT_DIR$/storage/framework/cache/79/77/79770e0cf249f5d09f6a97af85adc48a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/86/70/86707c8bb0e74371e894d8bc50a09e98" afterPath="$PROJECT_DIR$/storage/framework/cache/86/70/86707c8bb0e74371e894d8bc50a09e98" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/91/aa/91aaeb3d3720451f3d8056ef80f92eff" afterPath="$PROJECT_DIR$/storage/framework/cache/91/aa/91aaeb3d3720451f3d8056ef80f92eff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/a1/f7/a1f74de7779d5838a058998a9dfe30db" afterPath="$PROJECT_DIR$/storage/framework/cache/a1/f7/a1f74de7779d5838a058998a9dfe30db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/b2/39/b239daf2ca9b54cf12054d6c0f0727a2" afterPath="$PROJECT_DIR$/storage/framework/cache/b2/39/b239daf2ca9b54cf12054d6c0f0727a2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/d0/20/d020ab2bc22fbce293b48c24c3f57b1c" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/20/d020ab2bc22fbce293b48c24c3f57b1c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/dc/0e/dc0e744d7cfbdb9478dbc580341ff7cc" afterPath="$PROJECT_DIR$/storage/framework/cache/dc/0e/dc0e744d7cfbdb9478dbc580341ff7cc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/df/59/df599dc9221ea665c782206927a85f2a" afterPath="$PROJECT_DIR$/storage/framework/cache/df/59/df599dc9221ea665c782206927a85f2a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm" afterPath="$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/layouts/default.htm" afterPath="$PROJECT_DIR$/themes/b-s/layouts/default.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/layouts/inner.htm" afterPath="$PROJECT_DIR$/themes/b-s/layouts/inner.htm" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/default.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="309">
-              <caret line="218" column="68" lean-forward="true" selection-start-line="216" selection-start-column="43" selection-end-line="218" selection-end-column="68" />
+              <caret line="218" column="68" lean-forward="false" selection-start-line="216" selection-start-column="43" selection-end-line="218" selection-end-column="68" />
               <folding>
                 <marker date="1511569450332" expanded="false" signature="2584:2636" ph="..." />
                 <marker date="1511569450332" expanded="true" signature="2637:2975" ph="..." />
@@ -58,9 +48,11 @@
       <file leaf-file-name="what-we-doing.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="598">
+              <caret line="55" column="52" lean-forward="false" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+              <folding>
+                <element signature="n#style#0;n#div#6;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -600,11 +592,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511568854845</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="last files spell">
+      <created>1511572098743</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1511572098743</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116171000" />
+    <option name="totallyTimeSpent" value="116798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1013,7 +1012,7 @@
     <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/default.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
-          <caret line="218" column="68" lean-forward="true" selection-start-line="216" selection-start-column="43" selection-end-line="218" selection-end-column="68" />
+          <caret line="218" column="68" lean-forward="false" selection-start-line="216" selection-start-column="43" selection-end-line="218" selection-end-column="68" />
           <folding>
             <marker date="1511569450332" expanded="false" signature="2584:2636" ph="..." />
             <marker date="1511569450332" expanded="true" signature="2637:2975" ph="..." />
@@ -1028,9 +1027,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="598">
+          <caret line="55" column="52" lean-forward="false" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#6;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
