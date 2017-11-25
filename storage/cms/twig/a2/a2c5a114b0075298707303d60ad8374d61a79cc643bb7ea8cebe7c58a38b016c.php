@@ -121,36 +121,41 @@ class __TwigTemplate_bbb6591f31617bbbbd82d8961cafcddaa5c97b51bacf307b057cc88cc88
                                 <!-- END RD Navbar Toggle -->
 
                                 <!-- RD Navbar Brand -->
-                                <div class=\"rd-navbar-brand\">
-                                    <a href=\"/\">
-                                        <span class=\"rd-navbar-brand-logo\"><img src=\"images/logo.png\" alt=\"\"></span>
-
-                                        <div class=\"rd-navbar-brand-body\">
-                                            <span class=\"brand-name\">FinAdvision, <span
-                                                    class=\"text-light\">Inc</span></span>
-                                            <span class=\"brand-slogan\">Your trusted financial advisor</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- END RD Navbar Brand -->
+                                   ";
+        // line 60
+        $context['__cms_component_params'] = [];
+        $context['__cms_component_params']['file'] = "logo.htm"        ;
+        $context['__cms_component_params']['fixture'] = "span"        ;
+        echo $this->env->getExtension('CMS')->componentFunction("contenteditor"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 61
+        echo "                                <!-- END RD Navbar Brand -->
                             </div>
                             <!-- END RD Navbar Panel -->
 
                             <div class=\"rd-navbar-nav-wrap\">
                                 <!-- RD Navbar Nav -->
                                 ";
-        // line 77
+        // line 67
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('CMS')->componentFunction("menu"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 78
+        // line 68
         echo "                                <!-- END RD Navbar Nav -->
                             </div>
                         </div>
                     </nav>
                 </div>
                 <!-- END RD Navbar -->
-            </div>
+                ";
+        // line 74
+        $context['__cms_component_params'] = [];
+        $context['__cms_component_params']['file'] = "fix-contacts.htm"        ;
+        $context['__cms_component_params']['fixture'] = "span"        ;
+        echo $this->env->getExtension('CMS')->componentFunction("contenteditor"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 75
+        echo "            </div>
         </div>
     </header>
 
@@ -162,14 +167,14 @@ class __TwigTemplate_bbb6591f31617bbbbd82d8961cafcddaa5c97b51bacf307b057cc88cc88
             <div class=\"container container-wide inner-page\">
                 <h2>
                     ";
-        // line 95
+        // line 86
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["this"] ?? null), "page", array()), "title", array()), "html", null, true);
         echo "
                 </h2>
                 <div class=\"description row\">
                     <div class=\"col-xs-12 col-md-8\">
                         ";
-        // line 99
+        // line 90
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["this"] ?? null), "page", array()), "description", array()), "html", null, true);
         echo "
                     </div>
@@ -177,9 +182,9 @@ class __TwigTemplate_bbb6591f31617bbbbd82d8961cafcddaa5c97b51bacf307b057cc88cc88
                 <div class=\"content row\">
                     <div class=\"col-xs-12\">
                         ";
-        // line 104
+        // line 95
         echo $this->env->getExtension('CMS')->pageFunction();
-        // line 105
+        // line 96
         echo "                    </div>
                 </div>
             </div>
@@ -205,11 +210,11 @@ class __TwigTemplate_bbb6591f31617bbbbd82d8961cafcddaa5c97b51bacf307b057cc88cc88
                                 <p class=\"text-style-2\">Введите свой номер телефона и мы перезвоним Вам в течении 15
                                     мин</p>
                                 ";
-        // line 129
+        // line 120
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('CMS')->componentFunction("callbackFooter"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 130
+        // line 121
         echo "                            </div>
                         </div>
                         <div class=\"col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lg-5 pull-md-right\">
@@ -222,7 +227,7 @@ class __TwigTemplate_bbb6591f31617bbbbd82d8961cafcddaa5c97b51bacf307b057cc88cc88
                                     <div class=\"box__left\">
                                         <div class=\"card-image\">
                                             <img src=\"";
-        // line 141
+        // line 132
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/images/home-9.png");
         echo "\" alt=\"\" width=\"130\"
                                                  height=\"164\">
@@ -230,14 +235,13 @@ class __TwigTemplate_bbb6591f31617bbbbd82d8961cafcddaa5c97b51bacf307b057cc88cc88
                                     </div>
                                     <div class=\"box__body\">
                                         ";
-        // line 146
+        // line 137
         $context['__cms_component_params'] = [];
         $context['__cms_component_params']['file'] = "contact-card-text.htm"        ;
         $context['__cms_component_params']['fixture'] = "span"        ;
-        $context['__cms_component_params']['tools'] = "link"        ;
         echo $this->env->getExtension('CMS')->componentFunction("contenteditor"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 148
+        // line 138
         echo "                                    </div>
                                 </div>
                             </div>
@@ -255,23 +259,23 @@ class __TwigTemplate_bbb6591f31617bbbbd82d8961cafcddaa5c97b51bacf307b057cc88cc88
                             <div class=\"col-xs-12 col-md-4\">
                                 <div class=\"inset-2\">
                                     ";
-        // line 164
+        // line 154
         $context['__cms_component_params'] = [];
         $context['__cms_component_params']['file'] = "footer-text.htm"        ;
         $context['__cms_component_params']['fixture'] = "span"        ;
         echo $this->env->getExtension('CMS')->componentFunction("contenteditor"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 165
+        // line 155
         echo "                                </div>
                             </div>
                             <div class=\"col-xs-12 col-md-8\">
                                 <div class=\"list-container\">
                                     ";
-        // line 169
+        // line 159
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('CMS')->componentFunction("menuFooter"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 170
+        // line 160
         echo "                                </div>
                             </div>
                         </div>
@@ -284,39 +288,39 @@ class __TwigTemplate_bbb6591f31617bbbbd82d8961cafcddaa5c97b51bacf307b057cc88cc88
 </div>
 <div id=\"form-callback-popup\" class=\"popup-dialog zoom-anim-dialog mfp-hide\">Введите свой номер телефона и мы перезвоним
     Вам в течении 15 мин";
-        // line 181
+        // line 171
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('CMS')->componentFunction("callbackPopup"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 182
+        // line 172
         echo "</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src=\"";
-        // line 185
+        // line 175
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/bootstrap.min.js");
         echo "\"></script>
 <script src=\"";
-        // line 186
+        // line 176
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/vide.js");
         echo "\"></script>
 <script src=\"";
-        // line 187
+        // line 177
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/tm-scripts.js");
         echo "\"></script>
 <!-- </script> -->
 ";
-        // line 189
+        // line 179
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css">'.PHP_EOL;
-        // line 190
+        // line 180
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 191
+        // line 181
         echo "</body>
 </html>";
     }
@@ -333,7 +337,7 @@ class __TwigTemplate_bbb6591f31617bbbbd82d8961cafcddaa5c97b51bacf307b057cc88cc88
 
     public function getDebugInfo()
     {
-        return array (  320 => 191,  317 => 190,  310 => 189,  305 => 187,  301 => 186,  297 => 185,  292 => 182,  288 => 181,  275 => 170,  271 => 169,  265 => 165,  259 => 164,  241 => 148,  234 => 146,  226 => 141,  213 => 130,  209 => 129,  183 => 105,  181 => 104,  173 => 99,  166 => 95,  147 => 78,  143 => 77,  101 => 37,  98 => 36,  94 => 35,  89 => 33,  82 => 29,  73 => 23,  69 => 22,  63 => 19,  58 => 17,  54 => 16,  50 => 15,  46 => 14,  42 => 13,  35 => 9,  31 => 8,  27 => 7,  19 => 1,);
+        return array (  324 => 181,  321 => 180,  314 => 179,  309 => 177,  305 => 176,  301 => 175,  296 => 172,  292 => 171,  279 => 160,  275 => 159,  269 => 155,  263 => 154,  245 => 138,  239 => 137,  231 => 132,  218 => 121,  214 => 120,  188 => 96,  186 => 95,  178 => 90,  171 => 86,  158 => 75,  152 => 74,  144 => 68,  140 => 67,  132 => 61,  126 => 60,  101 => 37,  98 => 36,  94 => 35,  89 => 33,  82 => 29,  73 => 23,  69 => 22,  63 => 19,  58 => 17,  54 => 16,  50 => 15,  46 => 14,  42 => 13,  35 => 9,  31 => 8,  27 => 7,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -405,17 +409,7 @@ class __TwigTemplate_bbb6591f31617bbbbd82d8961cafcddaa5c97b51bacf307b057cc88cc88
                                 <!-- END RD Navbar Toggle -->
 
                                 <!-- RD Navbar Brand -->
-                                <div class=\"rd-navbar-brand\">
-                                    <a href=\"/\">
-                                        <span class=\"rd-navbar-brand-logo\"><img src=\"images/logo.png\" alt=\"\"></span>
-
-                                        <div class=\"rd-navbar-brand-body\">
-                                            <span class=\"brand-name\">FinAdvision, <span
-                                                    class=\"text-light\">Inc</span></span>
-                                            <span class=\"brand-slogan\">Your trusted financial advisor</span>
-                                        </div>
-                                    </a>
-                                </div>
+                                   {% component 'contenteditor' file=\"logo.htm\" fixture=\"span\" %}
                                 <!-- END RD Navbar Brand -->
                             </div>
                             <!-- END RD Navbar Panel -->
@@ -429,6 +423,7 @@ class __TwigTemplate_bbb6591f31617bbbbd82d8961cafcddaa5c97b51bacf307b057cc88cc88
                     </nav>
                 </div>
                 <!-- END RD Navbar -->
+                {% component 'contenteditor' file=\"fix-contacts.htm\" fixture=\"span\" %}
             </div>
         </div>
     </header>
@@ -491,8 +486,7 @@ class __TwigTemplate_bbb6591f31617bbbbd82d8961cafcddaa5c97b51bacf307b057cc88cc88
                                         </div>
                                     </div>
                                     <div class=\"box__body\">
-                                        {% component 'contenteditor' file=\"contact-card-text.htm\" fixture=\"span\"
-                                        tools=\"link\" %}
+                                        {% component 'contenteditor' file=\"contact-card-text.htm\" fixture=\"span\" %}
                                     </div>
                                 </div>
                             </div>

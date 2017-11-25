@@ -1,9 +1,8 @@
-<form class="rd-mailform callbackform" data-request="{{ __SELF__ }}::onFormSubmit">
+<form class="rd-mailform callbackform def" data-request="{{ __SELF__ }}::onFormSubmit">
 
     {{ form_token() }}
     <div class="form-group mfInput">
-        <label data-add-placeholder="" class="form-label rd-input-label" for="phone">Ваш телефон</label>
-        <input type="text"  id="phone" type="text" name="phone" class="form-control" data-constraints="@NotEmpty">
+        <input type="text" data-mask="+7(###)###-##-##" id="phone" type="text" name="phone" class="form-control" data-constraints="@NotEmpty">
     </div>
     <div>
         {% partial '@recaptcha' %}

@@ -1,9 +1,8 @@
-1511572704a:1:{s:26:"callbackFooter/default.htm";a:5:{s:8:"fileName";s:26:"callbackFooter/default.htm";s:7:"content";s:730:"<form class="rd-mailform rd-mailform-inline rd-mailform-dark" data-request="{{ __SELF__ }}::onFormSubmit">
+1511630009a:1:{s:26:"callbackFooter/default.htm";a:5:{s:8:"fileName";s:26:"callbackFooter/default.htm";s:7:"content";s:641:"<form class="rd-mailform rd-mailform-inline rd-mailform-dark footer" data-request="{{ __SELF__ }}::onFormSubmit">
     {{ form_token() }}
     <!-- END RD Mailform Type -->
     <div class="form-group">
-        <label data-add-placeholder class="form-label rd-input-label" for="phone">Ваш телефон</label>
-        <input type="text"  id="phone" type="text" name="phone" class="form-control" data-constraints="@NotEmpty">
+        <input type="text"  data-mask="+7(###)###-##-##" id="phone" name="phone" class="form-control" data-constraints="@NotEmpty">
     </div>
     <div id="{{ __SELF__ }}_forms_flash"></div>
     <div>
@@ -12,12 +11,11 @@
     <div class="control-absolute">
         <button id="simpleContactSubmitButton" type="submit"  class="btn btn-default-variant-1">Перезвоните</button>
     </div>
-</form>";s:5:"mtime";i:1511567819;s:6:"markup";s:730:"<form class="rd-mailform rd-mailform-inline rd-mailform-dark" data-request="{{ __SELF__ }}::onFormSubmit">
+</form>";s:5:"mtime";i:1511629202;s:6:"markup";s:641:"<form class="rd-mailform rd-mailform-inline rd-mailform-dark footer" data-request="{{ __SELF__ }}::onFormSubmit">
     {{ form_token() }}
     <!-- END RD Mailform Type -->
     <div class="form-group">
-        <label data-add-placeholder class="form-label rd-input-label" for="phone">Ваш телефон</label>
-        <input type="text"  id="phone" type="text" name="phone" class="form-control" data-constraints="@NotEmpty">
+        <input type="text"  data-mask="+7(###)###-##-##" id="phone" name="phone" class="form-control" data-constraints="@NotEmpty">
     </div>
     <div id="{{ __SELF__ }}_forms_flash"></div>
     <div>

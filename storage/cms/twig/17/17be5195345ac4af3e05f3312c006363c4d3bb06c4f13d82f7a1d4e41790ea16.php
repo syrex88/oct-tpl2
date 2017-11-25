@@ -16,7 +16,7 @@ class __TwigTemplate_bfebc41183c7f26f9ffa8a4d5b6ae89811eda82567a9eef42f35b7d32bf
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<form class=\"rd-mailform callbackform\" data-request=\"";
+        echo "<form class=\"rd-mailform callbackform popup\" data-request=\"";
         echo twig_escape_filter($this->env, ($context["__SELF__"] ?? null), "html", null, true);
         echo "::onFormSubmit\">
 
@@ -25,19 +25,18 @@ class __TwigTemplate_bfebc41183c7f26f9ffa8a4d5b6ae89811eda82567a9eef42f35b7d32bf
         echo call_user_func_array($this->env->getFunction('form_token')->getCallable(), array("token"));
         echo "
     <div class=\"form-group mfInput\">
-        <label data-add-placeholder=\"\" class=\"form-label rd-input-label\" for=\"phone\">Ваш телефон</label>
-        <input type=\"text\"  id=\"phone\" type=\"text\" name=\"phone\" class=\"form-control\" data-constraints=\"@NotEmpty\">
+        <input type=\"text\" data-mask=\"+7(###)###-##-##\" id=\"phone\" type=\"text\" name=\"phone\" class=\"form-control\" data-constraints=\"@NotEmpty\">
     </div>
     <div>
         ";
-        // line 9
+        // line 8
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("@recaptcha"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 10
+        // line 9
         echo "    </div>
     <div id=\"";
-        // line 11
+        // line 10
         echo twig_escape_filter($this->env, ($context["__SELF__"] ?? null), "html", null, true);
         echo "_forms_flash\"></div>
     <input type=\"hidden\" name=\"calculate\" id=\"calculateData\">
@@ -57,7 +56,7 @@ class __TwigTemplate_bfebc41183c7f26f9ffa8a4d5b6ae89811eda82567a9eef42f35b7d32bf
 
     public function getDebugInfo()
     {
-        return array (  41 => 11,  38 => 10,  34 => 9,  25 => 3,  19 => 1,);
+        return array (  40 => 10,  37 => 9,  33 => 8,  25 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -70,12 +69,11 @@ class __TwigTemplate_bfebc41183c7f26f9ffa8a4d5b6ae89811eda82567a9eef42f35b7d32bf
 
     public function getSourceContext()
     {
-        return new Twig_Source("<form class=\"rd-mailform callbackform\" data-request=\"{{ __SELF__ }}::onFormSubmit\">
+        return new Twig_Source("<form class=\"rd-mailform callbackform popup\" data-request=\"{{ __SELF__ }}::onFormSubmit\">
 
     {{ form_token() }}
     <div class=\"form-group mfInput\">
-        <label data-add-placeholder=\"\" class=\"form-label rd-input-label\" for=\"phone\">Ваш телефон</label>
-        <input type=\"text\"  id=\"phone\" type=\"text\" name=\"phone\" class=\"form-control\" data-constraints=\"@NotEmpty\">
+        <input type=\"text\" data-mask=\"+7(###)###-##-##\" id=\"phone\" type=\"text\" name=\"phone\" class=\"form-control\" data-constraints=\"@NotEmpty\">
     </div>
     <div>
         {% partial '@recaptcha' %}

@@ -16,7 +16,7 @@ class __TwigTemplate_2f09082e41234ec96fec0dc24e9da87fa9a66cba151dcadf5065692d692
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<form class=\"rd-mailform rd-mailform-inline rd-mailform-dark\" data-request=\"";
+        echo "<form class=\"rd-mailform rd-mailform-inline rd-mailform-dark footer\" data-request=\"";
         echo twig_escape_filter($this->env, ($context["__SELF__"] ?? null), "html", null, true);
         echo "::onFormSubmit\">
     ";
@@ -25,20 +25,19 @@ class __TwigTemplate_2f09082e41234ec96fec0dc24e9da87fa9a66cba151dcadf5065692d692
         echo "
     <!-- END RD Mailform Type -->
     <div class=\"form-group\">
-        <label data-add-placeholder class=\"form-label rd-input-label\" for=\"phone\">Ваш телефон</label>
-        <input type=\"text\"  id=\"phone\" type=\"text\" name=\"phone\" class=\"form-control\" data-constraints=\"@NotEmpty\">
+        <input type=\"text\"  data-mask=\"+7(###)###-##-##\" id=\"phone\" name=\"phone\" class=\"form-control\" data-constraints=\"@NotEmpty\">
     </div>
     <div id=\"";
-        // line 8
+        // line 7
         echo twig_escape_filter($this->env, ($context["__SELF__"] ?? null), "html", null, true);
         echo "_forms_flash\"></div>
     <div>
         ";
-        // line 10
+        // line 9
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("@recaptcha"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 11
+        // line 10
         echo "    </div>
     <div class=\"control-absolute\">
         <button id=\"simpleContactSubmitButton\" type=\"submit\"  class=\"btn btn-default-variant-1\">Перезвоните</button>
@@ -58,7 +57,7 @@ class __TwigTemplate_2f09082e41234ec96fec0dc24e9da87fa9a66cba151dcadf5065692d692
 
     public function getDebugInfo()
     {
-        return array (  42 => 11,  38 => 10,  33 => 8,  24 => 2,  19 => 1,);
+        return array (  41 => 10,  37 => 9,  32 => 7,  24 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -71,12 +70,11 @@ class __TwigTemplate_2f09082e41234ec96fec0dc24e9da87fa9a66cba151dcadf5065692d692
 
     public function getSourceContext()
     {
-        return new Twig_Source("<form class=\"rd-mailform rd-mailform-inline rd-mailform-dark\" data-request=\"{{ __SELF__ }}::onFormSubmit\">
+        return new Twig_Source("<form class=\"rd-mailform rd-mailform-inline rd-mailform-dark footer\" data-request=\"{{ __SELF__ }}::onFormSubmit\">
     {{ form_token() }}
     <!-- END RD Mailform Type -->
     <div class=\"form-group\">
-        <label data-add-placeholder class=\"form-label rd-input-label\" for=\"phone\">Ваш телефон</label>
-        <input type=\"text\"  id=\"phone\" type=\"text\" name=\"phone\" class=\"form-control\" data-constraints=\"@NotEmpty\">
+        <input type=\"text\"  data-mask=\"+7(###)###-##-##\" id=\"phone\" name=\"phone\" class=\"form-control\" data-constraints=\"@NotEmpty\">
     </div>
     <div id=\"{{ __SELF__ }}_forms_flash\"></div>
     <div>

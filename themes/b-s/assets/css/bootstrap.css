@@ -17052,6 +17052,11 @@ html:not(.lt-ie10) .box-lg .box__bottom {
     font-weight: 400;
 }
 
+ul.rd-navbar-nav > li.dropdown .dropdown-menu {
+    margin-top: -5px;
+    border-top-left-radius: 0px !important;
+}
+
 @media (min-width: 2051px) {
     .news-post-single-post .single-post-body * {
         margin-top: 1.57142857rem;
@@ -19232,4 +19237,8 @@ span[data-fixture] {
         margin-top: 2px;
         font-weight: 600;
     }
+}
+
+.rd-mailform.footer input[name=phone] {
+    color: white !important;
 }

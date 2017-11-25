@@ -29,6 +29,9 @@ include('js/jquery.magnific-popup.min.js');
 
 
 /* Stick up menus  ========================================================*/
+
+include('js/pure-mask.js');
+
 ;(function ($) {
     var o = $('html');
     if (o.hasClass('desktop')) {
@@ -874,4 +877,8 @@ $(document).ready(function () {
         removalDelay: 300,
         mainClass: 'my-mfp-zoom-in'
     });
+
+    PureMask.format('.def [name=phone]', true);
+    PureMask.format('.footer  [name=phone]', true);
+    PureMask.format('.popup [name=phone]', true);
 });

@@ -1,9 +1,8 @@
-<form class="rd-mailform rd-mailform-inline rd-mailform-dark" data-request="{{ __SELF__ }}::onFormSubmit">
+<form class="rd-mailform rd-mailform-inline rd-mailform-dark footer" data-request="{{ __SELF__ }}::onFormSubmit">
     {{ form_token() }}
     <!-- END RD Mailform Type -->
     <div class="form-group">
-        <label data-add-placeholder class="form-label rd-input-label" for="phone">Ваш телефон</label>
-        <input type="text"  id="phone" type="text" name="phone" class="form-control" data-constraints="@NotEmpty">
+        <input type="text"  data-mask="+7(###)###-##-##" id="phone" name="phone" class="form-control" data-constraints="@NotEmpty">
     </div>
     <div id="{{ __SELF__ }}_forms_flash"></div>
     <div>

@@ -113,17 +113,7 @@ recaptcha_size = "normal"
                                 <!-- END RD Navbar Toggle -->
 
                                 <!-- RD Navbar Brand -->
-                                <div class="rd-navbar-brand">
-                                    <a href="/">
-                                        <span class="rd-navbar-brand-logo"><img src="images/logo.png" alt=""></span>
-
-                                        <div class="rd-navbar-brand-body">
-                                            <span class="brand-name">FinAdvision, <span
-                                                    class="text-light">Inc</span></span>
-                                            <span class="brand-slogan">Your trusted financial advisor</span>
-                                        </div>
-                                    </a>
-                                </div>
+                                   {% component 'contenteditor' file="logo.htm" fixture="span" %}
                                 <!-- END RD Navbar Brand -->
                             </div>
                             <!-- END RD Navbar Panel -->
@@ -137,6 +127,7 @@ recaptcha_size = "normal"
                     </nav>
                 </div>
                 <!-- END RD Navbar -->
+                {% component 'contenteditor' file="fix-contacts.htm" fixture="span" %}
             </div>
         </div>
     </header>
@@ -199,8 +190,7 @@ recaptcha_size = "normal"
                                         </div>
                                     </div>
                                     <div class="box__body">
-                                        {% component 'contenteditor' file="contact-card-text.htm" fixture="span"
-                                        tools="link" %}
+                                        {% component 'contenteditor' file="contact-card-text.htm" fixture="span" %}
                                     </div>
                                 </div>
                             </div>

@@ -1,4 +1,4 @@
-1511572722a:1:{s:17:"what-we-doing.htm";a:6:{s:8:"fileName";s:17:"what-we-doing.htm";s:7:"content";s:3524:"<div class="row service-block index-list child-offset-3 flow-offset-1 flex-columns" style=" margin: 0px; ">
+1511630009a:1:{s:17:"what-we-doing.htm";a:6:{s:8:"fileName";s:17:"what-we-doing.htm";s:7:"content";s:3496:"<div class="row service-block index-list child-offset-3 flow-offset-1 flex-columns" style=" margin: 0px; ">
     <div class="service-item col-xs-12 col-sm-6 col-md-4">
         <div class="block-adaptive">
             <div class="image-icon image-icon-1"><img alt src="/themes/b-s/assets/images/home-1.png"></div>
@@ -54,9 +54,9 @@
         </div>
     </div>
     <div class="col-xs-12" style="text-align: center">
-        <a class="popup-button btn btn-primary" href="#form-callback-popup">Все услуги</a>
+        <a class="btn btn-primary" href="/ceny">Все услуги</a>
     </div>
-</div>";s:5:"mtime";i:1511572121;s:6:"markup";s:3524:"<div class="row service-block index-list child-offset-3 flow-offset-1 flex-columns" style=" margin: 0px; ">
+</div>";s:5:"mtime";i:1511627539;s:6:"markup";s:3496:"<div class="row service-block index-list child-offset-3 flow-offset-1 flex-columns" style=" margin: 0px; ">
     <div class="service-item col-xs-12 col-sm-6 col-md-4">
         <div class="block-adaptive">
             <div class="image-icon image-icon-1"><img alt src="/themes/b-s/assets/images/home-1.png"></div>
@@ -112,9 +112,9 @@
         </div>
     </div>
     <div class="col-xs-12" style="text-align: center">
-        <a class="popup-button btn btn-primary" href="#form-callback-popup">Все услуги</a>
+        <a class="btn btn-primary" href="/ceny">Все услуги</a>
     </div>
-</div>";s:4:"code";N;s:12:"parsedMarkup";s:3524:"<div class="row service-block index-list child-offset-3 flow-offset-1 flex-columns" style=" margin: 0px; ">
+</div>";s:4:"code";N;s:12:"parsedMarkup";s:3496:"<div class="row service-block index-list child-offset-3 flow-offset-1 flex-columns" style=" margin: 0px; ">
     <div class="service-item col-xs-12 col-sm-6 col-md-4">
         <div class="block-adaptive">
             <div class="image-icon image-icon-1"><img alt src="/themes/b-s/assets/images/home-1.png"></div>
@@ -170,6 +170,6 @@
         </div>
     </div>
     <div class="col-xs-12" style="text-align: center">
-        <a class="popup-button btn btn-primary" href="#form-callback-popup">Все услуги</a>
+        <a class="btn btn-primary" href="/ceny">Все услуги</a>
     </div>
 </div>";}}

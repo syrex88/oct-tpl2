@@ -1,22 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c935d533-3dd4-4891-a728-5e4bc47374a2" name="Default" comment="">
+    <list default="true" id="c935d533-3dd4-4891-a728-5e4bc47374a2" name="Default" comment="last files spell">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/assets/js/pure-mask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/content/fix-contacts.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/b-s/content/logo.htm" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/cache/2a/e2/ceny.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/1c/1c938b918c72c4e213c77253d8b57d6a652c6b7f1aa00484cf6b4bc17c9b63ce.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/25/259c5cb2eaaf830cd7207074785754fc78d0c39f5ef1be85ac6cb6c39d930b95.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/c4/c4e6aec77df68860ca17eace2b888923dd3a5af093687426e9214f0b94fe884a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/cms/twig/fe/fefbf9686655e47dfa71db4ceb0d7e14e20621ca2787cd046f15bf96b4387bd8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/37/f6/37f67ae4378967878de3615d96ff08ad" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/3b/af/3bafcc843cf10d64a5babca8b3ec362a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/3e/e9/3ee9018fdc0c5ec39d638b380620cffd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/3f/42/3f424d9788847a08e04e8fad276b62db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/53/72/53729394caffa9c6e7576dd744b80713" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/6a/d1/6ad146fa9fb9f35eedec7427e5336806" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/86/70/86707c8bb0e74371e894d8bc50a09e98" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/91/aa/91aaeb3d3720451f3d8056ef80f92eff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/a0/4d/a04d478556f1bda3511cce48c0584203" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/a1/f7/a1f74de7779d5838a058998a9dfe30db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/b3/40/b3400be9590a4786d79a0a75a1cee05c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/cf/32/cf32fe1554804d51d870ff334bdb4d7c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/e0/1e/e01ed47bccc31179cac36af69e6c87c6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/f4/48/f448cb9b85f9e9fa4f068c61efe89e3e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/cache/ff/ee/ffee17034c40238b02467837635df9ce" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/567f8b70195f6c78113623a8db9485b80c539f16" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/b2/39/b239daf2ca9b54cf12054d6c0f0727a2" afterPath="$PROJECT_DIR$/storage/framework/cache/b2/39/b239daf2ca9b54cf12054d6c0f0727a2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/36/74/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/36/74/default.htm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/52/8e/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/52/8e/default.htm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/5c/1b/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/5c/1b/default.htm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/71/7d/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/71/7d/default.htm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/bb/9f/inner.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/bb/9f/inner.htm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/e6/cf/registraciya-ooo.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/e6/cf/registraciya-ooo.htm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/17/17be5195345ac4af3e05f3312c006363c4d3bb06c4f13d82f7a1d4e41790ea16.php" afterPath="$PROJECT_DIR$/storage/cms/twig/17/17be5195345ac4af3e05f3312c006363c4d3bb06c4f13d82f7a1d4e41790ea16.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/40/40554b9b421edc9a8affa1bd98edb9dceedafada241d4a585da847094e01c71a.php" afterPath="$PROJECT_DIR$/storage/cms/twig/40/40554b9b421edc9a8affa1bd98edb9dceedafada241d4a585da847094e01c71a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/a2/a2c5a114b0075298707303d60ad8374d61a79cc643bb7ea8cebe7c58a38b016c.php" afterPath="$PROJECT_DIR$/storage/cms/twig/a2/a2c5a114b0075298707303d60ad8374d61a79cc643bb7ea8cebe7c58a38b016c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/f2/f2f6aebf896ce8ebe66c6b1842fe55f96bafebf6932268c7ca2b915e6e40f2a7.php" afterPath="$PROJECT_DIR$/storage/cms/twig/f2/f2f6aebf896ce8ebe66c6b1842fe55f96bafebf6932268c7ca2b915e6e40f2a7.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/02/70/0270cd0bf14e20e9095012f7f8c32588" afterPath="$PROJECT_DIR$/storage/framework/cache/02/70/0270cd0bf14e20e9095012f7f8c32588" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" afterPath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/22/ba/22baef76c45401592f28c9c6d9a8ac3e" afterPath="$PROJECT_DIR$/storage/framework/cache/22/ba/22baef76c45401592f28c9c6d9a8ac3e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/40/a1/40a15c64ad673f8b2f8a242676074c27" afterPath="$PROJECT_DIR$/storage/framework/cache/40/a1/40a15c64ad673f8b2f8a242676074c27" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" afterPath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5d/ee/5deee0c73dd2d7ccb344aef37861edf0" afterPath="$PROJECT_DIR$/storage/framework/cache/5d/ee/5deee0c73dd2d7ccb344aef37861edf0" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5f/b5/5fb5d39c44648c4be72a0a0a44a79414" afterPath="$PROJECT_DIR$/storage/framework/cache/5f/b5/5fb5d39c44648c4be72a0a0a44a79414" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" afterPath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/61/89/61890d6dc1fc4f422b6036d7665b48b3" afterPath="$PROJECT_DIR$/storage/framework/cache/61/89/61890d6dc1fc4f422b6036d7665b48b3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/64/41/644130fa47377b1350aab4f5aff9505a" afterPath="$PROJECT_DIR$/storage/framework/cache/64/41/644130fa47377b1350aab4f5aff9505a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/6f/90/6f90f5fe3fcbc48ab011aadbb3fefbbd" afterPath="$PROJECT_DIR$/storage/framework/cache/6f/90/6f90f5fe3fcbc48ab011aadbb3fefbbd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/75/06/750621f541f13e163e7277181fdb4bd0" afterPath="$PROJECT_DIR$/storage/framework/cache/75/06/750621f541f13e163e7277181fdb4bd0" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/79/77/79770e0cf249f5d09f6a97af85adc48a" afterPath="$PROJECT_DIR$/storage/framework/cache/79/77/79770e0cf249f5d09f6a97af85adc48a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/9c/0f/9c0f4cfb8303e4bcdb8e266a400b3ecf" afterPath="$PROJECT_DIR$/storage/framework/cache/9c/0f/9c0f4cfb8303e4bcdb8e266a400b3ecf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/d0/20/d020ab2bc22fbce293b48c24c3f57b1c" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/20/d020ab2bc22fbce293b48c24c3f57b1c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/dc/0e/dc0e744d7cfbdb9478dbc580341ff7cc" afterPath="$PROJECT_DIR$/storage/framework/cache/dc/0e/dc0e744d7cfbdb9478dbc580341ff7cc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/df/59/df599dc9221ea665c782206927a85f2a" afterPath="$PROJECT_DIR$/storage/framework/cache/df/59/df599dc9221ea665c782206927a85f2a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/f0/76/f076cf5826e4a34ef767b447156b494c" afterPath="$PROJECT_DIR$/storage/framework/cache/f0/76/f076cf5826e4a34ef767b447156b494c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/css/inner-page.css" afterPath="$PROJECT_DIR$/themes/b-s/assets/css/inner-page.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js" afterPath="$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm" afterPath="$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/layouts/default.htm" afterPath="$PROJECT_DIR$/themes/b-s/layouts/default.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/layouts/inner.htm" afterPath="$PROJECT_DIR$/themes/b-s/layouts/inner.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/pages/likvidaciya-ip.htm" afterPath="$PROJECT_DIR$/themes/b-s/pages/likvidaciya-ip.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/partials/callback/default.htm" afterPath="$PROJECT_DIR$/themes/b-s/partials/callback/default.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/partials/callbackFooter/default.htm" afterPath="$PROJECT_DIR$/themes/b-s/partials/callbackFooter/default.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/b-s/partials/callbackPopup/default.htm" afterPath="$PROJECT_DIR$/themes/b-s/partials/callbackPopup/default.htm" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,29 +83,27 @@
       <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="218" column="68" lean-forward="false" selection-start-line="216" selection-start-column="43" selection-end-line="218" selection-end-column="68" />
+            <state relative-caret-position="349">
+              <caret line="243" column="19" lean-forward="false" selection-start-line="243" selection-start-column="19" selection-end-line="243" selection-end-column="19" />
               <folding>
-                <marker date="1511569450332" expanded="false" signature="2584:2636" ph="..." />
-                <marker date="1511569450332" expanded="true" signature="2637:2975" ph="..." />
-                <marker date="1511569450332" expanded="true" signature="2712:2964" ph="..." />
-                <marker date="1511569450332" expanded="true" signature="2827:2951" ph="..." />
-                <marker date="1511569450332" expanded="false" signature="8413:8425" ph="..." />
-                <marker date="1511569450332" expanded="false" signature="8632:8665" ph="..." />
-                <marker date="1511569450332" expanded="false" signature="10026:10038" ph="..." />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1511627332350" expanded="false" signature="2584:2636" ph="..." />
+                <marker date="1511627332350" expanded="true" signature="2637:2975" ph="..." />
+                <marker date="1511627332350" expanded="true" signature="2712:2964" ph="..." />
+                <marker date="1511627332350" expanded="true" signature="2827:2951" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="what-we-doing.htm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="55" column="52" lean-forward="false" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
-              <folding>
-                <element signature="n#style#0;n#div#6;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="110">
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,44 +111,14 @@
       <file leaf-file-name="inner.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/inner.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+            <state relative-caret-position="484">
+              <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
               <folding>
-                <marker date="1511569520603" expanded="false" signature="2555:2607" ph="..." />
-                <marker date="1511569520603" expanded="true" signature="2608:2946" ph="..." />
-                <marker date="1511569520603" expanded="true" signature="2683:2935" ph="..." />
-                <marker date="1511569520603" expanded="true" signature="2798:2922" ph="..." />
+                <marker date="1511627342361" expanded="false" signature="2555:2607" ph="..." />
+                <marker date="1511627342361" expanded="true" signature="2608:2946" ph="..." />
+                <marker date="1511627342361" expanded="true" signature="2683:2935" ph="..." />
+                <marker date="1511627342361" expanded="true" signature="2798:2922" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-660">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="robots.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robots.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -105,20 +126,70 @@
       <file leaf-file-name="tm-scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="830" column="0" lean-forward="false" selection-start-line="830" selection-start-column="0" selection-end-line="830" selection-end-column="0" />
+            <state relative-caret-position="752">
+              <caret line="882" column="27" lean-forward="false" selection-start-line="882" selection-start-column="27" selection-end-line="882" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registraciya-ooo.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/b-s/content/registraciya-ooo.htm">
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3498">
-              <caret line="159" column="81" lean-forward="false" selection-start-line="159" selection-start-column="38" selection-end-line="159" selection-end-column="81" />
+            <state relative-caret-position="576">
+              <caret line="19234" column="28" lean-forward="false" selection-start-line="19234" selection-start-column="28" selection-end-line="19234" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inner-page.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/b-s/assets/css/inner-page.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="793">
+              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/b-s/partials/callback/default.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/b-s/partials/callbackFooter/default.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/b-s/partials/callbackPopup/default.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pure-mask.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/b-s/assets/js/pure-mask.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#9;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,24 +200,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.ui-slider-horizontal</find>
-      <find>nowrap</find>
-      <find>.ui-slider-pips .ui-slider-label</find>
-      <find>10</find>
-      <find>.ui-slider-pips .ui-slider-pip</find>
-      <find>.ui-slider-pips .ui-slider-line</find>
-      <find>.ui-slider-pips [class*=ui-slider-pip-initial]</find>
-      <find>no-nds</find>
-      <find>.calculate-block .cost-button</find>
-      <find>medium-shadow</find>
       <find>header</find>
       <find>z-index: 1000</find>
       <find>#simpleContactSubmitButton</find>
@@ -166,7 +227,17 @@
       <find>calculate-costcalculate-cost</find>
       <find>toTop</find>
       <find>.rd-navbar-static .rd-navbar-nav &gt; li &gt; a</find>
+      <find>hover</find>
+      <find>dropdown</find>
+      <find>dropdown &gt;</find>
+      <find>rd-navbar-dropdown</find>
       <find>btn</find>
+      <find>ul.rd-navbar-nav &gt; li.dropdown .dropdown-menu</find>
+      <find>Rd-nav-</find>
+      <find>conte</find>
+      <find>Все услуги</find>
+      <find>.inner-page .content .costService .action-text</find>
+      <find>Вс</find>
     </findStrings>
     <replaceStrings>
       <replace>include('/themes/b-s/assets/</replace>
@@ -189,6 +260,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -206,7 +278,6 @@
         <option value="$PROJECT_DIR$/themes/b-s/content/front-text.html" />
         <option value="$PROJECT_DIR$/themes/b-s/partials/default.htm" />
         <option value="$PROJECT_DIR$/plugins/martin/forms/components/genericform/default.htm" />
-        <option value="$PROJECT_DIR$/themes/b-s/partials/callback/default.htm" />
         <option value="$PROJECT_DIR$/themes/b-s/assets/js/icheck.js" />
         <option value="$PROJECT_DIR$/themes/b-s/assets/icheck/demo/index.html" />
         <option value="$PROJECT_DIR$/themes/b-s/assets/js/jquery-ui.js" />
@@ -217,23 +288,32 @@
         <option value="$PROJECT_DIR$/themes/b-s/assets/js/jquery.magnific-popup.min.js" />
         <option value="$PROJECT_DIR$/themes/b-s/content/footer-text.htm" />
         <option value="$PROJECT_DIR$/themes/b-s/assets/js/wow.js" />
-        <option value="$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js" />
         <option value="$PROJECT_DIR$/themes/b-s/assets/css/jquery-ui.css" />
         <option value="$PROJECT_DIR$/themes/b-s/assets/css/jquery-ui-slider-pips.css" />
         <option value="$PROJECT_DIR$/themes/b-s/partials/menu/default.htm" />
-        <option value="$PROJECT_DIR$/themes/b-s/partials/callbackPopup/default.htm" />
-        <option value="$PROJECT_DIR$/themes/b-s/partials/callbackFooter/default.htm" />
         <option value="$PROJECT_DIR$/themes/b-s/content/contact-card-text.htm" />
         <option value="$PROJECT_DIR$/themes/b-s/assets/css/icheck/flat/grey.css" />
         <option value="$PROJECT_DIR$/themes/b-s/content/why-we.htm" />
         <option value="$PROJECT_DIR$/themes/b-s/content/front-text.htm" />
         <option value="$PROJECT_DIR$/themes/b-s/partials/menuFooter/default.htm" />
-        <option value="$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/robots.txt" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/themes/b-s/content/logo.html" />
+        <option value="$PROJECT_DIR$/themes/b-s/content/logo.htm" />
         <option value="$PROJECT_DIR$/themes/b-s/layouts/default.htm" />
+        <option value="$PROJECT_DIR$/themes/b-s/content/fix-contacts.htm" />
         <option value="$PROJECT_DIR$/themes/b-s/layouts/inner.htm" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm" />
+        <option value="$PROJECT_DIR$/themes/b-s/pages/ceny.htm" />
+        <option value="$PROJECT_DIR$/themes/b-s/assets/js/pure-mask.js" />
+        <option value="$PROJECT_DIR$/themes/b-s/partials/callback/default.htm" />
+        <option value="$PROJECT_DIR$/themes/b-s/partials/callbackPopup/default.htm" />
+        <option value="$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js" />
+        <option value="$PROJECT_DIR$/themes/b-s/partials/callbackFooter/default.htm" />
+        <option value="$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/themes/b-s/assets/css/inner-page.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -245,7 +325,6 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -295,19 +374,6 @@
               <item name="bux-sait.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="bux-sait.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bux-sait.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="b-s" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bux-sait.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bux-sait.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="b-s" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="content" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -328,19 +394,19 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Cloud\openServer\domains\bux-sait.loc\themes\b-s\content" />
+      <recent name="C:\Users\Джаи\Desktop\sdfsfsdfds\OpenServer\domains\bux-sait.loc\themes\b-s\assets\images" />
+      <recent name="C:\Users\Джаи\Desktop\sdfsfsdfds\OpenServer\domains\bux-sait.loc\themes\b-s\assets\css\icheck\flat" />
+      <recent name="C:\Users\Джаи\Desktop\sdfsfsdfds\OpenServer\domains\bux-sait.loc\themes\b-s\partials" />
+      <recent name="C:\Cloud\openServer\domains\bux-sait.loc\themes\b-s\partials\callbackPopup" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Cloud\openServer\domains\bux-sait.loc\themes\b-s\assets\js" />
       <recent name="C:\Cloud\openServer\domains\bux-sait.loc\themes\b-s\assets\css" />
       <recent name="C:\Cloud\openServer\domains\bux-sait.loc\themes\b-s\pages" />
       <recent name="C:\Cloud\openServer\domains\bux-sait.loc\themes\b-s\assets" />
       <recent name="C:\Cloud\openServer\domains\bux-sait.loc\themes\b-s\assets\css\icheck" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Джаи\Desktop\sdfsfsdfds\OpenServer\domains\bux-sait.loc\themes\b-s\assets\images" />
-      <recent name="C:\Users\Джаи\Desktop\sdfsfsdfds\OpenServer\domains\bux-sait.loc\themes\b-s\assets\css\icheck\flat" />
-      <recent name="C:\Users\Джаи\Desktop\sdfsfsdfds\OpenServer\domains\bux-sait.loc\themes\b-s\partials" />
-      <recent name="C:\Cloud\openServer\domains\bux-sait.loc\themes\b-s\partials\callbackPopup" />
-      <recent name="C:\Cloud\openServer\domains\bux-sait.loc\themes\b-s\partials\menu" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -357,35 +423,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/cms/disabled.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/86/70/86707c8bb0e74371e894d8bc50a09e98</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/91/aa/91aaeb3d3720451f3d8056ef80f92eff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/9c/0f/9c0f4cfb8303e4bcdb8e266a400b3ecf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/a1/f7/a1f74de7779d5838a058998a9dfe30db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/b3/40/b3400be9590a4786d79a0a75a1cee05c</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/f0/76/f076cf5826e4a34ef767b447156b494c</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/css/icheck/flat/grey.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/css/icheck/flat/grey.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/css/icheck/flat/grey@2x.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/css/jquery-ui-slider-pips.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/css/jquery-ui.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/images/bg-image-1.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/images/home-9.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/assets/images/logo.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/content/contact-card-text.htm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/content/front-text.htm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/content/why-we.htm</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/layouts/default.htm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/partials/callbackFooter/default.htm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/partials/menu/default.htm</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -393,7 +432,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/b-s/partials/menuFooter/default.htm</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -401,45 +439,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/cms/cache/3b/df/default.htm.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/cms/cache/89/a4/index.htm.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/cms/twig/20/20ebca371202e7b1012c285c2f8851386d3a0cbe509cefe7559977b20adbf262.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/cms/twig/9d/9de81ddddba5854692067428724e5cbcc955d8eb0a89e5823911dfa904e96660.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/cms/twig/c6/c62bb619d0d1c9e2317670c1f2bf778e5957eab5cdfe53ab6d232eef5a644c0b.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/cms/twig/d5/d553b4fd8dd4200f42db7eb62ae8b6087568503583cbdb3e5594fa354b74a56e.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/0a/f9/0af900597ec3a0b485aac7208fad8e05</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/0f/c9/0fc9704219633aeedb19202bdfa0342f</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/1b/12/1b12b2b5d071d5054dfca339187ff303</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/32/b4/32b47619d5da3d8db8ecfc9cfab4eeae</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/33/25/3325aaa7b701dc3a28621263d9ac0d72</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/33/2e/332ec77c0dbb4eac776b83ac2fe81e4a</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/4e/f4/4ef41ac2bd2d216bb1c4b046055dadcc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/53/e6/53e67d605100e016a552d16d194b139d</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/5c/71/5c7172a25eac0e671fdf44d769b25a78</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/60/c9/60c9652d54898a9ab268a22a645c5202</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/63/41/6341beac9b29bcb6a1b530f3cd691c4d</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/63/d3/63d3607f8a8b5864e18dacf62c827896</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/65/97/6597b90fc3fa778a10b6c356031fd249</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/66/48/6648bfd1635c6c7443874bd5de1ea92b</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/6f/c7/6fc7ac10a2629c1034cdafc8a4818222</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/73/a5/73a535406d68af53b86b0f6d6a1d9f0d</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/76/98/76989d8e9e75ed1b896e3e9a07a6d3d3</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/78/80/7880a8b7ed26fdc567195c9263464ee8</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/78/b2/78b2aa7a34b1e57b357f517c204f7e5b</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/b2/dc/b2dc18ec85270260ad060c522fd0522d</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/b3/20/b320693be51064c53e1261837ecb38ab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/c2/7e/c27e9a41b2758ea4c4c382352d28a86a</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/c4/cf/c4cf1bdc4f99386712b7c6480ac03080</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/cd/32/cd329aa218476536a448f60839ad7166</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/ce/74/ce74e1b13c2b7be29e3bffaea2a67ceb</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/d0/c8/d0c8a25d8ad49d90438eb205a3ca49b2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/d3/02/d30233e93e8f9f4d71a90749403d9db7</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/da/ef/daef0ac6fe01f0ff81b3fc64993c282f</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/dd/ce/ddce08a4c1f0ae272fe815644bfad848</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/e3/0f/e30fd8e612c36f9713c5c4286a21e7a5</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/fa/60/fa60c94166d8c884ca5343b012d415a9</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/fa/cd/facd75ced21f288595098f190e02f88c</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/storage/framework/cache/ff/7f/ff7fda15c6ad30c0df7f696ae3e06c1d</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -599,18 +598,25 @@
       <option name="project" value="LOCAL" />
       <updated>1511572098743</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="last files spell">
+      <created>1511574965552</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1511574965552</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116798000" />
+    <option name="totallyTimeSpent" value="125330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20837809" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21482277" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28249195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -686,71 +692,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/b-s/theme.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/assets/js/tests/unit/affix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/assets/js/vide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2024">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/assets/css/variables.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/martin/forms/components/GenericForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/martin/forms/components/uploadform/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/martin/forms/components/genericform/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="69" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/martin/forms/assets/js/inline-errors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/martin/forms/components/emptyform/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/assets/css/icheck/demo/js/zepto.js" />
     <entry file="file://$PROJECT_DIR$/themes/b-s/assets/css/icheck/flat/green.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -837,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/partials/callback/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/b-s/assets/css/jquery-ui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -865,24 +799,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/partials/callbackPopup/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/b-s/partials/menu/default.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="29" column="81" lean-forward="false" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/partials/callbackFooter/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -933,13 +853,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="18325" column="0" lean-forward="true" selection-start-line="18325" selection-start-column="0" selection-end-line="18325" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -964,30 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="830" column="0" lean-forward="false" selection-start-line="830" selection-start-column="0" selection-end-line="830" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -996,42 +886,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/inner.htm">
+    <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+        <state relative-caret-position="-1650">
+          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/content/registraciya-ooo.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3498">
+          <caret line="159" column="81" lean-forward="false" selection-start-line="159" selection-start-column="38" selection-end-line="159" selection-end-column="81" />
           <folding>
-            <marker date="1511569520603" expanded="false" signature="2555:2607" ph="..." />
-            <marker date="1511569520603" expanded="true" signature="2608:2946" ph="..." />
-            <marker date="1511569520603" expanded="true" signature="2683:2935" ph="..." />
-            <marker date="1511569520603" expanded="true" signature="2798:2922" ph="..." />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#9;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/default.htm">
+    <entry file="file://$PROJECT_DIR$/config/cache.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="218" column="68" lean-forward="false" selection-start-line="216" selection-start-column="43" selection-end-line="218" selection-end-column="68" />
-          <folding>
-            <marker date="1511569450332" expanded="false" signature="2584:2636" ph="..." />
-            <marker date="1511569450332" expanded="true" signature="2637:2975" ph="..." />
-            <marker date="1511569450332" expanded="true" signature="2712:2964" ph="..." />
-            <marker date="1511569450332" expanded="true" signature="2827:2951" ph="..." />
-            <marker date="1511569450332" expanded="false" signature="8413:8425" ph="..." />
-            <marker date="1511569450332" expanded="false" signature="8632:8665" ph="..." />
-            <marker date="1511569450332" expanded="false" signature="10026:10038" ph="..." />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="60" column="9" lean-forward="false" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/pages/ceny.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/content/ceny.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/content/fix-contacts.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/b-s/content/what-we-doing.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="55" column="52" lean-forward="false" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+        <state relative-caret-position="704">
+          <caret line="58" column="6" lean-forward="true" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
           <folding>
-            <element signature="n#style#0;n#div#6;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/content/logo.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/inner.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+          <folding>
+            <marker date="1511627342361" expanded="false" signature="2555:2607" ph="..." />
+            <marker date="1511627342361" expanded="true" signature="2608:2946" ph="..." />
+            <marker date="1511627342361" expanded="true" signature="2683:2935" ph="..." />
+            <marker date="1511627342361" expanded="true" signature="2798:2922" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/assets/js/pure-mask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/partials/callback/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/assets/js/tm-scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="882" column="27" lean-forward="false" selection-start-line="882" selection-start-column="27" selection-end-line="882" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/partials/callbackFooter/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/partials/callbackPopup/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/assets/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="19234" column="28" lean-forward="false" selection-start-line="19234" selection-start-column="28" selection-end-line="19234" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/assets/css/inner-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/b-s/layouts/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="243" column="19" lean-forward="false" selection-start-line="243" selection-start-column="19" selection-end-line="243" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1511627332350" expanded="false" signature="2584:2636" ph="..." />
+            <marker date="1511627332350" expanded="true" signature="2637:2975" ph="..." />
+            <marker date="1511627332350" expanded="true" signature="2712:2964" ph="..." />
+            <marker date="1511627332350" expanded="true" signature="2827:2951" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

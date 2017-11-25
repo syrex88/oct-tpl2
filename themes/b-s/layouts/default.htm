@@ -114,16 +114,7 @@ recaptcha_size = "normal"
                                     <!-- END RD Navbar Toggle -->
 
                                     <!-- RD Navbar Brand -->
-                                    <div class="rd-navbar-brand">
-                                        <a href="/">
-                                            <span class="rd-navbar-brand-logo"><img
-                                                    src="{{ 'assets/images/logo.png' | theme }}" alt=""></span>
-                                            <div class="rd-navbar-brand-body">
-                                                <span class="brand-name">Business</span>
-                                                <span class="brand-name-2 text-light">Strategies</span>
-                                            </div>
-                                        </a>
-                                    </div>
+                                        {% component 'contenteditor' file="logo.htm" fixture="span" %}
                                     <!-- END RD Navbar Brand -->
                                 </div>
                                 <!-- END RD Navbar Panel -->
@@ -138,21 +129,7 @@ recaptcha_size = "normal"
                     </div>
                     <!-- END RD Navbar -->
 
-                    <div class="container container-wide">
-                        <div class="fix-contacts">
-                            <div class="adaptive-wrap">
-                                <div class="phone-wrap">
-                                    <div class="phone">+7 (812) 313-14-42</div>
-                                    <div class="hours-work">C 10:00 до 18:00, пн-пт</div>
-                                </div>
-                                <div class="btn-wrap">
-                                    <a class="popup-button btn btn-primary btn-mod-1" href="#form-callback-popup">
-                                        Перезвоните мне
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    {% component 'contenteditor' file="fix-contacts.htm" fixture="span" %}
 
                     <div class="header-body">
                         <div class="container container-wide">
