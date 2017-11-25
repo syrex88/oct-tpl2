@@ -18352,6 +18352,21 @@ span[data-fixture] {
     font-size: 16px;
 }
 
+.calculate-block .cost-button:hover {
+    border-color: #fec02e;
+    background-color: #fec02e;
+}
+
+.calculate-block .radio-nds span {
+    cursor: pointer;
+}
+
+/*.service-block .service-item:hover {
+    border: 2px solid #fbf32b !important;
+    z-index: 999;
+}*/
+
+
 @media (max-width: 767px) {
     .header-body .form-callback {
         margin: 10px 15px 20px 15px;
