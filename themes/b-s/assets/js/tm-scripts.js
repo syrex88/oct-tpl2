@@ -850,8 +850,8 @@ $(document).ready(function () {
         ndsType = this.value
         calculateSumm(ndsType, sliderValue)
     })
-    $(".slider").slider({min: 0, max: 300, step: 10})
-        .slider("pips", {rest: "label", step: 10})
+    $(".slider").slider({min: 10, max: 300, step: 10})
+        .slider("pips", {rest: "label", suffix: "&nbsp;шт."})
         .slider("value", 50)
         .slider("float").slider({
         change: function (event, ui) {

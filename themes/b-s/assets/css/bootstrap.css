@@ -9255,7 +9255,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .rd-navbar-brand .brand-name {
-    font-size: 1.57142857rem;
+    font-size: 19.8966px;
     line-height: 1;
     font-weight: 700;
     text-transform: uppercase;
@@ -9408,7 +9408,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     position: relative;
     overflow: hidden;
     display: inline-block;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.8rem;
     font-size: 14px;
     line-height: 1.28571429rem;
     font-weight: 700;
@@ -9848,7 +9848,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 .rd-navbar-static .rd-navbar-panel {
     text-align: left;
-    min-width: 15.42857143rem;
+    min-width: 193px;
 }
 
 .rd-navbar-static .rd-navbar-nav-wrap {
@@ -9858,7 +9858,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 .rd-navbar-static .rd-navbar-nav {
     margin-left: -0.07142857rem;
-    text-align: right;
+    text-align: center;
 }
 
 .rd-navbar-static .rd-navbar-nav > li {
@@ -18371,7 +18371,6 @@ span[data-fixture] {
     z-index: 999;
 }*/
 
-
 @media (max-width: 767px) {
     .header-body .form-callback {
         margin: 10px 15px 20px 15px;
@@ -18927,7 +18926,7 @@ span[data-fixture] {
     }
 
     .rd-navbar-brand .brand-name-2 {
-        font-size: 1.37142857rem;
+        font-size: 17.3643px;
     }
 }
 
@@ -19256,4 +19255,37 @@ span[data-fixture] {
 
 .rd-mailform.footer input[name=phone] {
     color: white !important;
+}
+
+.ct-widget.ct-inspector {
+    display: none !important;
+}
+
+@media (min-width: 1200px) {
+    .nav-footer .menu:nth-child(5) {
+        margin-left: 33.3333333%;
+    }
+}
+
+
+.ui-slider-pips .ui-slider-label {
+    display: none !important;
+}
+.ui-slider-pips .ui-slider-pip-50 .ui-slider-label{
+    display: block !important;
+}
+
+
+
+.ui-slider-pips .ui-slider-pip-200 .ui-slider-label{
+    display: block !important;
+}
+
+.ui-slider-pips [class*=ui-slider-pip-selected], .ui-slider-pip:hover .ui-slider-label{
+    color: white !important;
+}
+
+
+.ui-slider-pips [class*=ui-slider-pip-selected] .ui-slider-line{
+    background: white !important;
 }
