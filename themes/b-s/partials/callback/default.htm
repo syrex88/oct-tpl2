@@ -2,7 +2,7 @@
 
     {{ form_token() }}
     <div class="form-group mfInput">
-        <input type="text" data-mask="+7(###)###-##-##" id="phone" type="text" name="phone" class="form-control" data-constraints="@NotEmpty">
+        <input data-mask="+7(###)###-##-##" id="phone" type="tel" name="phone" class="form-control" data-constraints="@NotEmpty">
     </div>
     <div>
         {% partial '@recaptcha' %}

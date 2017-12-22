@@ -18929,6 +18929,11 @@ span[data-fixture] {
         font-size: 17.3643px;
     }
 }
+@media  (min-width: 1200px) and (max-width: 1600px) {
+    span.rd-navbar-brand-logo {
+        padding-right: 0;
+    }
+}
 
 @media (min-width: 1700px) {
     .service-block .service-item .block-adaptive .list-item-text {
@@ -19267,27 +19272,79 @@ span[data-fixture] {
     }
 }
 
-
 .ui-slider-pips .ui-slider-label {
     display: none !important;
 }
-.ui-slider-pips .ui-slider-pip-50 .ui-slider-label{
+
+.ui-slider-pips .ui-slider-pip-50 .ui-slider-label {
     display: block !important;
 }
 
-
-
-.ui-slider-pips .ui-slider-pip-200 .ui-slider-label{
+.ui-slider-pips .ui-slider-pip-200 .ui-slider-label {
     display: block !important;
 }
 
-.ui-slider-pips [class*=ui-slider-pip-selected], .ui-slider-pip:hover .ui-slider-label{
+.ui-slider-pips [class*=ui-slider-pip-selected], .ui-slider-pip:hover .ui-slider-label {
     color: white !important;
 }
 
-
-.ui-slider-pips [class*=ui-slider-pip-selected] .ui-slider-line{
+.ui-slider-pips [class*=ui-slider-pip-selected] .ui-slider-line {
     background: white !important;
 }
 
-#
+@font-face {
+    font-family: 'Rouble';
+    src: url('rouble-webfont.woff2') format('woff2'),
+    url('rouble-webfont.woff') format('woff');
+    src: url('../fonts/rouble.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+span.rub {
+    font-family: 'Rouble' !important;
+}
+
+.calculate-block .container-cost-value .rub {
+    font-weight: 400;
+}
+
+#callback_forms_flash p, #callbackPopup_forms_flash p, #callbackFooter_forms_flash p {
+    padding: 0;
+    margin: 0;
+}
+
+#callback_forms_flash .alert {
+    top: 0px;
+    position: absolute;
+    padding: 2px;
+    padding-right: 35px;
+    padding-left: 11px;
+    border-radius: 37px;
+}
+
+#callbackPopup_forms_flash .alert {
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    padding: 12px;
+    padding-right: 35px;
+    border-radius: 37px;
+}
+
+
+#callbackFooter_forms_flash {
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+}
+
+#callbackFooter_forms_flash p {
+   color: #3c763d;
+}
+
+#callbackFooter_forms_flash span {
+    color: black;
+}
